@@ -9,6 +9,7 @@ cement_road_side3 -> cement_road_with_curb_grey
 cementslab -> cement_block_slab
 cemh -> cement_road_half
 cemt -> cement_road_total
+fenceo -> fenceo_post & fenceo_side
 fg53 -> white_grid_top_teachingbuilding_east
 fg54 -> white_grid_top_teachingbuilding_east_edge
 fg55 -> teachingbuilding_east_innerwall_up

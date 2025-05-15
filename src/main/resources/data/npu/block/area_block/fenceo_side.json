@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
-  "ID": "fenceo",
-  "modelPath": "models/block/fence/fenceo_post.json",
+  "ID": "fenceo_side",
+  "modelPath": "models/block/fence/fenceo_side_model.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

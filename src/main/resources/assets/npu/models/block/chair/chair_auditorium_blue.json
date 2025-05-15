@@ -2,7 +2,7 @@
 	"credit": "Made By NPUcraft",
 	"textures": {
 		"1": "npu:block/c/chair_auditorium_blue",
-		"particle": "npu:/block/c/chair_auditorium_blue"
+		"particle": "npu:block/c/chair_auditorium_blue"
 	},
 	"elements": [
 		{

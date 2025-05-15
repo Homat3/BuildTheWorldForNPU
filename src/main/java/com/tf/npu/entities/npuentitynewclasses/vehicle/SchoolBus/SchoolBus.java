@@ -122,14 +122,15 @@ public class SchoolBus extends NpuVehicle implements GeoEntity {
             if (this.isVehicle() && passenger instanceof Player) {
                 float zInput = 0.0F;
                 float xInput = 0.0F;
-                zInput = passenger.zza;
-                xInput = zInput != 0.0F ? passenger.xxa : 0.0F;
                 float theta = this.getYRot() * (float) (Math.PI / 180.0);
+                float currentParallelSpeed = (float) (this.getDeltaMovement().z * Mth.cos(theta) - this.getDeltaMovement().x * Mth.sin(theta));
+                float currentVerticalSpeed = (float) (this.getDeltaMovement().z * Mth.sin(theta) + this.getDeltaMovement().x * Mth.cos(theta));
+
+                zInput = passenger.zza;
+                xInput = currentParallelSpeed != 0.0F ? passenger.xxa : 0.0F;
 
                 if (zInput != 0.0F) zInput = zInput > 0.0F ? 1.0F : -1.0F;
                 float temp = 0.0F;
-                float currentParallelSpeed = (float) (this.getDeltaMovement().z * Mth.cos(theta) - this.getDeltaMovement().x * Mth.sin(theta));
-                float currentVerticalSpeed = (float) (this.getDeltaMovement().z * Mth.sin(theta) + this.getDeltaMovement().x * Mth.cos(theta));
                 if (currentParallelSpeed != 0.0F) temp = currentParallelSpeed > 0.0F ? 1.0F : -1.0F;
                 if (xInput != 0.0F) xInput = xInput > 0.0F ? -temp : temp;
 

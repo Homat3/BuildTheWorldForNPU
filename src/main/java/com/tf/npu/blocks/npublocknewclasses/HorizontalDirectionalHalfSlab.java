@@ -18,27 +18,29 @@ import javax.annotation.Nullable;
 import java.util.Objects;
 
 public class HorizontalDirectionalHalfSlab extends SlabBlock {
+    // 额外属性
     public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
-    private boolean canBeDouble;
+    protected boolean canBeDouble;
 
-    //构造
+    // 构造
     public HorizontalDirectionalHalfSlab(Properties properties) {
         super(properties);
-        canBeDouble = true;
+        this.canBeDouble = true;
     }
-
-    //与构造并用
+    // 与构造并用
     public HorizontalDirectionalHalfSlab setCanBeDouble(boolean canBeDouble) {
         this.canBeDouble = canBeDouble;
         return this;
     }
 
+    // 额外属性注册
     @Override
     protected void createBlockStateDefinition(StateDefinition.@NotNull Builder<Block, BlockState> builder) {
         super.createBlockStateDefinition(builder);
         builder.add(FACING);
     }
 
+    // 放置时状态
     @Nullable
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
@@ -61,6 +63,8 @@ public class HorizontalDirectionalHalfSlab extends SlabBlock {
         }
     }
 
+    // 辅助函数
+    // 获取相反状态
     private SlabType getOppositeSlabType(SlabType current) {
         return switch (current) {
             case BOTTOM -> SlabType.TOP;

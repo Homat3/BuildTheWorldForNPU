@@ -6,6 +6,7 @@ import com.tf.npu.blocks.npublocknewclasses.*;
 import com.tf.npu.creativemodtab.dataofnpucreativemodetabs.DataOfNpuCreativeModeTabs;
 import com.tf.npu.util.FileDataGetter;
 import com.tf.npu.util.FolderDataGetter;
+import com.tf.npu.util.Logger;
 import com.tf.npu.util.Reference;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
@@ -158,13 +159,13 @@ public class NpuBlocks {
                         ShapeData shapeData =
                                 new FileDataGetter<>("../src/main/resources/assets/npu/" + data.modelPath, ShapeData.class).getData();
                         yield BLOCKS.register(data.ID, () ->
-                                new NormalStructure(data.createBlockProperties(), LoadMethod.valueOf(data.loadMethod)).setSHAPE(shapeData));
+                                new NormalStructure(data.createBlockProperties(), LoadMethod.valueOf(data.loadMethod)).setShape(shapeData));
                     }
                     case HORIZONTAL_DIRECTIONAL_STRUCTURE -> {
                         ShapeData shapeData =
                                 new FileDataGetter<>("../src/main/resources/assets/npu/" + data.modelPath, ShapeData.class).getData();
                         yield BLOCKS.register(data.ID, () ->
-                                new HorizontalDirectionalStructure(data.createBlockProperties(), LoadMethod.valueOf(data.loadMethod)).setSHAPE(shapeData));
+                                new HorizontalDirectionalStructure(data.createBlockProperties(), LoadMethod.valueOf(data.loadMethod)).setShape(shapeData));
                     }
                     case HORIZONTAL_MULTIPLE_DIRECTIONAL_STRUCTURE -> {
                         ShapeData shapeData0 =
@@ -194,12 +195,13 @@ public class NpuBlocks {
                         ShapeData shapeData2 =
                                 new FileDataGetter<>("../src/main/resources/assets/npu/" + data.close_modelPath, ShapeData.class).getData();
                         yield BLOCKS.register(data.ID, () ->
-                                new DoorAndWindow(data.createBlockProperties(), LoadMethod.valueOf(data.loadMethod)).setSHAPE(shapeData1, shapeData2));
+                                new DoorAndWindow(data.createBlockProperties(), LoadMethod.valueOf(data.loadMethod)).setShape(shapeData1, shapeData2));
                     }
                 };
 
                 blockList.add(BLOCK);
                 IDMap.put(BLOCK, data.ID);
+                Logger.LOGGER.info("Registered Block: {}", BLOCK.getId());
             }
         }
     }

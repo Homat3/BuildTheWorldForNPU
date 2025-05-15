@@ -2,7 +2,7 @@
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "airconout2",
   "modelPath": "models/block/structure/airconout2.json",
-  "loadMethod": "METICULOUS",
+  "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,
   "noCollision": false,

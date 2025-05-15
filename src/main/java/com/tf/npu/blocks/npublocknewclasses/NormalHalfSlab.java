@@ -13,20 +13,21 @@ import javax.annotation.Nullable;
 import java.util.Objects;
 
 public class NormalHalfSlab extends SlabBlock {
-    private boolean canBeDouble;
+    // 额外属性
+    protected boolean canBeDouble;
 
-    //构造
+    // 构造
     public NormalHalfSlab(Properties properties) {
         super(properties);
-        canBeDouble = true;
+        this.canBeDouble = true;
     }
-
-    //与构造并用
+    // 与构造并用
     public NormalHalfSlab setCanBeDouble(boolean canBeDouble) {
         this.canBeDouble = canBeDouble;
         return this;
     }
 
+    // 放置时状态
     @Nullable
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
@@ -47,6 +48,8 @@ public class NormalHalfSlab extends SlabBlock {
         }
     }
 
+    // 辅助函数
+    // 获取相反状态
     private SlabType getOppositeSlabType(SlabType current) {
         return switch (current) {
             case BOTTOM -> SlabType.TOP;

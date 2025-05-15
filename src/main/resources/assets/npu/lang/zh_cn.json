@@ -50,7 +50,8 @@
   "item.npu.wall_stem_quarter": "图书馆圆形柱子",
   "item.npu.windowframe": "窗框",
 
-  "item.npu.fenceo": "栅栏-TF特供版（学校外圈）",
+  "item.npu.fenceo_side": "栅栏-TF特供版-边（学校外圈）",
+  "item.npu.fenceo_post": "栅栏-TF特供版-内（学校外圈）",
   "item.npu.fence1": "通用围栏-低",
   "item.npu.fence2": "通用围栏-低-转角",
   "item.npu.fence3": "通用围栏-高1",

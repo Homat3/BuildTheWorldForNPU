@@ -3,7 +3,9 @@ package com.tf.npu.creativemodtab;
 import com.tf.npu.creativemodtab.dataofnpucreativemodetabs.DataOfNpuCreativeModeTabs;
 import com.tf.npu.items.NpuItems;
 import com.tf.npu.util.FolderDataGetter;
+import com.tf.npu.util.Logger;
 import com.tf.npu.util.Reference;
+import com.tf.npu.util.RegisterObjects;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
@@ -23,15 +25,12 @@ public class NpuCreativeModeTabs {
     //新创造模式物品栏属性表
     public static final List<DataOfNpuCreativeModeTabs> dataList = new FolderDataGetter<>(dataPath, DataOfNpuCreativeModeTabs.class).getList();
 
-    public static final List<RegistryObject<CreativeModeTab>> tabList = new ArrayList<>(0);
-
     static {
         for (var data : dataList) {
-            switch (data.getIconType()){
+            RegistryObject<CreativeModeTab> CREATIVE_MODE_TAB = switch (data.getIconType()){
                 case "Item":
                     List<RegistryObject<Item>> itemList = NpuItems.getTabType(data.ENUM_NAME).itemList;
-                    tabList.add(
-                            CREATIVE_MODE_TABS.register(data.ID, () -> CreativeModeTab.builder()
+                    yield  CREATIVE_MODE_TABS.register(data.ID, () -> CreativeModeTab.builder()
                                     .title(Component.translatable(dataPath + "." + Reference.MODID + "." + data.ID))
                                     .withTabsBefore(CreativeModeTabs.COMBAT)
                                     .displayItems((itemDisplayParameters, output) ->
@@ -44,13 +43,10 @@ public class NpuCreativeModeTabs {
                                             }
                                     )
                                     .icon(() -> new ItemStack(itemList.get(data.getIconIndex()).get()))
-                                    .build())
-                    );
-                    break;
+                                    .build());
                 case "BlockItem":
                     List<RegistryObject<BlockItem>> blockItemList = NpuItems.getTabType(data.ENUM_NAME).blockItemList;
-                    tabList.add(
-                            CREATIVE_MODE_TABS.register(data.ID, () -> CreativeModeTab.builder()
+                    yield  CREATIVE_MODE_TABS.register(data.ID, () -> CreativeModeTab.builder()
                                     .title(Component.translatable(dataPath + "." + Reference.MODID + "." + data.ID))
                                     .withTabsBefore(CreativeModeTabs.COMBAT)
                                     .displayItems((itemDisplayParameters, output) ->
@@ -63,11 +59,12 @@ public class NpuCreativeModeTabs {
                                             }
                                     )
                                     .icon(() -> new ItemStack(blockItemList.get(data.getIconIndex()).get()))
-                                    .build())
-                    );
-                    break;
+                                    .build());
                 default:
-                    break;
+                    yield null;
+            };
+            if (CREATIVE_MODE_TAB != null) {
+                Logger.LOGGER.info("Registered creative mode tab: {}", CREATIVE_MODE_TAB.getId());
             }
         }
     }

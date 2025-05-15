@@ -1,7 +1,7 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:fence/fence_warningline/fence_warningline_column_double90"
+      "model": "npu:block/fence/fence_warningline/fence_warningline_column_double90"
     },
     "facing=east": {
       "model": "npu:block/fence/fence_warningline/fence_warningline_column_double90",

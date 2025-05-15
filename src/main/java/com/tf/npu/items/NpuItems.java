@@ -1,12 +1,12 @@
 package com.tf.npu.items;
 
 import com.tf.npu.blocks.NpuBlocks;
-import com.tf.npu.creativemodtab.NpuCreativeModeTabs;
 import com.tf.npu.creativemodtab.dataofnpucreativemodetabs.DataOfNpuCreativeModeTabs;
 import com.tf.npu.entities.NpuEntities;
 import com.tf.npu.items.dataofnpuitems.DataOfNpuItems;
 import com.tf.npu.items.npuitemnewclasses.VehicleItem;
 import com.tf.npu.util.FolderDataGetter;
+import com.tf.npu.util.Logger;
 import com.tf.npu.util.Reference;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -67,8 +67,10 @@ public class NpuItems {
         public void registerItems() {
             if (blockItemTabType != null) {
                 for (var BLOCK : blockItemTabType.blockList) {
-                    blockItemList.add(ITEMS.register(blockItemTabType.IDMap.get(BLOCK), () ->
-                            new BlockItem(BLOCK.get(), blockItemTabType.createBlockItemProperties(BLOCK))));
+                    RegistryObject<BlockItem> BLOCK_ITEM = ITEMS.register(blockItemTabType.IDMap.get(BLOCK), () ->
+                            new BlockItem(BLOCK.get(), blockItemTabType.createBlockItemProperties(BLOCK)));
+                    blockItemList.add(BLOCK_ITEM);
+                    Logger.LOGGER.info("Registered creative mode tab: {}", BLOCK_ITEM.getId());
                 }
             }
             for (DataOfNpuItems data : itemDataList) {
@@ -83,6 +85,7 @@ public class NpuItems {
                     ITEM = ITEMS.register(data.ID, () -> new Item(data.createItemProperties()));
 
                 itemList.add(ITEM);
+                Logger.LOGGER.info("Registered creative mode tab: {}", ITEM.getId());
             }
         }
     }

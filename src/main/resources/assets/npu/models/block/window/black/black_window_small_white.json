@@ -4,7 +4,7 @@
     "1": "npu:block/g/glass_black",
     "2": "npu:block/a/anvil_base",
     "3": "npu:block/c/cement_light_white",
-    "particle": "npu:block/cement_light_white"
+    "particle": "npu:block/c/cement_light_white"
   },
   "elements": [
     {
