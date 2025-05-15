@@ -59,7 +59,7 @@ Made by Infinomat
 
     ROCK
 
-（更多类型敬请期待）
+    （更多类型敬请期待）
 3. 将属性写入json文件中并存放到 [resources/data/npu/block](src/main/resources/data/npu/block) 中你希望的创造模式物品栏文件夹下
 4. 将方块状态写到 [resources/assets/npu/blockstates](src/main/resources/assets/npu/blockstates) 中
 5. 将对应物品状态写到 [resources/assets/npu/items](src/main/resources/assets/npu/items) 中
@@ -100,7 +100,7 @@ NpuBlocks.class里声明了常用材料属性和常用体积模型属性的枚�
 3. 向翻译文件 [resources/assets/npu/lang](src/main/resources/assets/npu/lang) 中添加翻译
 
 ## 后记
--有新的模板或API的需求或者已有的模板或API有更优化的方案可以告诉我
+- 有新的模板或API的需求或者已有的模板或API有更优化的方案可以告诉我
 
 [English](Instructions.en_us.md)
 

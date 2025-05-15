@@ -1,108 +1,107 @@
 # BuildTheWorldForNPU
 Made by Infinomat
 
-## Conventions
-- Register new things and store new resource files in a clear and organized manner, placing code where it belongs and things where they should be.
-- If possible, add logs to everything.
-- Keep the code clean and well-organized.
+## Convention
+- When registering new things and storing new resource files, be organized, write the code where it should be, and put things in the right place.
+- If possible, add logs.
+- Keep the code clean.
 
 ## Refactoring Structure Overview
 - npu
     - blocks  
-        - dataofnpublocks                 Properties of new blocks
+        - dataofnpublocks                 Attribute data for new blocks
         - npublocknewclasses              Templates for new blocks
         - NpuBlocks.class                 All new blocks will be automatically registered here
     - creativemodtab
-        - dataofnpucreativemodetabs       Properties of new creative mode tabs
-        - CreativeModeTab.class           Used to add new items to the original creative mode tabs
+        - dataofnpucreativemodetabs       Attribute data for new creative mode tabs
+        - CreativeModeTab.class           Used to add new items to the vanilla creative mode tabs
         - NpuCreativeModeTabs.class       All new creative mode tabs should be registered here
     - entities
         - npuentitynewclasses             Templates for new entities
         - NpuEntities.class               All new entities should be registered here
-        - NpuEntitySubscriber.class       Links new entities and their rendering methods to events
+        - NpuEntitySubscriber.class       Links new entities and new rendering methods to events
     - items
-        - dataofnpublocks                 Properties of new items
+        - dataofnpublocks                 Attribute data for new items
         - npuitemnewclasses               Templates for new items
         - NpuItems.class                  All new items (including block items) will be automatically registered here
     - util
         - FileDataGetter                  Get JSON data from files
         - FolderDataGetter                Get JSON data from folders
         - Logger.class                    Used to output logs
-        - Reference.class                 Used to obtain basic information about the mod
-        - Register.class                  Provides registrars for new things
+        - Reference.class                 Used to obtain mod basic information
+        - Register.class                  Used to provide new thing registrars
     - Config.class                        Do not modify the mod properties
-    - NPU                                 Main class (generally not modified)
+    - NPU                                 Main class (generally do not move it)
 
 ## How to Operate
 
-### Registering New Blocks
-Note that you should avoid modifying block IDs in the original mod as much as possible, as Minecraft may not recognize them after transplantation. However, if you encounter overly problematic IDs, you can change them.
+### Register New Blocks
+It is recommended to modify the block IDs of the original mod as little as possible, because Minecraft may not recognize them after transplantation, but if you encounter some excessive IDs, you can change them.
 
-1. Determine the type of block based on the information in the original mod:
+1. According to the information of the block in the original mod, determine what type of block it is.
 
-    NORMAL_STRUCTURE                                Ordinary block
+    NORMAL_STRUCTURE                                Normal block
 
     HORIZONTAL_DIRECTIONAL_STRUCTURE                Block with four directions (east, south, west, north)
 
     HORIZONTAL_MULTIPLE_DIRECTIONAL_STRUCTURE       Block with twelve directions
 
-    NORMAL_HALF_SLAB                                Ordinary stackable slab block
+    NORMAL_HALF_SLAB                                Normal stackable slab block
 
     HORIZONTAL_DIRECTIONAL_HALF_SLAB                Stackable slab block with four directions (east, south, west, north)
 
-    DOOR_AND_WINDOW                                 Block with open and closed models
+    DOOR_AND_WINDOW                                 Block with open and close two models
 
-    (More types to come)
-2. Determine the material of the block based on the information in the original mod:
+    (More types are coming soon)
+2. According to the information of the block in the original mod, determine the material of the block.
 
     IRON
 
     ROCK
 
-   (More types to come)
-3. Write the properties into a JSON file and save it in the desired creative mode tab folder under [resources/data/npu/block](src/main/resources/data/npu/block).
+    (More types are coming soon)
+3. Write the properties into a json file and save it to the folder you want in [resources/data/npu/block](src/main/resources/data/npu/block) under the creative mode tab folder.
 4. Write the block state to [resources/assets/npu/blockstates](src/main/resources/assets/npu/blockstates).
 5. Write the corresponding item state to [resources/assets/npu/items](src/main/resources/assets/npu/items).
-6. Import model files from the original mod's block model files into this mod's [resources/assets/npu/models/block](src/main/resources/assets/npu/models/block), and categorize them as needed.
-7. Import the corresponding textures from the original mod's texture files into this mod's [resources/assets/npu/textures/block](src/main/resources/assets/npu/textures/block), search [Texture Correspondence Table.txt](Texture Correspondence Table.txt) first to see if the refactored mod already has it, avoid duplication, and modify the paths in the imported JSON files accordingly.
-8. Add translation files based on the original mod's translation files to [resources/assets/npu/lang](src/main/resources/assets/npu/lang).
-9. Remember to update [Texture Correspondence Table.txt](Texture Correspondence Table.txt) and [ID Change Table.txt](ID Change Table.txt) (if you have modified the IDs).
+6. Import the model file from the original mod block model file to this mod [resources/assets/npu/models/block](src/main/resources/assets/npu/models/block), and classify it as appropriate.
+7. Import the corresponding texture from the original mod texture file to this mod [resources/assets/npu/textures/block](src/main/resources/assets/npu/textures/block), remember to search in [Texture Correspondence Table.txt](Texture Correspondence Table.txt) before importing to see if the refactored mod already has it, don't duplicate, and need to modify the path in the imported json file.
+8. According to the translation file of the original mod, add the translation to the translation file [resources/assets/npu/lang](src/main/resources/assets/npu/lang).
+9. Finally, remember to update [Texture Correspondence Table.txt](Texture Correspondence Table.txt) and [ID Change Table.txt](ID Change Table.txt) (if you have changed the id, this is very important).
 
-NpuBlocks.class declares common material properties and common volume model properties enums. If needed, you can add more.
+NpuBlocks.class declares common material properties and common volume model properties enumeration, you can add your own if needed.
 
-### Registering New Items
+### Register New Items
 
-1. Write the properties into a JSON file and save it in the desired creative mode tab folder under [resources/data/npu/item](src/main/resources/data/npu/item).
+1. Write the properties into a json file and save it to the folder you want in [resources/data/npu/item](src/main/resources/data/npu/item) under the creative mode tab folder.
 2. Write the corresponding item state to [resources/assets/npu/items](src/main/resources/assets/npu/items).
-3. Import model files from the original mod's item model files into this mod's [resources/assets/npu/models/item](src/main/resources/assets/npu/models/item), and categorize them as needed.
-4. Import the corresponding textures from the original mod's texture files into this mod's [resources/assets/npu/textures/block](src/main/resources/assets/npu/textures/block), search [Texture Correspondence Table.txt](Texture Correspondence Table.txt) first to see if the refactored mod already has it, avoid duplication, and modify the paths in the imported JSON files accordingly.
-5. Remember to update [Texture Correspondence Table.txt](Texture Correspondence Table.txt) and [ID Change Table.txt](ID Change Table.txt) (if you have modified the IDs).
+3. Import the model file from the original mod item model file to this mod [resources/assets/npu/models/item](src/main/resources/assets/npu/models/item), and classify it as appropriate.
+4. Import the corresponding texture from the original mod texture file to this mod [resources/assets/npu/textures/block](src/main/resources/assets/npu/textures/block), remember to search in [Texture Correspondence Table.txt](Texture Correspondence Table.txt) before importing to see if the refactored mod already has it, don't duplicate, and need to modify the path in the imported json file.
+5. According to the translation file of the original mod, add the translation to the translation file [resources/assets/npu/lang](src/main/resources/assets/npu/lang).
+6. Finally, remember to update [Texture Correspondence Table.txt](Texture Correspondence Table.txt) and [ID Change Table.txt](ID Change Table.txt) (if you have changed the id).
 
-### Registering New Entities
-Note the different field naming conventions for EXAMPLE, EXAMPLE_ID.
+### Register New Entities
+Note the different field naming EXAMPLE,EXAMPLE_ID
 
-1. First, clarify whether you are working on a plain entity or a geo entity.
-2. Plain entity:
-   1. Create a package in npuentitynewclasses/normal/.
-   2. Add the entity class and entity renderer class to the package.
-   3. The entity class needs to implement the registerAttributes() method to set entity attributes, while the entity renderer class needs to specify the texture and scaling method.
-   4. Register in NpuEntities, note to write into ID_MAP.
-   5. Add JSON data for spawn eggs and other resource files.
-3. Geo entity
-    
-    (To be expected)
+Since the registration of entities varies greatly, currently it is not supported to create entities directly from resource files through json files.
 
-Involves resource files lang, textures/entity, models/item.
+The details of creating from code are more complicated, but the basic operation process is as follows:
+1. You can choose to inherit the existing entity of the original version, or inherit the entity template I have already created (NpuVehicle is coming soon), or create an entity from a more basic class yourself (this will be troublesome).
+2. Implement the features you want.
+3. Create an entity rendering class.
+4. Create an entity model class (if you inherit the existing entity of the original version, it is not required).
+5. Register the entity rendering class in NpuEntitySubscriber.class (if your base class is not Mob or its subclass, it is not required).
+6. Register the entity in NpuEntities.class.
+7. Add translation to the translation file [resources/assets/npu/lang](src/main/resources/assets/npu/lang).
 
-### Registering New Creative Mode Tabs
-Note the different field naming conventions for EXAMPLE_TAB, EXAMPLE_TAB_ID.
+### Register New Creative Mode Tabs
 
-1. Register in NpuCreativeModeTab at the appropriate location (declare the tab field and corresponding tab ID field).
-2. Add the corresponding enum in NpuBlocks.TabType and NpuItems.TabType (if there is content, you also need to create the corresponding directory in blockstates/data/ and itemdata/).
+1. Write the properties into a json file and save it to [resources/data/npu/creativemodetabs](src/main/resources/data/npu/creativemodetab).
+2. You can choose to create a directory with the same name as your id in [resources/data/npu/block](src/main/resources/data/npu/block) (block database) and [resources/data/npu/item](src/main/resources/data/npu/item) (item database), the blocks or items placed in it will automatically be added to this item tab.
+3. Add translation to the translation file [resources/assets/npu/lang](src/main/resources/assets/npu/lang).
 
 ## Postscript
-- If there are new template or API requirements, or if there are more optimized solutions for existing templates or APIs, please let me know.
+- If there are new template or API requirements, or if the existing templates or APIs have more optimized solutions, please let me know.
 
 [简体中文](Instructions.zh_cn.md)
 
-[Go Back](README.en_us.md)
+[Back](README.md)
