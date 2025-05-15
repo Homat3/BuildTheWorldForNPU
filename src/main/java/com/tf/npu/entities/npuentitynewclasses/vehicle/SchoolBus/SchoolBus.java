@@ -28,7 +28,7 @@ public class SchoolBus extends NpuVehicle implements GeoEntity {
     // 动画文件
     protected static final RawAnimation FLY_ANIM = RawAnimation.begin().thenLoop("animation.ModelSchoolBus.move");
     // 碰撞箱
-    private static final AABB boundingBox = new AABB(0,0,0,0,0,0);
+    private static final AABB boundingBox = new AABB(0, 0, 0, 0, 0, 0);
     private final AnimatableInstanceCache geoCache = GeckoLibUtil.createInstanceCache(this);
     // 最大乘客数
     private int maxPassenger = 15;
@@ -101,6 +101,7 @@ public class SchoolBus extends NpuVehicle implements GeoEntity {
         }
         return res;
     }
+
     // 互动
     @Override
     public void push(@NotNull Entity entity) {
@@ -112,33 +113,33 @@ public class SchoolBus extends NpuVehicle implements GeoEntity {
             super.push(entity);
         }
     }
+
     // 移动
     @Override
     public void tick() {
         if (this.isAlive()) {
             LivingEntity passenger = this.getControllingPassenger();
-            if (this.isVehicle() &&passenger instanceof Player) {
+            if (this.isVehicle() && passenger instanceof Player) {
                 float zInput = 0.0F;
                 float xInput = 0.0F;
                 zInput = passenger.zza;
-                xInput = passenger.xxa;
-                float theata = this.getYRot() * (float) (Math.PI / 180.0);
+                xInput = zInput != 0.0F ? passenger.xxa : 0.0F;
+                float theta = this.getYRot() * (float) (Math.PI / 180.0);
 
-                if(zInput != 0.0F) zInput = zInput > 0.0F ? 1.0F : -1.0F;
+                if (zInput != 0.0F) zInput = zInput > 0.0F ? 1.0F : -1.0F;
                 float temp = 0.0F;
-                float currentParallelSpeed = (float) (this.getDeltaMovement().z * Mth.cos(theata) - this.getDeltaMovement().x * Mth.sin(theata));
-                float currentVerticalSpeed = (float) (this.getDeltaMovement().z * Mth.sin(theata) + this.getDeltaMovement().x * Mth.cos(theata));
+                float currentParallelSpeed = (float) (this.getDeltaMovement().z * Mth.cos(theta) - this.getDeltaMovement().x * Mth.sin(theta));
+                float currentVerticalSpeed = (float) (this.getDeltaMovement().z * Mth.sin(theta) + this.getDeltaMovement().x * Mth.cos(theta));
                 if (currentParallelSpeed != 0.0F) temp = currentParallelSpeed > 0.0F ? 1.0F : -1.0F;
-                if(xInput != 0.0F) xInput = xInput > 0.0F ? -temp : temp;
+                if (xInput != 0.0F) xInput = xInput > 0.0F ? -temp : temp;
 
                 this.setYRot(this.getYRot() + xInput * 0.8F);
                 this.setDeltaMovement(this.getDeltaMovement().add(
-                        -Mth.sin(theata) * zInput * 0.01F - currentVerticalSpeed * 0.5F * Mth.cos(theata),
+                        -Mth.sin(theta) * zInput * 0.01F - currentVerticalSpeed * 0.5F * Mth.cos(theta),
                         0.0,
-                        Mth.cos(theata) * zInput * 0.01F - currentVerticalSpeed * 0.5F * Mth.sin(theata))
+                        Mth.cos(theta) * zInput * 0.01F - currentVerticalSpeed * 0.5F * Mth.sin(theta))
                 );
-            }
-            else {
+            } else {
                 this.setDeltaMovement(this.getDeltaMovement().add(
                         this.getDeltaMovement().x * (-0.05F),
                         0.0,

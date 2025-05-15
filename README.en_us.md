@@ -1,36 +1,36 @@
 # BuildTheWorldForNPU
 
 ### Introduction
-NPUcraft exclusive mod for building servers
+Exclusive mod for NPUcraft construction server.
 
-### Software Architecture
-1.20.1-forge-47.3.0, there may be updates in the future.
+### Compatibility Version
+Forge: 1.21.5-forge-55.0.12, future updates may be available.
 
-### Run Guide
-**Only supports IntelliJ IDEA**
-1. In IntelliJ, go to "File" -> "Settings" -> "Build, Execution, Deployment" -> "Build Tools" -> "Gradle". Set "Build and run using:" to IntelliJ IDEA and make sure that Gradle JVM is set to some version of JDK 1.8.
-2. In IntelliJ, go to "File" -> "Project Structure". Ensure that the SDK is also set to 1.8. Set the compiler output to a folder named "out" in your project root – you'll probably need to create this folder.
-3. Perform Gradle Sync.
-4. Execute Gradle `genIntellijRuns`.
+### Running Guide
+**IntelliJ IDEA is Recommended**
+1. First, disable Gradle build.
+2. Press "Ctrl+Alt+Shift+S" -> "Project Structure" -> "Project" -> "SDK" to ensure "Project JDK" is set to jdk21.
+3. Press "Ctrl+Alt+S" -> "Settings" -> "Build, Execution, Deployment" -> "Build Tools" -> "Gradle" to ensure "Build and run using" and "Run tests using" are set to "Gradle", and make sure Gradle JVM is set to jdk21 (same as Project JDK).
+4. Restart and wait for Gradle to build.
+5. In the right sidebar, find "Gradle" -> "BuildTheWorldForNPU" -> "Tasks" -> "forgegradle runs" -> "runClient", configure and click to run and debug the client test mod.
 
-### Usage Guidelines
+### Usage Instructions
 
-1. It is prohibited to spread this mod with only name changes.
+1. Do not modify only the name and spread it.
 
 ### Contribution
 
-1. Original Code Authors: TeachingFeelings, SUPER2FH
-2. Rebuilded Code Author: Homat3
-3. Collaborator: 翱翔——Soar
-4. Other Authors: Mario_RainFlower
+1. Original code author: TeachingFeelings, SUPER2FH
+2. Refactoring code author: Infinomat
+3. Collaborator: Soar
+4. Other authors: Mario_RainFlower
 
-### Note
+### Notes
 
-1. This mod is exclusive to the NPUcraft building server and many elements and models are specific to Xi'an University of Technology.
-2. If you want to modify it for your own use, please contact the email 1309251370@qq.com.
+1. This mod is exclusive to the NPUcraft construction server with elements and models unique to Northwestern Polytechnical University.
+2. If you want to modify and release, please contact the email 1309251370@qq.com, 1124537223@qq.com
 3. The mod contains anti-counterfeiting measures.
 
-[使用指导](Instructions.md)
+[Instructions](Instructions.zh_cn.md)
 
-
-[简体中文](README.zh_cn.md)
+[Default(简体中文)](README.md)

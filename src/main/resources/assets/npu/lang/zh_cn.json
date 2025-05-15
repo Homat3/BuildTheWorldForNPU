@@ -1,12 +1,12 @@
 {
   "creativemodetab.npu.area_block_tab": "NPU区域方块",
-  "creativemodetab.npu.sign_block_tab": "NPU标志方块",
   "creativemodetab.npu.construction_block_tab": "NPU建筑方块",
+  "creativemodetab.npu.entity_item_tab": "NPU实体物品",
   "creativemodetab.npu.indoor_block_tab": "NPU室内方块",
   "creativemodetab.npu.outdoor_block_tab": "NPU室外方块",
-  "creativemodetab.npu.entity_item_tab": "NPU实体物品",
-  "creativemodetab.npu.road_block_tab": "NPU道路方块",
   "creativemodetab.npu.playground_block_tab": "NPU操场方块",
+  "creativemodetab.npu.road_block_tab": "NPU道路方块",
+  "creativemodetab.npu.sign_block_tab": "NPU标志方块",
 
   "item.npu.balcony_partition_down": "阳台隔墙下",
   "item.npu.balcony_partition_up": "阳台隔墙上",

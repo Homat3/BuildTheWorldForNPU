@@ -17,26 +17,24 @@ import org.jetbrains.annotations.NotNull;
 import javax.annotation.Nullable;
 import java.util.Objects;
 
-public class HorizontalDirectionalHalfSlab extends SlabBlock
-{
-    private boolean canBeDouble;
+public class HorizontalDirectionalHalfSlab extends SlabBlock {
     public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
+    private boolean canBeDouble;
+
     //构造
-    public HorizontalDirectionalHalfSlab(Properties properties)
-    {
+    public HorizontalDirectionalHalfSlab(Properties properties) {
         super(properties);
         canBeDouble = true;
     }
+
     //与构造并用
-    public HorizontalDirectionalHalfSlab setCanBeDouble(boolean canBeDouble)
-    {
+    public HorizontalDirectionalHalfSlab setCanBeDouble(boolean canBeDouble) {
         this.canBeDouble = canBeDouble;
         return this;
     }
 
     @Override
-    protected void createBlockStateDefinition(StateDefinition.@NotNull Builder<Block, BlockState> builder)
-    {
+    protected void createBlockStateDefinition(StateDefinition.@NotNull Builder<Block, BlockState> builder) {
         super.createBlockStateDefinition(builder);
         builder.add(FACING);
     }
@@ -57,16 +55,14 @@ public class HorizontalDirectionalHalfSlab extends SlabBlock
                     .setValue(TYPE, SlabType.BOTTOM)
                     .setValue(WATERLOGGED, fluidState.getType() == Fluids.WATER);
             Direction direction = context.getClickedFace();
-            return ((direction != Direction.DOWN) && (direction == Direction.UP || !(context.getClickLocation().y - (double)pos.getY() > 0.5)) ? blockState : blockState
+            return ((direction != Direction.DOWN) && (direction == Direction.UP || !(context.getClickLocation().y - (double) pos.getY() > 0.5)) ? blockState : blockState
                     .setValue(TYPE, SlabType.TOP))
                     .setValue(FACING, context.getHorizontalDirection().getOpposite());
         }
     }
 
-    private SlabType getOppositeSlabType(SlabType current)
-    {
-        return switch (current)
-        {
+    private SlabType getOppositeSlabType(SlabType current) {
+        return switch (current) {
             case BOTTOM -> SlabType.TOP;
             case TOP -> SlabType.BOTTOM;
             case DOUBLE -> null;

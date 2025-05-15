@@ -1,0 +1,6 @@
+{
+  "ID": "entity_item_tab",
+  "ENUM_NAME": "ENTITY_ITEM_TAB",
+
+  "icon": {"type": "Item", "index": 0}
+}

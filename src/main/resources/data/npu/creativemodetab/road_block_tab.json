@@ -1,0 +1,6 @@
+{
+  "ID": "road_block_tab",
+  "ENUM_NAME": "ROAD_BLOCK_TAB",
+
+  "icon": {"type": "BlockItem", "index": 0}
+}

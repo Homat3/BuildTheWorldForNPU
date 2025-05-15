@@ -26,6 +26,8 @@ import java.util.List;
 
 public class HorizontalMultipleDirectionalStructure extends Block {
 
+    //方向属性
+    public static final IntegerProperty ANGEL = IntegerProperty.create("angle", 0, 165);
     //体积映射
     private final ArrayList<VoxelShape> angleShapeList0;
     private final ArrayList<VoxelShape> angleShapeList15;
@@ -33,11 +35,9 @@ public class HorizontalMultipleDirectionalStructure extends Block {
     private final ArrayList<VoxelShape> angleShapeList45;
     private final ArrayList<VoxelShape> angleShapeList60;
     private final ArrayList<VoxelShape> angleShapeList75;
-    protected VoxelShape shape;
     //加载方式
     public NpuBlocks.LoadMethod loadMethod;
-    //方向属性
-    public static final IntegerProperty ANGEL = IntegerProperty.create("angle", 0, 165);
+    protected VoxelShape shape;
     protected int angle;
 
     //构造
@@ -53,10 +53,10 @@ public class HorizontalMultipleDirectionalStructure extends Block {
         this.loadMethod = loadMethod;
         this.angle = 0;
     }
+
     //与构造并用
     public HorizontalMultipleDirectionalStructure setSHAPE(ShapeData shapeData0, ShapeData shapeData15, ShapeData shapeData30,
-                                                           ShapeData shapeData45, ShapeData shapeData60, ShapeData shapeData75)
-    {
+                                                           ShapeData shapeData45, ShapeData shapeData60, ShapeData shapeData75) {
         loadShape(shapeData0, angleShapeList0);
         loadShape(shapeData15, angleShapeList15);
         loadShape(shapeData30, angleShapeList30);
@@ -65,36 +65,36 @@ public class HorizontalMultipleDirectionalStructure extends Block {
         loadShape(shapeData75, angleShapeList75);
         return this;
     }
+
     //旋转坐标变化
-    public VoxelShape getShapeByAngle(VoxelShape shape, int angle)
-    {
+    public VoxelShape getShapeByAngle(VoxelShape shape, int angle) {
         if (angle < 90) return shape;
-        else return Shapes.box(shape.bounds().minZ, shape.bounds().minY, 1-shape.bounds().maxX,
-                    shape.bounds().maxZ, shape.bounds().maxY, 1-shape.bounds().minX);
+        else return Shapes.box(shape.bounds().minZ, shape.bounds().minY, 1 - shape.bounds().maxX,
+                shape.bounds().maxZ, shape.bounds().maxY, 1 - shape.bounds().minX);
     }
 
     @Override
-    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder)
-    {
+    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
         builder.add(ANGEL);
     }
+
     @Nullable
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
-        return defaultBlockState().setValue(ANGEL, switch(context.getHorizontalDirection().getOpposite()) {
+        return defaultBlockState().setValue(ANGEL, switch (context.getHorizontalDirection().getOpposite()) {
             case WEST, EAST -> 90;
             default -> 0;
         });
     }
-    private void loadShape(ShapeData shapeData, ArrayList<VoxelShape> angleShapeList){
-        if (!shapeData.loaderIsObj()) for (List<Double> shape : shapeData.getShapeList())
-        {
+
+    private void loadShape(ShapeData shapeData, ArrayList<VoxelShape> angleShapeList) {
+        if (!shapeData.loaderIsObj()) for (List<Double> shape : shapeData.getShapeList()) {
             angleShapeList.add(Shapes.box(shape.get(0), shape.get(1), shape.get(2), shape.get(3), shape.get(4), shape.get(5)));
         }
     }
-    private void loadShape()
-    {
-        ArrayList<VoxelShape> shapeList = switch (angle / 15){
+
+    private void loadShape() {
+        ArrayList<VoxelShape> shapeList = switch (angle / 15) {
             case 1 -> angleShapeList15;
             case 2 -> angleShapeList30;
             case 3 -> angleShapeList45;
@@ -103,19 +103,16 @@ public class HorizontalMultipleDirectionalStructure extends Block {
             default -> angleShapeList0;
         };
         shape = NpuBlocks.EmunShape.HALF_SHPAE_BOTTOM.getShape();
-        if(!shapeList.isEmpty()) switch (loadMethod)
-        {
+        if (!shapeList.isEmpty()) switch (loadMethod) {
             case METICULOUS:
                 shape = NpuBlocks.EmunShape.NULL_SHPAE.getShape();
-                for (VoxelShape voxelShape : shapeList)
-                {
+                for (VoxelShape voxelShape : shapeList) {
                     shape = Shapes.or(shape, getShapeByAngle(voxelShape, angle));
                 }
                 break;
             case ROUGH:
                 shape = shapeList.get(0);
-                for (VoxelShape voxelShape : shapeList)
-                {
+                for (VoxelShape voxelShape : shapeList) {
                     AABB a = shape.bounds();
                     AABB b = voxelShape.bounds();
                     shape = Shapes.box(
@@ -126,16 +123,16 @@ public class HorizontalMultipleDirectionalStructure extends Block {
                 break;
         }
     }
+
     @Override
-    public @NotNull VoxelShape getShape(@NotNull BlockState pState, @NotNull BlockGetter pGetter, @NotNull BlockPos pPos, @NotNull CollisionContext pContext)
-    {
-        if (shape == null || angle != pState.getValue(ANGEL))
-        {
+    public @NotNull VoxelShape getShape(@NotNull BlockState pState, @NotNull BlockGetter pGetter, @NotNull BlockPos pPos, @NotNull CollisionContext pContext) {
+        if (shape == null || angle != pState.getValue(ANGEL)) {
             angle = pState.getValue(ANGEL);
             loadShape();
         }
         return shape.optimize();
     }
+
     @Override
     protected @NotNull InteractionResult useWithoutItem(@NotNull BlockState state, @NotNull Level level, @NotNull BlockPos pos,
                                                         @NotNull Player player, @NotNull BlockHitResult res) {

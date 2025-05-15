@@ -1,0 +1,6 @@
+{
+  "ID": "indoor_block_tab",
+  "ENUM_NAME": "INDOOR_BLOCK_TAB",
+
+  "icon": {"type": "BlockItem", "index": 0}
+}

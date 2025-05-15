@@ -12,5 +12,6 @@ import software.bernie.geckolib.renderer.base.GeoRenderState;
 public class SchoolBusRenderer<R extends EntityRenderState & GeoRenderState> extends GeoEntityRenderer<SchoolBus, R> {
     public SchoolBusRenderer(EntityRendererProvider.Context context) {
         super(context, new SchoolBusModel());
+        this.shadowRadius = 4.5f;
     }
 }

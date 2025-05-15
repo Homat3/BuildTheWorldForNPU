@@ -1,0 +1,6 @@
+{
+  "ID": "playground_block_tab",
+  "ENUM_NAME": "PLAYGROUND_BLOCK_TAB",
+
+  "icon": {"type": "BlockItem", "index": 0}
+}

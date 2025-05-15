@@ -1,0 +1,6 @@
+{
+  "ID": "sign_block_tab",
+  "ENUM_NAME": "SIGN_BLOCK_TAB",
+
+  "icon": {"type": "BlockItem", "index": 0}
+}

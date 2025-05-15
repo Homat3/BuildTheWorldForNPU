@@ -1,0 +1,6 @@
+{
+  "ID": "outdoor_block_tab",
+  "ENUM_NAME": "OUTDOOR_BLOCK_TAB",
+
+  "icon": {"type": "BlockItem", "index": 0}
+}

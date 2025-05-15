@@ -12,18 +12,17 @@ import net.minecraft.world.level.material.Fluids;
 import javax.annotation.Nullable;
 import java.util.Objects;
 
-public class NormalHalfSlab extends SlabBlock
-{
+public class NormalHalfSlab extends SlabBlock {
     private boolean canBeDouble;
+
     //构造
-    public NormalHalfSlab(Properties properties)
-    {
+    public NormalHalfSlab(Properties properties) {
         super(properties);
         canBeDouble = true;
     }
+
     //与构造并用
-    public NormalHalfSlab setCanBeDouble(boolean canBeDouble)
-    {
+    public NormalHalfSlab setCanBeDouble(boolean canBeDouble) {
         this.canBeDouble = canBeDouble;
         return this;
     }
@@ -43,15 +42,13 @@ public class NormalHalfSlab extends SlabBlock
                     .setValue(TYPE, SlabType.BOTTOM)
                     .setValue(WATERLOGGED, fluidState.getType() == Fluids.WATER);
             Direction direction = context.getClickedFace();
-            return ((direction != Direction.DOWN) && (direction == Direction.UP || !(context.getClickLocation().y - (double)pos.getY() > 0.5)) ? blockState : blockState
+            return ((direction != Direction.DOWN) && (direction == Direction.UP || !(context.getClickLocation().y - (double) pos.getY() > 0.5)) ? blockState : blockState
                     .setValue(TYPE, SlabType.TOP));
         }
     }
 
-    private SlabType getOppositeSlabType(SlabType current)
-    {
-        return switch (current)
-        {
+    private SlabType getOppositeSlabType(SlabType current) {
+        return switch (current) {
             case BOTTOM -> SlabType.TOP;
             case TOP -> SlabType.BOTTOM;
             case DOUBLE -> null;

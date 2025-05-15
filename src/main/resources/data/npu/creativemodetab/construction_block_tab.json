@@ -1,0 +1,6 @@
+{
+  "ID":  "construction_block_tab",
+  "ENUM_NAME": "CONSTRUCTION_BLOCK_TAB",
+
+  "icon": {"type": "BlockItem", "index": 0}
+}

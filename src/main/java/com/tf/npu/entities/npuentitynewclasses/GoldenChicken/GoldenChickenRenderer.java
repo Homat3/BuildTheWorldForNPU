@@ -10,14 +10,12 @@ import org.jetbrains.annotations.NotNull;
 
 
 //GoldenChicken的Renderer
-public class GoldenChickenRenderer extends ChickenRenderer
-{
+public class GoldenChickenRenderer extends ChickenRenderer {
     private static final ResourceLocation GOLDEN_CHICKEN_TEXTURES =
             ResourceLocation.fromNamespaceAndPath(Reference.MODID, "textures/entity/g/golden_chicken.png");
 
 
-    public GoldenChickenRenderer(EntityRendererProvider.Context context)
-    {
+    public GoldenChickenRenderer(EntityRendererProvider.Context context) {
         super(context);
         this.shadowRadius *= 0.6F;
     }
@@ -30,8 +28,7 @@ public class GoldenChickenRenderer extends ChickenRenderer
     }
 
     @Override
-    public @NotNull ResourceLocation getTextureLocation(@NotNull ChickenRenderState renderState)
-    {
+    public @NotNull ResourceLocation getTextureLocation(@NotNull ChickenRenderState renderState) {
         return GOLDEN_CHICKEN_TEXTURES;
     }
 }

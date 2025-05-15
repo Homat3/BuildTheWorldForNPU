@@ -6,8 +6,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
-public class DataOfNpuBlocks
-{
+public class DataOfNpuBlocks {
     public String StructureType;
     public String ID;
 
@@ -40,10 +39,9 @@ public class DataOfNpuBlocks
     public boolean noLootTable;
     public boolean noParticlesOnBreak;
 
-    public BlockBehaviour.Properties createBlockProperties()
-    {
+    public BlockBehaviour.Properties createBlockProperties() {
 
-        BlockBehaviour.Properties properties = NpuBlocks.createBlockProperties(NpuBlocks.EnumMaterial.valueOf(Material));
+        BlockBehaviour.Properties properties = NpuBlocks.createBlockPropertiesOfMaterial(NpuBlocks.EnumMaterial.valueOf(Material));
         if (noOcclusion) properties.noOcclusion();
         if (noCollision) properties.noCollission();
         if (noLootTable) properties.noLootTable();
