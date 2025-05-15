@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/roof/portable_dwellings_roof_blue"
+    },
+    "facing=east": {
+      "model": "npu:block/roof/portable_dwellings_roof_blue",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/roof/portable_dwellings_roof_blue",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/roof/portable_dwellings_roof_blue",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "StructureType": "HORIZONTAL_DIRECTIONAL_HALF_SLAB",
+    "ID": "glass_wall_half",
+    "Material": "IRON",
+    "double_enable": false,
+    "noOcclusion": true,
+    "noCollision": false,
+    "noLootTable": false,
+    "noParticlesOnBreak": false
+}

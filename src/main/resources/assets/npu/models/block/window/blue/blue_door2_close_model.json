@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"elements": [
+		{
+			"from": [-16, -16, 6],
+			"to": [32, 32, 10]
+		}
+	]
+}

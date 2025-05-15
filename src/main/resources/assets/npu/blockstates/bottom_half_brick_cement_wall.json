@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "npu:block/structure/bottom_half_brick_cement_wall"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/brick/stone_brick_dual_material_wall_with_wall_skirt"
+    },
+    "facing=east": {
+      "model": "npu:block/brick/stone_brick_dual_material_wall_with_wall_skirt",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/brick/stone_brick_dual_material_wall_with_wall_skirt",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/brick/stone_brick_dual_material_wall_with_wall_skirt",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

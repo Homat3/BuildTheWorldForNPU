@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/yunf_dormitory_door_back_to_up"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/yunf_dormitory_door_back_to_up",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/yunf_dormitory_door_back_to_up",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/yunf_dormitory_door_back_to_up",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

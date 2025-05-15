@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/wall/stone_brick_blue_ceramic_tile_double_tile"
+    },
+    "facing=east": {
+      "model": "npu:block/wall/stone_brick_blue_ceramic_tile_double_tile",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/wall/stone_brick_blue_ceramic_tile_double_tile",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/wall/stone_brick_blue_ceramic_tile_double_tile",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/balcony_white_ceramic_tiles_in_yun_f"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/balcony_white_ceramic_tiles_in_yun_f",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/balcony_white_ceramic_tiles_in_yun_f",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/balcony_white_ceramic_tiles_in_yun_f",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

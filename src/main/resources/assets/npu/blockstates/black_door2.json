@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=north,open=false": {
+      "model": "npu:block/window/black/black_door2_close"
+    },
+    "facing=east,open=false": {
+      "model": "npu:block/window/black/black_door2_close",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,open=false": {
+      "model": "npu:block/window/black/black_door2_close",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,open=false": {
+      "model": "npu:block/window/black/black_door2_close",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=north,open=true": {
+      "model": "npu:block/window/black/black_door2_open"
+    },
+    "facing=east,open=true": {
+      "model": "npu:block/window/black/black_door2_open",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,open=true": {
+      "model": "npu:block/window/black/black_door2_open",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,open=true": {
+      "model": "npu:block/window/black/black_door2_open",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

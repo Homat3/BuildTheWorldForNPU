@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "npu:block/fence/fence_warningline/fence_warningline_column_double90"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "StructureType": "NORMAL_STRUCTURE",
+  "ID": "top_half_brick_cement_wall",
+  "modelPath": "models/block/structure/top_half_brick_cement_wall.json",
+  "loadMethod": "ROUGH",
+  "Material": "IRON",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}

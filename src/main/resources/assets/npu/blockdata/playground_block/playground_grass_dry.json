@@ -1,0 +1,11 @@
+{
+  "StructureType": "NORMAL_STRUCTURE",
+  "ID": "playground_grass_dry",
+  "modelPath": "models/block/playground/playground_grass_dry.json",
+  "loadMethod": "ROUGH",
+  "Material": "IRON",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}

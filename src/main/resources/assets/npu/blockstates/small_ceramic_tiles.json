@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/small_ceramic_tiles"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/small_ceramic_tiles",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/small_ceramic_tiles",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/small_ceramic_tiles",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

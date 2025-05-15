@@ -1,0 +1,11 @@
+{
+  "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
+  "ID": "portable_dwellings_wall",
+  "modelPath": "models/block/wall/portable_dwellings_wall.json",
+  "loadMethod": "ROUGH",
+  "Material": "ROCK",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}

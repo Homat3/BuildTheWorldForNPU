@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "npu:block/brick/stone_brick_dual_material_wall_with_wall_skirt"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "npu:block/grille_ceiling/grille_ceiling_smalllight"
+    }
+  }
+}

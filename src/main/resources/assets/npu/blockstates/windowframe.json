@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/windowframe"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/windowframe",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/windowframe",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/windowframe",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

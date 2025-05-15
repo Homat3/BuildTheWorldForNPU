@@ -1,0 +1,16 @@
+{
+  "StructureType": "HORIZONTAL_MULTIPLE_DIRECTIONAL_STRUCTURE",
+  "ID": "tent_blue_2021baituan",
+  "modelPath0": "models/block/tent/tent_blue_2021baituan/tent_blue_2021baituan.json",
+  "modelPath15": "models/block/tent/tent_blue_2021baituan/tent_blue_2021baituan_y15.json",
+  "modelPath30": "models/block/tent/tent_blue_2021baituan/tent_blue_2021baituan_y30.json",
+  "modelPath45": "models/block/tent/tent_blue_2021baituan/tent_blue_2021baituan_y45.json",
+  "modelPath60": "models/block/tent/tent_blue_2021baituan/tent_blue_2021baituan_y60.json",
+  "modelPath75": "models/block/tent/tent_blue_2021baituan/tent_blue_2021baituan_y75.json",
+  "loadMethod": "METICULOUS",
+  "Material": "ROCK",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}

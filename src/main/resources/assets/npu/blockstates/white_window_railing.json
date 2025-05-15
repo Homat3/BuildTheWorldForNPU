@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/window/white/white_window_railing"
+    },
+    "facing=east": {
+      "model": "npu:block/window/white/white_window_railing",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/window/white/white_window_railing",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/window/white/white_window_railing",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

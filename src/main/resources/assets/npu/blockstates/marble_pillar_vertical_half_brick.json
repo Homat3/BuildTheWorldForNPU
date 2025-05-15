@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/marble_pillar_vertical_half_brick"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/marble_pillar_vertical_half_brick",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/marble_pillar_vertical_half_brick",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/marble_pillar_vertical_half_brick",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

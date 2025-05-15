@@ -1,0 +1,8 @@
+{
+  "textures": {
+    "particle": "npu:block/t/tent_red"
+  },
+  "loader": "forge:obj",
+  "model": "npu:models/block/tent/tent_red/tent_red_y75.obj",
+  "flip-v": true
+}

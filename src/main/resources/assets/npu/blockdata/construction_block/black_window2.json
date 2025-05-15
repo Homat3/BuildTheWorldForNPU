@@ -1,0 +1,12 @@
+{
+  "StructureType": "DOOR_AND_WINDOW",
+  "ID": "black_window2",
+  "open_modelPath": "models/block/window/black/black_window2_open.json",
+  "close_modelPath": "models/block/window/black/black_window2_close.json",
+  "loadMethod": "METICULOUS",
+  "Material": "IRON",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}

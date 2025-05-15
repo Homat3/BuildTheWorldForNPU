@@ -1,0 +1,6 @@
+{
+  "isSpawnEgg": false,
+  "isVehicle": true,
+  "ID": "school_bus_spawn_egg",
+  "creature_ID": "school_bus"
+}

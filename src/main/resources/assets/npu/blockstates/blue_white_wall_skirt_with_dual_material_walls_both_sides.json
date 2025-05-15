@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/wall/blue_white_wall_skirt_with_dual_material_walls_both_sides"
+    },
+    "facing=east": {
+      "model": "npu:block/wall/blue_white_wall_skirt_with_dual_material_walls_both_sides",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/wall/blue_white_wall_skirt_with_dual_material_walls_both_sides",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/wall/blue_white_wall_skirt_with_dual_material_walls_both_sides",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

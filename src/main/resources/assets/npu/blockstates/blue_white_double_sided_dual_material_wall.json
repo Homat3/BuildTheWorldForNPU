@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/wall/blue_white_double_sided_dual_material_wall"
+    },
+    "facing=east": {
+      "model": "npu:block/wall/blue_white_double_sided_dual_material_wall",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/wall/blue_white_double_sided_dual_material_wall",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/wall/blue_white_double_sided_dual_material_wall",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "angle=0": {
+      "model": "npu:block/tent/tent_red/tent_red"
+    },
+    "angle=15":  {
+      "model": "npu:block/tent/tent_red/tent_red_y15"
+    },
+    "angle=30":  {
+      "model": "npu:block/tent/tent_red/tent_red_y30"
+    },
+    "angle=45":  {
+      "model": "npu:block/tent/tent_red/tent_red_y45"
+    },
+    "angle=60":  {
+      "model": "npu:block/tent/tent_red/tent_red_y60"
+    },
+    "angle=75":  {
+      "model": "npu:block/tent/tent_red/tent_red_y75"
+    },
+    "angle=90":  {
+      "model": "npu:block/tent/tent_red/tent_red",
+      "y": 90
+    },
+    "angle=105":  {
+      "model": "npu:block/tent/tent_red/tent_red_y15",
+      "y": 90
+    },
+    "angle=120":  {
+      "model": "npu:block/tent/tent_red/tent_red_y30",
+      "y": 90
+    },
+    "angle=135":  {
+      "model": "npu:block/tent/tent_red/tent_red_y45",
+      "y": 90
+    },
+    "angle=150":  {
+      "model": "npu:block/tent/tent_red/tent_red_y60",
+      "y": 90
+    },
+    "angle=165":  {
+      "model": "npu:block/tent/tent_red/tent_red_y75",
+      "y": 90
+    }
+  }
+}

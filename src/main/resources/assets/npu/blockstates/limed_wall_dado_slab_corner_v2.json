@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/wall/limed_wall_dado_slab_corner_v2"
+    },
+    "facing=east": {
+      "model": "npu:block/wall/limed_wall_dado_slab_corner_v2",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/wall/limed_wall_dado_slab_corner_v2",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/wall/limed_wall_dado_slab_corner_v2",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

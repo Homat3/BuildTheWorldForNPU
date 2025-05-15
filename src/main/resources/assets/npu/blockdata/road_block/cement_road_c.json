@@ -1,0 +1,11 @@
+{
+  "StructureType": "NORMAL_STRUCTURE",
+  "ID": "cement_road_c",
+  "modelPath": "models/block/road/cement_road_c.json",
+  "loadMethod": "ROUGH",
+  "Material": "ROCK",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}

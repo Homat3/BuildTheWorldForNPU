@@ -1,0 +1,18 @@
+{
+	"elements": [
+		{
+			"from": [-3, -16, 4],
+			"to": [19, 28, 28],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-3, 26, 4]},
+			"color": 0,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#missing"}
+			}
+		}
+	]
+}

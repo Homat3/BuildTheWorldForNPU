@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "npu:block/brick/mudstone_brick"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "npu:block/brick/slate_floor_tile_dark"
+    }
+  }
+}

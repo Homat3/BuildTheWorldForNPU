@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/indoor_staircase_ramp_high_section"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/indoor_staircase_ramp_high_section",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/indoor_staircase_ramp_high_section",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/indoor_staircase_ramp_high_section",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
