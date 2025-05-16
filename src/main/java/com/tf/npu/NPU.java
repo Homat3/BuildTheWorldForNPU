@@ -37,9 +37,9 @@ public class NPU {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
-        //将物品注册到创造模式物品栏
+        // 将物品注册到创造模式物品栏
         modEventBus.addListener(this::addCreative);
-        //将模组渲染方式注册到模组实体
+        // 将模组渲染方式注册到模组实体
         modEventBus.addListener(this::registerRenderers);
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us

@@ -23,7 +23,7 @@ Forge：1.21.5-forge-55.0.12，以后可能会有更新
 1.  原代码作者：TeachingFeelings、SUPER2FH
 2.  重构代码作者：Infinomat
 3.  协作者：翱翔——Soar
-4.  其他作者：Mario_RainFlower
+4.  其他作者：Mario_RainFlower, MiLuGu, NW-Jiang
 
 ### 说明
 

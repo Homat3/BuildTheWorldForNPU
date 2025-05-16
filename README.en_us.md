@@ -22,8 +22,8 @@ Forge: 1.21.5-forge-55.0.12, future updates may be available.
 
 1. Original code author: TeachingFeelings, SUPER2FH
 2. Refactoring code author: Infinomat
-3. Collaborator: Soar
-4. Other authors: Mario_RainFlower
+3. Collaborator: AoXiang-Soar
+4. Other authors: Mario_RainFlower, MiLuGu, NW-Jiang
 
 ### Notes
 

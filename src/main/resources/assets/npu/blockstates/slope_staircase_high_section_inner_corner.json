@@ -1,7 +1,7 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structureslope_staircase_high_section_inner_corner"
+      "model": "npu:block/structure/slope_staircase_high_section_inner_corner"
     },
     "facing=east": {
       "model": "npu:block/structure/slope_staircase_high_section_inner_corner",

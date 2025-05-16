@@ -93,6 +93,7 @@ g9 -> slate_floor_tiles_staggered_style_2
 nn -> small_stone_pavilion
 playground_green2 -> playground_plastic_green
 qh -> quartz_block_slab_v
+tent_blue_2021baituan -> tent_blue_baituan
 wall1 -> gray_brick_wall
 wall10 -> portable_dwellings_roof_blue
 wall11 -> slate_floor_tile_dark

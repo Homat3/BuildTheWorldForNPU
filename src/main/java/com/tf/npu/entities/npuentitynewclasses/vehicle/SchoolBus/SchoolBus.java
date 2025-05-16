@@ -127,7 +127,7 @@ public class SchoolBus extends NpuVehicle implements GeoEntity {
                 float currentVerticalSpeed = (float) (this.getDeltaMovement().z * Mth.sin(theta) + this.getDeltaMovement().x * Mth.cos(theta));
 
                 zInput = passenger.zza;
-                xInput = currentParallelSpeed != 0.0F ? passenger.xxa : 0.0F;
+                xInput = -0.04F <= currentParallelSpeed && currentParallelSpeed <= 0.04F ? 0.0F : passenger.xxa;
 
                 if (zInput != 0.0F) zInput = zInput > 0.0F ? 1.0F : -1.0F;
                 float temp = 0.0F;
@@ -154,7 +154,7 @@ public class SchoolBus extends NpuVehicle implements GeoEntity {
     @Override
     public void positionRider(@NotNull Entity entity, @NotNull Entity.MoveFunction moveFunction) {
         if (entity instanceof LivingEntity passenger) {
-            List<Double> xz = getPosition(getPassengers().indexOf(passenger) % 2 == 0 ? 1 : -1, 5.8 - ((double) (getPassengers().indexOf(passenger) + 1) / 2) * 24.5 / 16.0);
+            List<Double> xz = getPosition(getPassengers().indexOf(passenger) % 2 == 0 ? 1 : -1, 6.0 - ((double) (getPassengers().indexOf(passenger) + 1) / 2) * 25 / 16.0);
             moveFunction.accept(entity, xz.get(0), this.getY() + 1.2, xz.get(1));
         }
     }
