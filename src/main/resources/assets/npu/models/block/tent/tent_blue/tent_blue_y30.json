@@ -3,6 +3,5 @@
     "particle": "npu:block/t/tent_blue"
   },
   "loader": "forge:obj",
-  "model": "npu:models/block/tent/tent_blue/tent_blue_y30.obj",
-  "flip-v": true
+  "model": "npu:models/block/tent/tent_blue/tent_blue_y30.obj"
 }
