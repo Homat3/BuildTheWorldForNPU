@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "slate_floor_tile_dark",
-  "modelPath": "models/block/brick/slate_floor_tile_dark.json",
+  "modelPath": "block/brick/slate_floor_tile_dark.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

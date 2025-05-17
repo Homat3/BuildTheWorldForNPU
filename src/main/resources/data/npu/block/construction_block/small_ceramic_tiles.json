@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "small_ceramic_tiles",
-  "modelPath": "models/block/structure/small_ceramic_tiles.json",
+  "modelPath": "block/structure/small_ceramic_tiles.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

@@ -1,5 +1,8 @@
 package com.tf.npu.blocks.npublocknewclasses;
 
+import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
 import com.tf.npu.blocks.NpuBlocks;
 import com.tf.npu.blocks.dataofnpublocks.ShapeData;
 import net.minecraft.core.BlockPos;
@@ -26,6 +29,13 @@ import java.util.List;
 
 public class HorizontalMultipleDirectionalStructure extends Block {
     // 额外属性
+    private static final MapCodec<HorizontalMultipleDirectionalStructure> CODEC = RecordCodecBuilder.mapCodec(instance ->
+            instance.group(
+                    propertiesCodec(),
+                    Codec.STRING.fieldOf("load_method").forGetter(p -> p.loadMethod.name()),
+                    Codec.INT.fieldOf("angle").forGetter(p -> p.angle)
+            ).apply(instance, HorizontalMultipleDirectionalStructure::new)
+    );
     public static final IntegerProperty ANGEL = IntegerProperty.create("angle", 0, 165);
     public NpuBlocks.LoadMethod loadMethod;
     protected VoxelShape shape;
@@ -37,6 +47,10 @@ public class HorizontalMultipleDirectionalStructure extends Block {
     private final ArrayList<VoxelShape> angleShapeList45;
     private final ArrayList<VoxelShape> angleShapeList60;
     private final ArrayList<VoxelShape> angleShapeList75;
+    @Override
+    protected @NotNull MapCodec<? extends HorizontalMultipleDirectionalStructure> codec() {
+        return CODEC;
+    }
 
     // 构造
     public HorizontalMultipleDirectionalStructure(Properties properties, NpuBlocks.LoadMethod loadMethod) {

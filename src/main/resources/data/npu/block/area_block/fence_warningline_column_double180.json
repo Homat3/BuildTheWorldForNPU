@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "fence_warningline_column_double180",
-  "modelPath": "models/block/fence/fence_warningline/fence_warningline_column_double180.json",
+  "modelPath": "block/fence/fence_warningline/fence_warningline_column_double180.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

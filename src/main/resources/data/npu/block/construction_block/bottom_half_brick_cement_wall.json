@@ -1,7 +1,7 @@
 {
   "StructureType": "NORMAL_STRUCTURE",
   "ID": "bottom_half_brick_cement_wall",
-  "modelPath": "models/block/structure/bottom_half_brick_cement_wall.json",
+  "modelPath": "block/structure/bottom_half_brick_cement_wall.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

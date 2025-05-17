@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "black_window_small_grey",
-  "modelPath": "models/block/window/black/black_window_small_grey.json",
+  "modelPath": "block/window/black/black_window_small_grey.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

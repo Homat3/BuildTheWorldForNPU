@@ -1,8 +1,8 @@
 {
   "StructureType": "DOOR_AND_WINDOW",
   "ID": "blue_door1",
-  "open_modelPath": "models/block/window/blue/blue_door1_open_model.json",
-  "close_modelPath": "models/block/window/blue/blue_door1_close_model.json",
+  "open_modelPath": "block/window/blue/blue_door1_open_model.json",
+  "close_modelPath": "block/window/blue/blue_door1_close_model.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

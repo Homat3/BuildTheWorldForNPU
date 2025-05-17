@@ -1,12 +1,12 @@
 package com.tf.npu.items;
 
+import com.mojang.logging.LogUtils;
 import com.tf.npu.blocks.NpuBlocks;
 import com.tf.npu.creativemodtab.dataofnpucreativemodetabs.DataOfNpuCreativeModeTabs;
 import com.tf.npu.entities.NpuEntities;
 import com.tf.npu.items.dataofnpuitems.DataOfNpuItems;
 import com.tf.npu.items.npuitemnewclasses.VehicleItem;
 import com.tf.npu.util.FolderDataGetter;
-import com.tf.npu.util.Logger;
 import com.tf.npu.util.Reference;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -21,6 +21,8 @@ import java.util.List;
 import java.util.Map;
 
 public class NpuItems {
+    public static final org.slf4j.Logger LOGGER = LogUtils.getLogger();
+
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Reference.MODID);
     public static final String dataPath = Reference.PATH.get(Reference.PathType.ITEM);
     public static final List<DataOfNpuCreativeModeTabs> dataList = new FolderDataGetter<>(Reference.PATH.get(Reference.PathType.CREATIVEMODETAB), DataOfNpuCreativeModeTabs.class).getList();
@@ -31,9 +33,7 @@ public class NpuItems {
     static {
         // 物品注册
         for (DataOfNpuCreativeModeTabs tabData : dataList) {
-            tabTypeMap.put(tabData.ENUM_NAME,
-                    new TabType(tabData,
-                            new FolderDataGetter<>(dataPath + '.' + tabData.ID.substring(0, tabData.ID.length() - 4), DataOfNpuItems.class).getList()));
+            tabTypeMap.put(tabData.ENUM_NAME, new TabType(tabData, new FolderDataGetter<>(dataPath + '/' + tabData.ID.substring(0, tabData.ID.length() - 4), DataOfNpuItems.class).getList()));
         }
         for (TabType tabType : tabTypeMap.values()) {
             tabType.registerItems();
@@ -57,10 +57,10 @@ public class NpuItems {
         public TabType(DataOfNpuCreativeModeTabs tabData, List<DataOfNpuItems> itemDataList) {
             data = tabData;
             this.blockItemTabType = NpuBlocks.getTabType(tabData.ENUM_NAME);
-            this.blockItemList = new ArrayList<>(1);
+            this.blockItemList = new ArrayList<>(0);
 
             this.itemDataList = itemDataList;
-            this.itemList = new ArrayList<>(1);
+            this.itemList = new ArrayList<>(0);
         }
 
 
@@ -70,7 +70,7 @@ public class NpuItems {
                     RegistryObject<BlockItem> BLOCK_ITEM = ITEMS.register(blockItemTabType.IDMap.get(BLOCK), () ->
                             new BlockItem(BLOCK.get(), blockItemTabType.createBlockItemProperties(BLOCK)));
                     blockItemList.add(BLOCK_ITEM);
-                    Logger.LOGGER.info("Registered creative mode tab: {}", BLOCK_ITEM.getId());
+                    LOGGER.info("Registered blockitem: {}", BLOCK_ITEM.getId());
                 }
             }
             for (DataOfNpuItems data : itemDataList) {
@@ -85,7 +85,7 @@ public class NpuItems {
                     ITEM = ITEMS.register(data.ID, () -> new Item(data.createItemProperties()));
 
                 itemList.add(ITEM);
-                Logger.LOGGER.info("Registered creative mode tab: {}", ITEM.getId());
+                LOGGER.info("Registered item: {}", ITEM.getId());
             }
         }
     }

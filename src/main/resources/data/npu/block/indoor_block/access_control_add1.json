@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "access_control_add1",
-  "modelPath": "models/block/structure/access_control_add1.json",
+  "modelPath": "block/structure/access_control_add1.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

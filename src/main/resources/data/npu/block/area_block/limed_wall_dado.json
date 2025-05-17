@@ -1,7 +1,7 @@
 {
   "StructureType": "NORMAL_STRUCTURE",
   "ID": "limed_wall_dado",
-  "modelPath": "models/block/wall/limed_wall_dado.json",
+  "modelPath": "block/wall/limed_wall_dado.json",
   "loadMethod": "ROUGH",
   "Material": "ROCK",
   "noOcclusion": true,

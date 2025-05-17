@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "floor2",
-  "modelPath": "models/block/sign/floor2.json",
+  "modelPath": "block/sign/floor2.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

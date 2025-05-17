@@ -1,7 +1,7 @@
 {
   "StructureType": "NORMAL_STRUCTURE",
   "ID": "playground_green",
-  "modelPath": "models/block/playground/playground_green.json",
+  "modelPath": "block/playground/playground_green.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

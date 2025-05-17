@@ -1,5 +1,8 @@
 package com.tf.npu.blocks.npublocknewclasses;
 
+import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -19,13 +22,27 @@ import java.util.Objects;
 
 public class HorizontalDirectionalHalfSlab extends SlabBlock {
     // 额外属性
+    private static final MapCodec<HorizontalDirectionalHalfSlab> CODEC = RecordCodecBuilder.mapCodec(instance ->
+            instance.group(
+                    propertiesCodec(),
+                    Codec.BOOL.fieldOf("can_be_double").forGetter(p -> p.canBeDouble)
+            ).apply(instance, HorizontalDirectionalHalfSlab::new)
+    );
     public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
     protected boolean canBeDouble;
+    @Override
+    public @NotNull MapCodec<? extends HorizontalDirectionalHalfSlab> codec() {
+        return CODEC;
+    }
 
     // 构造
     public HorizontalDirectionalHalfSlab(Properties properties) {
         super(properties);
         this.canBeDouble = true;
+    }
+    private HorizontalDirectionalHalfSlab(Properties properties, boolean canBeDouble){
+        super(properties);
+        this.canBeDouble = canBeDouble;
     }
     // 与构造并用
     public HorizontalDirectionalHalfSlab setCanBeDouble(boolean canBeDouble) {

@@ -1,7 +1,7 @@
 {
   "StructureType": "NORMAL_STRUCTURE",
   "ID": "thin_wooden_board",
-  "modelPath": "models/block/structure/thin_wooden_board.json",
+  "modelPath": "block/structure/thin_wooden_board.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

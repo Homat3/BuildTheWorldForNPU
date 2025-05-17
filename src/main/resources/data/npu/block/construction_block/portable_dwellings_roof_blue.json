@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "portable_dwellings_roof_blue",
-  "modelPath": "models/block/roof/portable_dwellings_roof_blue.json",
+  "modelPath": "block/roof/portable_dwellings_roof_blue.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

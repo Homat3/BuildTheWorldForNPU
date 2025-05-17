@@ -1,7 +1,7 @@
 {
   "StructureType": "NORMAL_STRUCTURE",
   "ID": "limed_wall",
-  "modelPath": "models/block/wall/limed_wall.json",
+  "modelPath": "block/wall/limed_wall.json",
   "loadMethod": "ROUGH",
   "Material": "ROCK",
   "noOcclusion": true,

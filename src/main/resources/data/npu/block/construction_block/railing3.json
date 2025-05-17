@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "railing3",
-  "modelPath": "models/block/railing/railing3.json",
+  "modelPath": "block/railing/railing3.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

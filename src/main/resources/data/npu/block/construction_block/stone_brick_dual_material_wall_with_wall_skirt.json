@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "stone_brick_dual_material_wall_with_wall_skirt",
-  "modelPath": "models/block/brick/stone_brick_dual_material_wall_with_wall_skirt.json",
+  "modelPath": "block/brick/stone_brick_dual_material_wall_with_wall_skirt.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "teachingbuilding_east_innerwall_up",
-  "modelPath": "models/block/wall/teachingbuilding_east_innerwall_up.json",
+  "modelPath": "block/wall/teachingbuilding_east_innerwall_up.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

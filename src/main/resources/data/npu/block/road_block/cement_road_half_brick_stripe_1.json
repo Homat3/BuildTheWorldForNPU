@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_HALF_SLAB",
   "ID": "cement_road_half_brick_stripe_1",
-  "modelPath": "models/block/road/cement_road_half_brick_stripe_1.json",
+  "modelPath": "block/road/cement_road_half_brick_stripe_1.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "double_enable": true,

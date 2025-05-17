@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "atlas",
-  "modelPath": "models/block/structure/atlas.json",
+  "modelPath": "block/structure/atlas.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

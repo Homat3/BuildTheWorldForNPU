@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "drain_brick",
-  "modelPath": "models/block/brick/drain_brick.json",
+  "modelPath": "block/brick/drain_brick.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

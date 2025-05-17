@@ -1,7 +1,7 @@
 {
   "StructureType": "NORMAL_STRUCTURE",
   "ID": "cement_road_c",
-  "modelPath": "models/block/road/cement_road_c.json",
+  "modelPath": "block/road/cement_road_c.json",
   "loadMethod": "ROUGH",
   "Material": "ROCK",
   "noOcclusion": true,

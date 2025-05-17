@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "bedgirl_right",
-  "modelPath": "models/block/bed/girl/bedgirl_right.json",
+  "modelPath": "block/bed/girl/bedgirl_right.json",
   "loadMethod": "METICULOUS",
   "Material": "ROCK",
   "noOcclusion": true,

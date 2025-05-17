@@ -1,7 +1,7 @@
 {
   "StructureType": "NORMAL_STRUCTURE",
   "ID": "fenceo_post",
-  "modelPath": "models/block/fence/fenceo_post_model.json",
+  "modelPath": "block/fence/fenceo_post_model.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

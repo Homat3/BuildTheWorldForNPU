@@ -1,5 +1,8 @@
 package com.tf.npu.blocks.npublocknewclasses;
 
+import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
 import com.tf.npu.blocks.NpuBlocks;
 import com.tf.npu.blocks.dataofnpublocks.ShapeData;
 import net.minecraft.core.BlockPos;
@@ -18,11 +21,20 @@ import java.util.List;
 
 public class NormalStructure extends Block{
     // 额外属性
-    // 加载方式
+    private static final MapCodec<NormalStructure> CODEC = RecordCodecBuilder.mapCodec(instance ->
+            instance.group(
+                    propertiesCodec(),
+                    Codec.STRING.fieldOf("load_method").forGetter(p -> p.loadMethod.name())
+            ).apply(instance, NormalStructure::new)
+    );
     public NpuBlocks.LoadMethod loadMethod;
     // 体积
     public ArrayList<VoxelShape> shapeList;
     public VoxelShape shape;
+    @Override
+    protected @NotNull MapCodec<? extends NormalStructure> codec() {
+        return CODEC;
+    }
 
     // 构造
     public NormalStructure(BlockBehaviour.Properties properties, NpuBlocks.LoadMethod loadMethod) {
@@ -30,6 +42,9 @@ public class NormalStructure extends Block{
         shapeList = new ArrayList<>(0);
         shape = null;
         this.loadMethod = loadMethod;
+    }
+    private NormalStructure(BlockBehaviour.Properties properties, String loadMethod){
+        this(properties, NpuBlocks.LoadMethod.valueOf(loadMethod));
     }
     // 与构造并用设置形状
     public NormalStructure setShape(ShapeData shapeData) {

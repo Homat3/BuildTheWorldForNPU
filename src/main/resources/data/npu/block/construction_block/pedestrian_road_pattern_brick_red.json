@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "pedestrian_road_pattern_brick_red",
-  "modelPath": "models/block/road/pedestrian_road_pattern_brick_red.json",
+  "modelPath": "block/road/pedestrian_road_pattern_brick_red.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

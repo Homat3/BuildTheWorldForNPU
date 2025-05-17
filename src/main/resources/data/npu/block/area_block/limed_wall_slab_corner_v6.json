@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "limed_wall_slab_corner_v6",
-  "modelPath": "models/block/wall/limed_wall_slab_corner_v6.json",
+  "modelPath": "block/wall/limed_wall_slab_corner_v6.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

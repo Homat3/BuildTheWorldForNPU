@@ -1,7 +1,7 @@
 {
   "StructureType": "NORMAL_STRUCTURE",
   "ID": "grille_ceiling_biglight",
-  "modelPath": "models/block/grille_ceiling/grille_ceiling_biglight.json",
+  "modelPath": "block/grille_ceiling/grille_ceiling_biglight.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

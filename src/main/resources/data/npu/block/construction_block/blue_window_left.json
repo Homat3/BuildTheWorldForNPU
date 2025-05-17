@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "blue_window_left",
-  "modelPath": "models/block/window/blue/blue_window_left.json",
+  "modelPath": "block/window/blue/blue_window_left.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

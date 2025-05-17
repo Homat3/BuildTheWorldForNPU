@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "white_grid_top_teachingbuilding_east_edge",
-  "modelPath": "models/block/roof/white_grid_top_teachingbuilding_east_edge.json",
+  "modelPath": "block/roof/white_grid_top_teachingbuilding_east_edge.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

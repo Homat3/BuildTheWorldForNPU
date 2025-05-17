@@ -1,5 +1,8 @@
 package com.tf.npu.blocks.npublocknewclasses;
 
+import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
 import com.tf.npu.blocks.NpuBlocks;
 import com.tf.npu.blocks.dataofnpublocks.ShapeData;
 import net.minecraft.core.BlockPos;
@@ -9,6 +12,8 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -25,17 +30,33 @@ import java.util.ArrayList;
 
 public class DoorAndWindow extends HorizontalDirectionalStructure {
     // 额外属性
+    private static final MapCodec<DoorAndWindow> CODEC = RecordCodecBuilder.mapCodec(instance ->
+            instance.group(
+                    propertiesCodec(),
+                    Codec.STRING.fieldOf("load_method").forGetter(p -> p.loadMethod.name()),
+                    Codec.BOOL.fieldOf("is_open").forGetter(p -> p.open)
+            ).apply(instance, DoorAndWindow::new)
+    );
     public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
     protected boolean open;
     // 存储方块的形状
     ArrayList<VoxelShape> shapeList_open = new ArrayList<>(0);
     ArrayList<VoxelShape> shapeList_close = new ArrayList<>(0);
+    @Override
+    protected @NotNull MapCodec<? extends DoorAndWindow> codec() {
+        return CODEC;
+    }
 
     // 构造
     public DoorAndWindow(Properties properties, NpuBlocks.LoadMethod loadMethod) {
         super(properties, loadMethod);
         this.open = false;
     }
+    private DoorAndWindow(Properties properties, String loadMethod, Boolean open) {
+        super(properties, NpuBlocks.LoadMethod.valueOf(loadMethod));
+        this.open = open;
+    }
+
     // 与构造并用设置形状
     public DoorAndWindow setShape(ShapeData shapeData1, ShapeData shapeData2) {
         setShape(shapeData1, shapeList_open);

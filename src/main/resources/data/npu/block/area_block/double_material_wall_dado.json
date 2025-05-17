@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "double_material_wall_dado",
-  "modelPath": "models/block/wall/double_material_wall_dado.json",
+  "modelPath": "block/wall/double_material_wall_dado.json",
   "loadMethod": "ROUGH",
   "Material": "ROCK",
   "noOcclusion": true,

@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "stone_brick_vertical_half_brick",
-  "modelPath": "models/block/brick/stone_brick_vertical_half_brick.json",
+  "modelPath": "block/brick/stone_brick_vertical_half_brick.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

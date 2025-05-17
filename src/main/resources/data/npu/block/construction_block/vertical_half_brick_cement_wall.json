@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "vertical_half_brick_cement_wall",
-  "modelPath": "models/block/structure/vertical_half_brick_cement_wall.json",
+  "modelPath": "block/structure/vertical_half_brick_cement_wall.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

@@ -1,6 +1,6 @@
 package com.tf.npu.creativemodtab;
 
-import com.tf.npu.util.Logger;
+import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -13,8 +13,9 @@ import java.util.function.Function;
 //用于向原版物品栏添加物品
 
 public class CreativeModeTab {
+    public static final org.slf4j.Logger LOGGER = LogUtils.getLogger();
     public static void addCreative(BuildCreativeModeTabContentsEvent event) {
-        Logger.LOGGER.info("Adding items to CreativeModeTab >> {}", event.getTabKey().toString());
+        LOGGER.info("Adding items to CreativeModeTab >> {}", event.getTabKey().toString());
 
         Map<ResourceKey<net.minecraft.world.item.CreativeModeTab>, Function<Void, Void>> domap
                 = new HashMap<>(14);

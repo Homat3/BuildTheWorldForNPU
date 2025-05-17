@@ -3,19 +3,20 @@ package com.tf.npu.util;
 import java.util.Map;
 
 public class Reference {
-    // Define mod id in gray_brick.json common place for everything to reference
+    // 不可变动值
     public static final String MODID = "npu";
     public static final String MODNAME = "Build The World For NPU";
     public static final String VERSION = "2.24";
 
     public static final Map<PathType, String> PATH = Map.of(
+            PathType.LOADER, "data/npu/",
             PathType.BLOCK, "block",
             PathType.ITEM, "item",
+            PathType.MODEL, "assets/npu/models/",
             PathType.CREATIVEMODETAB, "creativemodetab"
     );
 
     public enum PathType{
-        BLOCK, ITEM, CREATIVEMODETAB
+        LOADER, BLOCK, ITEM, MODEL, CREATIVEMODETAB
     }
-    // Create gray_brick.json Deferred Register to hold Blocks which will all be registered under the "npu" namespace
 }

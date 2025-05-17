@@ -1,7 +1,7 @@
 {
   "StructureType": "NORMAL_STRUCTURE",
   "ID": "blue_brick",
-  "modelPath": "models/block/brick/blue_brick.json",
+  "modelPath": "block/brick/blue_brick.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

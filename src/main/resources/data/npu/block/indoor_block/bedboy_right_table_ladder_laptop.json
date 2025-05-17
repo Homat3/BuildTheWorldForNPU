@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "bedboy_right_table_ladder_laptop",
-  "modelPath": "models/block/bed/boy/bedboy_right_table_ladder_laptop.json",
+  "modelPath": "block/bed/boy/bedboy_right_table_ladder_laptop.json",
   "loadMethod": "METICULOUS",
   "Material": "ROCK",
   "noOcclusion": true,

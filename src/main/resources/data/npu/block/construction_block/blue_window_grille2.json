@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "blue_window_grille2",
-  "modelPath": "models/block/window/blue/blue_window_grille2.json",
+  "modelPath": "block/window/blue/blue_window_grille2.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

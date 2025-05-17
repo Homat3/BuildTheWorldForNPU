@@ -1,7 +1,7 @@
 {
   "StructureType": "NORMAL_STRUCTURE",
   "ID": "qingda_cement_double_tile",
-  "modelPath": "models/block/structure/qingda_cement_double_tile.json",
+  "modelPath": "block/structure/qingda_cement_double_tile.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

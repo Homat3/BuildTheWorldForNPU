@@ -1,7 +1,7 @@
 {
   "StructureType": "NORMAL_STRUCTURE",
   "ID": "red_brick_floor",
-  "modelPath": "models/block/floor/red_brick_floor.json",
+  "modelPath": "block/floor/red_brick_floor.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

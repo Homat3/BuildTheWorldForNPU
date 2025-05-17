@@ -28,7 +28,8 @@ public class HorizontalDirectionalStructure extends HorizontalDirectionalBlock {
     private static final MapCodec<HorizontalDirectionalStructure> CODEC = RecordCodecBuilder.mapCodec(instance ->
             instance.group(
                     propertiesCodec(),
-                    Codec.STRING.fieldOf("loadMethod").forGetter(p -> p.loadMethod.name())
+                    Codec.STRING.fieldOf("load_method").forGetter(p -> p.loadMethod.name()),
+                    Codec.STRING.fieldOf("direction").forGetter(p -> p.direction.name())
             ).apply(instance, HorizontalDirectionalStructure::new)
     );
     protected NpuBlocks.LoadMethod loadMethod;
@@ -45,14 +46,14 @@ public class HorizontalDirectionalStructure extends HorizontalDirectionalBlock {
     // 构造
     public HorizontalDirectionalStructure(BlockBehaviour.Properties properties, NpuBlocks.LoadMethod loadMethod) {
         super(properties);
-        shape = null;
-        direction = Direction.NORTH;
+        this.shape = null;
+        this.direction = Direction.NORTH;
         this.loadMethod = loadMethod;
     }
-    private HorizontalDirectionalStructure(BlockBehaviour.Properties properties, String loadMethod) {
+    private HorizontalDirectionalStructure(BlockBehaviour.Properties properties, String loadMethod, String direction) {
         super(properties);
-        shape = null;
-        direction = Direction.NORTH;
+        this.shape = null;
+        this.direction = Direction.valueOf(direction);
         this.loadMethod = NpuBlocks.LoadMethod.valueOf(loadMethod);
     }
     // 与构造并用设置形状

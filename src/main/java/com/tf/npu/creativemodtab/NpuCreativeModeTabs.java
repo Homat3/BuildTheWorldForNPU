@@ -1,11 +1,10 @@
 package com.tf.npu.creativemodtab;
 
+import com.mojang.logging.LogUtils;
 import com.tf.npu.creativemodtab.dataofnpucreativemodetabs.DataOfNpuCreativeModeTabs;
 import com.tf.npu.items.NpuItems;
 import com.tf.npu.util.FolderDataGetter;
-import com.tf.npu.util.Logger;
 import com.tf.npu.util.Reference;
-import com.tf.npu.util.RegisterObjects;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
@@ -13,13 +12,14 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
 //用于注册新物品栏并向其中添加物品
 
 public class NpuCreativeModeTabs {
+    public static final org.slf4j.Logger LOGGER = LogUtils.getLogger();
+
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Reference.MODID);
     public static final String dataPath = Reference.PATH.get(Reference.PathType.CREATIVEMODETAB);
     //新创造模式物品栏属性表
@@ -64,7 +64,7 @@ public class NpuCreativeModeTabs {
                     yield null;
             };
             if (CREATIVE_MODE_TAB != null) {
-                Logger.LOGGER.info("Registered creative mode tab: {}", CREATIVE_MODE_TAB.getId());
+                LOGGER.info("Registered creative mode tab: {}", CREATIVE_MODE_TAB.getId());
             }
         }
     }

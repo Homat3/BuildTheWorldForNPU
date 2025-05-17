@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "window4",
-  "modelPath": "models/block/window/normal/window4.json",
+  "modelPath": "block/window/normal/window4.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

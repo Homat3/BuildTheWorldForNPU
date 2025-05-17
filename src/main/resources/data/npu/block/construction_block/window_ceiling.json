@@ -1,7 +1,7 @@
 {
   "StructureType": "NORMAL_STRUCTURE",
   "ID": "window_ceiling",
-  "modelPath": "models/block/window/window_ceiling.json",
+  "modelPath": "block/window/window_ceiling.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

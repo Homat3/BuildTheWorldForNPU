@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "indoor_staircase_45_degree_angle",
-  "modelPath": "models/block/structure/indoor_staircase_45_degree_angle.json",
+  "modelPath": "block/structure/indoor_staircase_45_degree_angle.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "indoor_staircase_ramp_high_section",
-  "modelPath": "models/block/structure/indoor_staircase_ramp_high_section.json",
+  "modelPath": "block/structure/indoor_staircase_ramp_high_section.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

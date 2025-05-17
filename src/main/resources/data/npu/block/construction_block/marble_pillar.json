@@ -1,7 +1,7 @@
 {
   "StructureType": "NORMAL_STRUCTURE",
   "ID": "marble_pillar",
-  "modelPath": "models/block/floor/marble_pillar.json",
+  "modelPath": "block/floor/marble_pillar.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

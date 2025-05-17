@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "fence10",
-  "modelPath": "models/block/fence/fence10.json",
+  "modelPath": "block/fence/fence10.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

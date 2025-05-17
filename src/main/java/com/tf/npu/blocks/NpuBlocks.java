@@ -1,12 +1,12 @@
 package com.tf.npu.blocks;
 
+import com.mojang.logging.LogUtils;
 import com.tf.npu.blocks.dataofnpublocks.DataOfNpuBlocks;
 import com.tf.npu.blocks.dataofnpublocks.ShapeData;
 import com.tf.npu.blocks.npublocknewclasses.*;
 import com.tf.npu.creativemodtab.dataofnpucreativemodetabs.DataOfNpuCreativeModeTabs;
 import com.tf.npu.util.FileDataGetter;
 import com.tf.npu.util.FolderDataGetter;
-import com.tf.npu.util.Logger;
 import com.tf.npu.util.Reference;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
@@ -27,6 +27,8 @@ import java.util.Map;
 import java.util.function.ToIntFunction;
 
 public class NpuBlocks {
+    public static final org.slf4j.Logger LOGGER = LogUtils.getLogger();
+
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MODID);
     public static final String dataPath = Reference.PATH.get(Reference.PathType.BLOCK);
     public static final List<DataOfNpuCreativeModeTabs> dataList = new FolderDataGetter<>(Reference.PATH.get(Reference.PathType.CREATIVEMODETAB), DataOfNpuCreativeModeTabs.class).getList();
@@ -35,10 +37,13 @@ public class NpuBlocks {
     public static final Map<String, TabType> tabTypeMap = new HashMap<>(0);
 
     static {
+        LOGGER.info("Loading NPU Blocks...");
         // 方块注册
         for (DataOfNpuCreativeModeTabs tabData : dataList) {
-            tabTypeMap.put(tabData.ENUM_NAME, new TabType(new FolderDataGetter<>(dataPath + '/' + tabData.ID.substring(0, tabData.ID.length() - 4), DataOfNpuBlocks.class).getList()));
+            var list = new FolderDataGetter<>(dataPath + '/' + tabData.ID.substring(0, tabData.ID.length() - 4), DataOfNpuBlocks.class).getList();
+            if (!(list == null || list.isEmpty())) tabTypeMap.put(tabData.ENUM_NAME, new TabType(list));
         }
+        LOGGER.info("Registering NPU Blocks...");
         for (TabType tabType : tabTypeMap.values())
             tabType.registerBlocks();
     }
@@ -157,43 +162,42 @@ public class NpuBlocks {
                 BLOCK = switch (StructureType.valueOf(data.StructureType)) {
                     case NORMAL_STRUCTURE -> {
                         ShapeData shapeData =
-                                new FileDataGetter<>("../src/main/resources/assets/npu/" + data.modelPath, ShapeData.class).getData();
+                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath, ShapeData.class).getData();
                         yield BLOCKS.register(data.ID, () ->
                                 new NormalStructure(data.createBlockProperties(), LoadMethod.valueOf(data.loadMethod)).setShape(shapeData));
                     }
                     case HORIZONTAL_DIRECTIONAL_STRUCTURE -> {
                         ShapeData shapeData =
-                                new FileDataGetter<>("../src/main/resources/assets/npu/" + data.modelPath, ShapeData.class).getData();
+                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath, ShapeData.class).getData();
                         yield BLOCKS.register(data.ID, () ->
                                 new HorizontalDirectionalStructure(data.createBlockProperties(), LoadMethod.valueOf(data.loadMethod)).setShape(shapeData));
                     }
                     case HORIZONTAL_MULTIPLE_DIRECTIONAL_STRUCTURE -> {
                         ShapeData shapeData0 =
-                                new FileDataGetter<>("../src/main/resources/assets/npu/" + data.modelPath0, ShapeData.class).getData();
+                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath0, ShapeData.class).getData();
                         ShapeData shapeData15 =
-                                new FileDataGetter<>("../src/main/resources/assets/npu/" + data.modelPath15, ShapeData.class).getData();
+                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath15, ShapeData.class).getData();
                         ShapeData shapeData30 =
-                                new FileDataGetter<>("../src/main/resources/assets/npu/" + data.modelPath30, ShapeData.class).getData();
+                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath30, ShapeData.class).getData();
                         ShapeData shapeData45 =
-                                new FileDataGetter<>("../src/main/resources/assets/npu/" + data.modelPath45, ShapeData.class).getData();
+                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath45, ShapeData.class).getData();
                         ShapeData shapeData60 =
-                                new FileDataGetter<>("../src/main/resources/assets/npu/" + data.modelPath60, ShapeData.class).getData();
+                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath60, ShapeData.class).getData();
                         ShapeData shapeData75 =
-                                new FileDataGetter<>("../src/main/resources/assets/npu/" + data.modelPath75, ShapeData.class).getData();
+                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath75, ShapeData.class).getData();
                         yield BLOCKS.register(data.ID, () ->
                                 new HorizontalMultipleDirectionalStructure(data.createBlockProperties(), LoadMethod.valueOf(data.loadMethod))
                                         .setSHAPE(shapeData0, shapeData15, shapeData30, shapeData45, shapeData60, shapeData75));
                     }
-
                     case NORMAL_HALF_SLAB -> BLOCKS.register(data.ID, () ->
                             new NormalHalfSlab(data.createBlockProperties()).setCanBeDouble(data.double_enable));
                     case HORIZONTAL_DIRECTIONAL_HALF_SLAB -> BLOCKS.register(data.ID, () ->
                             new HorizontalDirectionalHalfSlab(data.createBlockProperties()).setCanBeDouble(data.double_enable));
                     case DOOR_AND_WINDOW -> {
                         ShapeData shapeData1 =
-                                new FileDataGetter<>("../src/main/resources/assets/npu/" + data.open_modelPath, ShapeData.class).getData();
+                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.open_modelPath, ShapeData.class).getData();
                         ShapeData shapeData2 =
-                                new FileDataGetter<>("../src/main/resources/assets/npu/" + data.close_modelPath, ShapeData.class).getData();
+                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.close_modelPath, ShapeData.class).getData();
                         yield BLOCKS.register(data.ID, () ->
                                 new DoorAndWindow(data.createBlockProperties(), LoadMethod.valueOf(data.loadMethod)).setShape(shapeData1, shapeData2));
                     }
@@ -201,7 +205,7 @@ public class NpuBlocks {
 
                 blockList.add(BLOCK);
                 IDMap.put(BLOCK, data.ID);
-                Logger.LOGGER.info("Registered Block: {}", BLOCK.getId());
+                LOGGER.info("Registered Block: {}", BLOCK.getId());
             }
         }
     }

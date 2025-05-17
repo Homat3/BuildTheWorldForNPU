@@ -1,7 +1,7 @@
 {
   "StructureType": "NORMAL_STRUCTURE",
   "ID": "mesh",
-  "modelPath": "models/block/structure/mesh.json",
+  "modelPath": "block/structure/mesh.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

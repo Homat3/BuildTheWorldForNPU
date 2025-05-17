@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "wooden_grid_top_teachingbuilding_east",
-  "modelPath": "models/block/roof/wooden_grid_top_teachingbuilding_east.json",
+  "modelPath": "block/roof/wooden_grid_top_teachingbuilding_east.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

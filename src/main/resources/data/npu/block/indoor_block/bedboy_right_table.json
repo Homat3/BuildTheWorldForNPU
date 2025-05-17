@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "bedboy_right_table",
-  "modelPath": "models/block/bed/boy/bedboy_right_table.json",
+  "modelPath": "block/bed/boy/bedboy_right_table.json",
   "loadMethod": "METICULOUS",
   "Material": "ROCK",
   "noOcclusion": true,

@@ -50,9 +50,9 @@ abstract public class NpuVehicle extends VehicleEntity {
     }
 
     public void setInitialPos(double x, double y, double z) {
-        this.setPos(x, y, z);
+        this.setPos(x, y + 1.0D, z);
         this.xo = x;
-        this.yo = y;
+        this.yo = y + 1.0D;
         this.zo = z;
     }
 

@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "black_window4_logo",
-  "modelPath": "models/block/window/black/black_window4_logo.json",
+  "modelPath": "block/window/black/black_window4_logo.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "black_blinds",
-  "modelPath": "models/block/window/black/black_blinds.json",
+  "modelPath": "block/window/black/black_blinds.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,
