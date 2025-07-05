@@ -29,6 +29,7 @@ cauldron_top->cauldron_top
 cem->cement
 cement_lightblue->cement_light_blue
 cement_road_side3->cement_road_with_curb_grey
+chair->chair
 chair_auditorium_blue->chair_auditorium_blue
 chair_auditorium_half_blue->chair_auditorium_half_blue
 chair_auditorium_half_red->chair_auditorium_half_red
