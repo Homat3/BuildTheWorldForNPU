@@ -169,6 +169,7 @@ stripe1->stripe1
 stripe2->stripe2
 stripe3->stripe3
 suliaozhuanqiang5->plastic_brick_wall
+toilet->toilet
 wall1->double_material_wall
 wall11->slate_floor_tile_dark
 wall12->cement_brick
