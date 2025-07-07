@@ -297,5 +297,7 @@
   "item.npu.roadblock_double": "Roadblock Double",
   "item.npu.golden_egg": "Golden Egg",
   "item.npu.golden_chicken_spawn_egg": "Spawn Golden Chicken",
-  "item.npu.school_bus": "Spawn School Bus"
+  "item.npu.school_bus": "Spawn School Bus",
+  "item.npu.chair": "chair",
+  "item.npu.desk_wood": "wooden desk"
 }

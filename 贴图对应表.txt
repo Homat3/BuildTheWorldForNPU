@@ -29,6 +29,7 @@ cauldron_top->cauldron_top
 cem->cement
 cement_lightblue->cement_light_blue
 cement_road_side3->cement_road_with_curb_grey
+chair->chair
 chair_auditorium_blue->chair_auditorium_blue
 chair_auditorium_half_blue->chair_auditorium_half_blue
 chair_auditorium_half_red->chair_auditorium_half_red
@@ -47,6 +48,7 @@ concrete_silver->concrete_silver
 concrete_white->concrete_white
 dalishidizhuan-qian2->marble_tiles_light
 dalishidizhuan5->marble_tiles
+desk_wood->desk_wood
 door_acacia_lower->door_acacia_lower
 door_acacia_upper->door_acacia_upper
 door_birch_lower->door_birch_lower
@@ -187,5 +189,6 @@ wool_colored_yellow->wool_colored_yellow
 wtf->curb1
 wtf1->curb2
 wtf2->curb3
+wstick->paper2
 xbgydx1->npu_logo
 xiaocizhuan2->little_ceramic_tile
