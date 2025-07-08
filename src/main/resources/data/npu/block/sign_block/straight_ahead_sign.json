@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
-  "ID": "airconout",
-  "modelPath": "block/structure/airconout.json",
+  "ID": "straight_ahead_sign",
+  "modelPath": "block/sign/straight_ahead_sign.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

@@ -1,5 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/chair/chair"
+    "model": "npu:block/structure/mp"
+  }
 }

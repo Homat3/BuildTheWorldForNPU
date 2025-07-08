@@ -22,10 +22,12 @@ bone_block_top->bone_block_top
 bpup->balcony_partition_up
 box->cartons
 box1->cartons_group
+cake_side->cake_side
 cauldron_bottom->cauldron_bottom
 cauldron_inner->cauldron_inner
 cauldron_side->cauldron_side
 cauldron_top->cauldron_top
+cc3->cc3
 cem->cement
 cement_lightblue->cement_light_blue
 cement_road_side3->cement_road_with_curb_grey
@@ -37,6 +39,7 @@ chair_auditorium_red->chair_auditorium_red
 chair_lightblue->chair_lightblue
 chest_door_tall->chest_door_tall
 comparator_off->comparator_off
+con_blue->con_blue
 concrete_black->concrete_black
 concrete_blue->concrete_blue
 concrete_gray->concrete_gray
@@ -65,6 +68,7 @@ door_wood_lower->door_wood_lower
 door_wood_upper->door_wood_upper
 double->air_conditioner_frame
 dt->dining_table_orange
+emerald_block->emerald_block
 enchanting_table_bottom->enchanting_table_bottom
 elamp->elamp
 electric->electric
@@ -85,6 +89,7 @@ fox->fox
 furnace_front_off->furnace_front_off
 furnace_side->furnace_side
 furnace_top->furnace_top
+gcyyn->gcyyn
 g1->marble_tiles
 g10->slate_floor_tiles1
 g11->slate_floor_tiles2
@@ -120,6 +125,7 @@ glass_silver->glass_silver
 glass_wall_half->glass_wall_half
 glass_wall_quarter->glass_wall_quarter
 glass_white->glass_white
+gold_block->gold_block
 gray_brick->gray_brick
 ground->floor_tile
 gtable->girl_table
@@ -134,7 +140,9 @@ iron_block1->iron_block1
 iron_trapdoor->iron_trapdoor
 keyboard->keyboard
 knight->knight
+ice->ice
 levono->lenovo
+mp->mp
 mutiezhi-heng5->paper6
 mutiezhi-heng7->paper9
 mutiezhi-shu6->paper6_v
@@ -144,6 +152,8 @@ mutiezhishu6->paper6_v
 mutiezhishu7->paper9_v
 nn1->small_stone_pavilion1
 nn2->small_stone_pavilion2
+obsidianblock->obsidian_block
+obsidianframe->obsidian_frame
 planks_birch1->planks_birch1
 planks_oak1->planks_oak1
 playground_badminton_net_side->playground_badminton_net_side
@@ -154,9 +164,11 @@ playground_light->playground_light
 playground_plastic_green->playground_plastic_green
 playground_red->playground_red
 playground_volleyball_net_side->playground_volleyball_net_side
+printer->printer
 qingsediban2->blue_floor
 quartz_block_bottom->quartz_block_bottom
 quartz_block_side->quartz_block_side
+radiator->radiator
 railing_half->railing_half
 railing_half_corner->railing_half_corner
 railing_half_double->railing_half_double
@@ -169,9 +181,11 @@ shenghuiqingse1->wall_dark_gray_cyan
 shenhuiqingse->wall_dark_gray_cyan
 shibandizhuanyangshi2->slate_floor_tiles2
 shibandizhuanyangshi4->slate_floor_tiles4
+shop->shop
 shuinilu1-2->cement_road_a
 shuinizhuanqiang->cement_wall_light_white
 shuinizhuanqiang5->cement_wall_light_white
+sign->sign
 sign_drop_garbage->sign_drop_garbage
 sign_no_vehicle->sign_no_vehicle
 sroad1->cement_road_a
@@ -180,6 +194,7 @@ sroad3->cement_road_c
 ss2->white_marble
 stone_andesite_smooth->stone_andesite_smooth
 stonebrick->stonebrick
+straight_ahead_sign->straight_ahead_sign
 stripe1->stripe1
 stripe2->stripe2
 stripe3->stripe3
@@ -206,3 +221,6 @@ wtf2->curb3
 xbgydx1->npu_logo
 xfs->fire_hydrant_usage_guide
 xiaocizhuan2->little_ceramic_tile
+xiaocizhuan2->little_ceramic_tile
+yika2->yika2
+yikapingmu2->yikapingmu2
