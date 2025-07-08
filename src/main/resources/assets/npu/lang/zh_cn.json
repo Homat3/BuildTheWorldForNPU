@@ -299,5 +299,8 @@
   "item.npu.golden_chicken_spawn_egg": "生成金鸡",
   "item.npu.school_bus": "校车（简陋）",
   "item.npu.chair": "椅子",
-  "item.npu.desk_wood": "木课桌"
+  "item.npu.desk_wood": "木课桌",
+  "item.npu.medical_mask": "医用口罩",
+  "item.npu.ordinance_billboard_1": "管理条例告示板1",
+  "item.npu.ordinance_billboard_2": "管理条例告示板2"
 }

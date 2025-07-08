@@ -9,6 +9,7 @@ cement_road_side3 -> cement_road_with_curb_grey
 cementslab -> cement_block_slab
 cemh -> cement_road_half
 cemt -> cement_road_total
+deskwood -> desk_wood
 fenceo -> fenceo_post & fenceo_side
 fg53 -> white_grid_top_teachingbuilding_east
 fg54 -> white_grid_top_teachingbuilding_east_edge
@@ -91,6 +92,8 @@ g7 -> pedestrian_road_pattern_brick_red
 g8 -> slate_floor_tiles_staggered_style_1
 g9 -> slate_floor_tiles_staggered_style_2
 nn -> small_stone_pavilion
+n1 -> ordinance_billboard_1
+n2 -> ordinance_billboard_2
 playground_green2 -> playground_plastic_green
 qh -> quartz_block_slab_v
 tent_blue_2021baituan -> tent_blue_baituan

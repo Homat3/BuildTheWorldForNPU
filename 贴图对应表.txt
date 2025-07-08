@@ -121,6 +121,7 @@ iron_block1->iron_block1
 iron_trapdoor->iron_trapdoor
 keyboard->keyboard
 levono->lenovo
+medical_mask->medical_mask
 mutiezhi-heng5->paper6
 mutiezhi-heng7->paper9
 mutiezhi-shu6->paper6_v
@@ -130,6 +131,8 @@ mutiezhishu6->paper6_v
 mutiezhishu7->paper9_v
 nn1->small_stone_pavilion1
 nn2->small_stone_pavilion2
+ordinance_billboard_1->ordinance_billboard_1
+ordinance_billboard_2->ordinance_billboard_2
 planks_birch1->planks_birch1
 planks_oak1->planks_oak1
 playground_badminton_net_side->playground_badminton_net_side

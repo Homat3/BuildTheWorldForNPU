@@ -299,5 +299,8 @@
   "item.npu.golden_chicken_spawn_egg": "Spawn Golden Chicken",
   "item.npu.school_bus": "Spawn School Bus",
   "item.npu.chair": "chair",
-  "item.npu.desk_wood": "wooden desk"
+  "item.npu.desk_wood": "wooden desk",
+  "item.npu.medical_mask": "medical mask",
+  "item.npu.ordinance_billboard_1": "ordinance billboard1",
+  "item.npu.ordinance_billboard_2": "ordinance billboard2"
 }
