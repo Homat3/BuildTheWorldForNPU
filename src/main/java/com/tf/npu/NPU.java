@@ -7,16 +7,9 @@ import com.tf.npu.entities.npuentitynewclasses.GoldenChicken.GoldenChickenRender
 import com.tf.npu.entities.npuentitynewclasses.vehicle.SchoolBus.SchoolBusRenderer;
 import com.tf.npu.util.Reference;
 import com.tf.npu.util.RegisterObjects;
-import net.minecraft.client.Minecraft;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
-import net.minecraftforge.event.server.ServerStartingEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -25,29 +18,25 @@ public class NPU {
     public static final org.slf4j.Logger LOGGER = LogUtils.getLogger();
 
     public NPU(FMLJavaModLoadingContext context) {
-        final IEventBus modEventBus = context.getModEventBus();
+        var modBusGroup = context.getModBusGroup();
 
         // Register the Deferred Register to the mod event bus so new things of the mod get registered
-        RegisterObjects.register(modEventBus);
-
-        // Register ourselves for server and other game events we are interested in
-        MinecraftForge.EVENT_BUS.register(this);
-        RegisterObjects.registerEvents(MinecraftForge.EVENT_BUS);
+        RegisterObjects.register(modBusGroup);
 
         // 将物品注册到创造模式物品栏
-        modEventBus.addListener(this::addCreative);
+        BuildCreativeModeTabContentsEvent.getBus(modBusGroup).addListener(NPU::addCreative);
         // 将模组渲染方式注册到模组实体
-        modEventBus.addListener(this::registerRenderers);
+        EntityRenderersEvent.RegisterRenderers.getBus(modBusGroup).addListener(NPU::registerRenderers);
     }
+
 
     //将物品注册到创造模式物品栏
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+    private static void addCreative(BuildCreativeModeTabContentsEvent event) {
         CreativeModeTab.addCreative(event);
     }
-
     //将模组渲染方式注册到模组实体
     //新的实体方块和新的实体都需要自己的 Renderer 并把它们加到这里
-    private void registerRenderers(EntityRenderersEvent.RegisterRenderers register) {
+    private static void registerRenderers(EntityRenderersEvent.RegisterRenderers register) {
         register.registerEntityRenderer(NpuEntities.GOLDEN_CHICKEN.get(), GoldenChickenRenderer::new);
         register.registerEntityRenderer(NpuEntities.SCHOOL_BUS.get(), SchoolBusRenderer::new);
     }

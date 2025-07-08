@@ -8,8 +8,11 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.MoverType;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.variant.VariantUtils;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.storage.ValueInput;
+import net.minecraft.world.level.storage.ValueOutput;
 import net.minecraft.world.phys.AABB;
 import org.jetbrains.annotations.NotNull;
 import software.bernie.geckolib.animatable.GeoEntity;
@@ -62,13 +65,13 @@ public class SchoolBus extends NpuVehicle implements GeoEntity {
 
     // 数据保存
     @Override
-    public void addAdditionalSaveData(CompoundTag tag) {
-        tag.putByte("MaxPassengers", (byte) this.maxPassenger);
+    protected void readAdditionalSaveData(@NotNull ValueInput input) {
+        this.maxPassenger = input.getInt("MaxPassengers").isPresent() ? input.getInt("MaxPassengers").get() : 0;
     }
 
     @Override
-    public void readAdditionalSaveData(CompoundTag tag) {
-        this.maxPassenger = tag.getByteOr("MaxPassengers", (byte) 1);
+    protected void addAdditionalSaveData(@NotNull ValueOutput output) {
+        output.putInt("MaxPassengers", this.maxPassenger);
     }
 
     // 属性
