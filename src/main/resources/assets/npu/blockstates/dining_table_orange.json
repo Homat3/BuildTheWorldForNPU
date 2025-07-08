@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/chair/chair"
+      "model": "npu:block/structure/dining_table_orange"
     },
     "facing=east": {
-      "model": "npu:block/chair/chair",
+      "model": "npu:block/structure/dining_table_orange",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/chair/chair",
+      "model": "npu:block/structure/dining_table_orange",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/chair/chair",
+      "model": "npu:block/structure/dining_table_orange",
       "y": 270,
       "uvlock": false
     }

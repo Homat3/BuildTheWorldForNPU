@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
-  "ID": "chair",
-  "modelPath": "block/chair/chair.json",
+  "ID": "knight",
+  "modelPath": "block/structure/knight.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": false,

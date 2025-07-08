@@ -1,0 +1,8 @@
+{
+  "parent": "npu:block/template/orientable",
+  "textures": {
+    "top": "npu:block/f/furnace_top",
+    "front": "npu:block/f/furnace_front_off",
+    "side": "npu:block/f/furnace_side"
+  }
+}
