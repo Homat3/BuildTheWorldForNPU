@@ -1,0 +1,11 @@
+{
+  "StructureType": "NORMAL_STRUCTURE",
+  "ID": "brick_pavement",
+  "modelPath": "block/road/brick_pavement.json",
+  "loadMethod": "ROUGH",
+  "Material": "ROCK",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}
