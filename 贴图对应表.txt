@@ -149,7 +149,7 @@ mutiezhi-shu6->paper6_v
 mutiezhiheng5->paper6
 mutiezhishu5->paper6_v
 mutiezhishu6->paper6_v
-mutiezhishu7->paper9_v
+mutiezhishu7->paper8_v
 nn1->small_stone_pavilion1
 nn2->small_stone_pavilion2
 obsidianblock->obsidian_block
