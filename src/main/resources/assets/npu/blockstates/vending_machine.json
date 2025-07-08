@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/playground/playground_sign"
+      "model": "npu:block/structure/vending_machine"
     },
     "facing=east": {
-      "model": "npu:block/playground/playground_sign",
+      "model": "npu:block/structure/vending_machine",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/playground/playground_sign",
+      "model": "npu:block/structure/vending_machine",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/playground/playground_sign",
+      "model": "npu:block/structure/vending_machine",
       "y": 270,
       "uvlock": false
     }

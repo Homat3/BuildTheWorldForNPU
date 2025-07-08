@@ -27,7 +27,7 @@ cauldron_bottom->cauldron_bottom
 cauldron_inner->cauldron_inner
 cauldron_side->cauldron_side
 cauldron_top->cauldron_top
-cc3->cc3
+cc3->park_bench
 cem->cement
 cement_lightblue->cement_light_blue
 cement_road_side3->cement_road_with_curb_grey
@@ -39,7 +39,7 @@ chair_auditorium_red->chair_auditorium_red
 chair_lightblue->chair_lightblue
 chest_door_tall->chest_door_tall
 comparator_off->comparator_off
-con_blue->con_blue
+con_blue->concrete_simple_blue
 concrete_black->concrete_black
 concrete_blue->concrete_blue
 concrete_gray->concrete_gray
@@ -80,7 +80,21 @@ floor3->floor3
 floor4->floor4
 floor5->floor5
 floor6->floor6
-gcyyn->gcyyn
+gcyy1->motto1
+gcyy2->motto2
+gcyy3->motto3
+gcyy4->motto4
+gcyy5->motto5
+gcyy6->motto6
+gcyy7->motto7
+gcyy8->motto8
+gcyy9->motto9
+gcyy10->motto10
+gcyy11->motto11
+gcyy12->motto12
+gcyy13->motto13
+gcyy14->motto14
+gcyy15->motto15
 g1->marble_tiles
 g10->slate_floor_tiles1
 g11->slate_floor_tiles2
@@ -128,7 +142,7 @@ iron_trapdoor->iron_trapdoor
 keyboard->keyboard
 ice->ice
 levono->lenovo
-mp->mp
+mp->mop_pool
 mutiezhi-heng5->paper6
 mutiezhi-heng7->paper9
 mutiezhi-shu6->paper6_v
@@ -167,7 +181,7 @@ shenghuiqingse1->wall_dark_gray_cyan
 shenhuiqingse->wall_dark_gray_cyan
 shibandizhuanyangshi2->slate_floor_tiles2
 shibandizhuanyangshi4->slate_floor_tiles4
-shop->shop
+shop->vending_machine
 shuinilu1-2->cement_road_a
 shuinizhuanqiang->cement_wall_light_white
 shuinizhuanqiang5->cement_wall_light_white
@@ -180,6 +194,8 @@ sroad3->cement_road_c
 ss2->white_marble
 stone_andesite_smooth->stone_andesite_smooth
 stonebrick->stonebrick
+stoner->slab_pavement
+stoner1->brick_pavement
 straight_ahead_sign->straight_ahead_sign
 stripe1->stripe1
 stripe2->stripe2
@@ -207,5 +223,5 @@ wtf1->curb2
 wtf2->curb3
 xbgydx1->npu_logo
 xiaocizhuan2->little_ceramic_tile
-yika2->yika2
-yikapingmu2->yikapingmu2
+yika2->yika_look
+yikapingmu2->yika_screen

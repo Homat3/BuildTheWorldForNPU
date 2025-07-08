@@ -5,7 +5,7 @@
     64
   ],
   "textures": {
-    "3": "npu:block/m/mp",
+    "3": "npu:block/m/mop_pool",
     "particle": "npu:block/q/quartz_block_side"
   },
   "elements": [

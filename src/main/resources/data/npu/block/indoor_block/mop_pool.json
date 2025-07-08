@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
-  "ID": "mp",
-  "modelPath": "block/structure/mp.json",
+  "ID": "mop_pool",
+  "modelPath": "block/structure/mop_pool.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,

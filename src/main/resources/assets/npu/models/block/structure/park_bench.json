@@ -5,8 +5,8 @@
     128
   ],
   "textures": {
-    "2": "npu:block/c/cc3",
-    "particle": "npu:block/c/cc3"
+    "2": "npu:block/p/park_bench",
+    "particle": "npu:block/p/park_bench"
   },
   "elements": [
     {

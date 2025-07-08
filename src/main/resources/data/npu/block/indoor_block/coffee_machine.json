@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
-  "ID": "shop1",
-  "modelPath": "block/structure/shop1.json",
+  "ID": "coffee_machine",
+  "modelPath": "block/structure/coffee_machine.json",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,

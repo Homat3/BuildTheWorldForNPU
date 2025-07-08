@@ -26,4 +26,9 @@ public class RegisterObjects {
         ENTITY_TYPES.register(modEventBus);
     }
 
+    public static void registerEvents(IEventBus modEventBus){
+        LOGGER.info("Register mod events to mod event bus");
+
+        // 除了ModFrameEventHandler，其他事件都注册到这
+    }
 }

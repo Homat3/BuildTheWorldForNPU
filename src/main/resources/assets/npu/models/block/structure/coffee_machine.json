@@ -5,16 +5,16 @@
     128
   ],
   "textures": {
-    "3": "npu:block/y/yika2",
+    "3": "npu:block/y/yika_look",
     "4": "npu:block/a/anvil_base",
-    "5": "npu:block/c/con_blue",
+    "5": "npu:block/c/concrete_simple_blue",
     "6": "npu:block/c/concrete_yellow",
     "7": "npu:block/c/concrete_white",
     "8": "npu:block/i/iron_block",
     "9": "npu:block/g/glass_white",
     "10": "npu:block/c/concrete_black",
-    "12": "npu:block/y/yikapingmu2",
-    "particle": "npu:block/c/con_blue"
+    "12": "npu:block/y/yika_screen",
+    "particle": "npu:block/c/concrete_simple_blue"
   },
   "elements": [
     {
