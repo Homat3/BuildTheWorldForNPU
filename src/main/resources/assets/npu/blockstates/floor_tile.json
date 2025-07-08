@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/floor/floor_tile"
+    },
+    "facing=east": {
+      "model": "npu:block/floor/floor_tile",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/floor/floor_tile",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/floor/floor_tile",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

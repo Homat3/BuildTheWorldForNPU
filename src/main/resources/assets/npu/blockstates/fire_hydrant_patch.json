@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/fire_hydrant_patch"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/fire_hydrant_patch",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/fire_hydrant_patch",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/fire_hydrant_patch",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
