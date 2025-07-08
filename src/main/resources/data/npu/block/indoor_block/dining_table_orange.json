@@ -1,8 +1,8 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
-  "ID": "chair",
-  "modelPath": "block/chair/chair.json",
-  "loadMethod": "METICULOUS",
+  "ID": "dining_table_orange",
+  "modelPath": "block/structure/dining_table_orange.json",
+  "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": false,
   "noCollision": false,

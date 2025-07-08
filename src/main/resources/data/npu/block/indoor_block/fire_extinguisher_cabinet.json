@@ -1,8 +1,8 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
-  "ID": "chair",
-  "modelPath": "block/chair/chair.json",
-  "loadMethod": "METICULOUS",
+  "ID": "fire_extinguisher_cabinet",
+  "modelPath": "block/structure/fire_extinguisher_cabinet.json",
+  "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": false,
   "noCollision": false,

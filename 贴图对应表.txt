@@ -47,6 +47,7 @@ concrete_light_blue->concrete_light_blue
 concrete_light_blue->concrete_light_blue
 concrete_orange->concrete_orange
 concrete_powder_blue->concrete_powder_blue
+concrete_red->concrete_red
 concrete_silver->concrete_silver
 concrete_white->concrete_white
 dalishidizhuan-qian2->marble_tiles_light
@@ -66,8 +67,12 @@ door_spruce_upper->door_spruce_upper
 door_wood_lower->door_wood_lower
 door_wood_upper->door_wood_upper
 double->air_conditioner_frame
+dt->dining_table_orange
 emerald_block->emerald_block
 enchanting_table_bottom->enchanting_table_bottom
+elamp->elamp
+electric->electric
+feeeext->fire_extinguisher_cabinet_surface
 fence_cyan->fence_cyan
 fence_warningline->fence_warningline
 fence_warningline_column->fence_warningline_column
@@ -80,6 +85,10 @@ floor3->floor3
 floor4->floor4
 floor5->floor5
 floor6->floor6
+fox->fox
+furnace_front_off->furnace_front_off
+furnace_side->furnace_side
+furnace_top->furnace_top
 gcyyn->gcyyn
 g1->marble_tiles
 g10->slate_floor_tiles1
@@ -107,6 +116,7 @@ g6->pedestrian_road_pattern_brick_white
 g7->pedestrian_road_pattern_brick_red
 g8->slate_floor_tiles_staggered1
 g9->slate_floor_tiles_staggered2
+gbed->bedgirl_double
 gbr1->paper1
 glass->glass
 glass_black->glass_black
@@ -117,15 +127,19 @@ glass_wall_quarter->glass_wall_quarter
 glass_white->glass_white
 gold_block->gold_block
 gray_brick->gray_brick
+ground->floor_tile
+gtable->girl_table
 hardened_clay_stained_black->hardened_clay_stained_black
 hardened_clay_stained_cyan->hardened_clay_stained_cyan
 hardened_clay_stained_yellow->hardened_clay_stained_yellow
 huangsediban->yellow_floor
+hwater->water_boiler
 iron_bars->iron_bars
 iron_block->iron_block
 iron_block1->iron_block1
 iron_trapdoor->iron_trapdoor
 keyboard->keyboard
+knight->knight
 ice->ice
 levono->lenovo
 mp->mp
@@ -190,7 +204,6 @@ wall11->slate_floor_tile_dark
 wall12->cement_brick
 wall14->cross_grain_floor_tile
 wall2->double_material_wall_dado1
-wall2->double_material_wall_dado1
 wall3->double_material_wall_dado2
 wall33->wall_white
 wall6->ceramic_tile_white
@@ -206,6 +219,8 @@ wtf->curb1
 wtf1->curb2
 wtf2->curb3
 xbgydx1->npu_logo
+xfs->fire_hydrant_usage_guide
+xiaocizhuan2->little_ceramic_tile
 xiaocizhuan2->little_ceramic_tile
 yika2->yika2
 yikapingmu2->yikapingmu2
