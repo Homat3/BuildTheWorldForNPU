@@ -302,5 +302,11 @@
   "item.npu.desk_wood": "wooden desk",
   "item.npu.medical_mask": "medical mask",
   "item.npu.ordinance_billboard_1": "ordinance billboard1",
-  "item.npu.ordinance_billboard_2": "ordinance billboard2"
+  "item.npu.ordinance_billboard_2": "ordinance billboard2",
+  "item.npu.projector": "projector",
+  "item.npu.staircase_cabinets": "staircase cabinets",
+  "item.npu.wall_mounted_tv": "wall_mounted tv",
+  "item.npu.wooden_desk": "wooden desk",
+  "item.npu.bracket_whiteboard": "bracket whiteboard",
+  "item.npu.voltage": "voltage"
 }

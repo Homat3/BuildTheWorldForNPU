@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/staircase_cabinets"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/staircase_cabinets",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/staircase_cabinets",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/staircase_cabinets",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
