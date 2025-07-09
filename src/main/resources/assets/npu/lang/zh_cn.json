@@ -337,5 +337,9 @@
   "item.npu.wall_mounted_tv": "壁挂电视",
   "item.npu.wooden_desk": "木制办公桌",
   "item.npu.bracket_whiteboard": "支架白板",
-  "item.npu.voltage": "电表"
+  "item.npu.voltage": "电表",
+  "item.npu.safety_exit_sign": "安全出口",
+  "item.npu.washroom_sign": "盥洗室",
+  "item.npu.toilet_flush_sign": "来也匆匆，去也冲冲",
+  "item.npu.save_water_sign": "请节约用水"
 }

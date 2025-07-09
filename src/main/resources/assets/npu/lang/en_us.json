@@ -308,5 +308,9 @@
   "item.npu.wall_mounted_tv": "wall_mounted tv",
   "item.npu.wooden_desk": "wooden desk",
   "item.npu.bracket_whiteboard": "bracket whiteboard",
-  "item.npu.voltage": "voltage"
+  "item.npu.voltage": "voltage",
+  "item.npu.safety_exit_sign": "safety exit sign",
+  "item.npu.washroom_sign": "washroom sign",
+  "item.npu.toilet_flush_sign": "toilet flush sign",
+  "item.npu.save_water_sign": "save water sign"
 }

@@ -179,6 +179,7 @@ railing_half->railing_half
 railing_half_corner->railing_half_corner
 railing_half_double->railing_half_double
 roadblock_double->roadblock_double
+safety_exit_sign->safety_exit_sign
 sb2->black_marble
 screen->screen
 shenghuiqingse(1)->wall_dark_gray_cyan
@@ -192,6 +193,9 @@ shuinilu1-2->cement_road_a
 shuinizhuanqiang->cement_wall_light_white
 shuinizhuanqiang5->cement_wall_light_white
 sign->sign
+sign1->washroom_sign
+sign2->toilet_flush_sign
+sign3->save_water_sign
 sign_drop_garbage->sign_drop_garbage
 sign_no_vehicle->sign_no_vehicle
 snow->snow

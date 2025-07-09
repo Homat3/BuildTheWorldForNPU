@@ -107,6 +107,9 @@ n2 -> ordinance_billboard_2
 playground_green2 -> playground_plastic_green
 qh -> quartz_block_slab_v
 sc -> staircase_cabinets
+sign1 -> washroom_sign
+sign2 -> toilet_flush_sign
+sign3 -> save_water_sign
 tele -> wall_mounted_tv
 tent_blue_2021baituan -> tent_blue_baituan
 wall1 -> gray_brick_wall
