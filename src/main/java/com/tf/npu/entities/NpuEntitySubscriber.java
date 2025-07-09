@@ -3,7 +3,7 @@ package com.tf.npu.entities;
 import com.tf.npu.entities.npuentitynewclasses.GoldenChicken.GoldenChicken;
 import com.tf.npu.util.Reference;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 

@@ -27,7 +27,7 @@ abstract public class NpuVehicle extends VehicleEntity {
     }
 
     public static boolean canVehicleCollide(Entity vehicle, Entity entity) {
-        return (entity.canBeCollidedWith() || entity.isPushable()) && !vehicle.isPassengerOfSameVehicle(entity);
+        return (entity.canBeCollidedWith(vehicle) || entity.isPushable()) && !vehicle.isPassengerOfSameVehicle(entity);
     }
 
     @Nullable
@@ -62,9 +62,7 @@ abstract public class NpuVehicle extends VehicleEntity {
     }
 
     @Override
-    public boolean canBeCollidedWith() {
-        return true;
-    }
+    public boolean canBeCollidedWith(@Nullable Entity entity) { return true;}
 
     @Override
     public boolean isPushable() {

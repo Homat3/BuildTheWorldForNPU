@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/obsidian_frame"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/obsidian_frame",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/obsidian_frame",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/obsidian_frame",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

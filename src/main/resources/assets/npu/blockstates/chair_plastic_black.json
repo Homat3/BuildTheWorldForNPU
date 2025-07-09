@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/chair/chair_plastic_black"
+    },
+    "facing=east": {
+      "model": "npu:block/chair/chair_plastic_black",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/chair/chair_plastic_black",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/chair/chair_plastic_black",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

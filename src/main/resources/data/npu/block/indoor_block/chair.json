@@ -4,7 +4,7 @@
   "modelPath": "block/chair/chair.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
-  "noOcclusion": true,
+  "noOcclusion": false,
   "noCollision": false,
   "noLootTable": false,
   "noParticlesOnBreak": false

@@ -1,10 +1,10 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "npu:block/p/paper9_v",
+    "0": "npu:block/p/paper8_v",
     "2": "npu:block/b/blue_marble_brick",
     "3": "npu:block/h/hardened_clay_stained_cyan",
-    "particle": "npu:block/p/paper9_v"
+    "particle": "npu:block/p/paper8_v"
   },
   "elements": [
     {

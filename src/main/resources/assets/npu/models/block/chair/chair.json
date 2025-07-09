@@ -6,7 +6,7 @@
   ],
   "textures": {
     "0": "npu:block/c/chair",
-    "1": "npu:block/p/paper2",
+    "1": "npu:block/p/paper1",
     "particle": "npu:block/c/chair"
   },
   "elements": [
