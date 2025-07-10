@@ -194,3 +194,4 @@ xiaocizhuan2->little_ceramic_tile
 blackboard_anti_japanese_hero->blackboard_anti_japanese_hero
 ttable->ttable
 urinal->urinal
+blackboard_core_socialist_values->blackboard_core_socialist_values
