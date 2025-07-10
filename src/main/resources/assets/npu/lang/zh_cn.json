@@ -326,5 +326,20 @@
   "item.npu.roadblock_double": "路障-宽2",
   "item.npu.golden_egg": "金鸡蛋",
   "item.npu.golden_chicken_spawn_egg": "生成金鸡",
-  "item.npu.school_bus": "校车（简陋）"
+  "item.npu.school_bus": "校车（简陋）",
+  "item.npu.chair": "椅子",
+  "item.npu.desk_wood": "木课桌",
+  "item.npu.medical_mask": "医用口罩",
+  "item.npu.ordinance_billboard_1": "管理条例告示板1",
+  "item.npu.ordinance_billboard_2": "管理条例告示板2",
+  "item.npu.projector": "投影仪",
+  "item.npu.staircase_cabinets": "楼梯柜",
+  "item.npu.wall_mounted_tv": "壁挂电视",
+  "item.npu.wooden_desk": "木制办公桌",
+  "item.npu.bracket_whiteboard": "支架白板",
+  "item.npu.voltage": "电表",
+  "item.npu.safety_exit_sign": "安全出口",
+  "item.npu.washroom_sign": "盥洗室",
+  "item.npu.toilet_flush_sign": "来也匆匆，去也冲冲",
+  "item.npu.save_water_sign": "请节约用水"
 }

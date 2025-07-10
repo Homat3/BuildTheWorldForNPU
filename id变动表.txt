@@ -13,6 +13,7 @@ chair1 -> chair_plastic_black
 chair2 -> chair_plastic_red
 cp -> corridor_pillar
 dt -> dining_table_orange
+deskwood -> desk_wood
 fenceo -> fenceo_post & fenceo_side
 fext -> fire_extinguisher_cabinet
 fext1 -> fire_hydrant_patch
@@ -101,8 +102,15 @@ ground -> floor_tile
 gtable -> girl_table
 hwater -> water_boiler
 nn -> small_stone_pavilion
+n1 -> ordinance_billboard_1
+n2 -> ordinance_billboard_2
 playground_green2 -> playground_plastic_green
 qh -> quartz_block_slab_v
+sc -> staircase_cabinets
+sign1 -> washroom_sign
+sign2 -> toilet_flush_sign
+sign3 -> save_water_sign
+tele -> wall_mounted_tv
 tent_blue_2021baituan -> tent_blue_baituan
 wall1 -> gray_brick_wall
 wall10 -> portable_dwellings_roof_blue
@@ -119,6 +127,7 @@ wall6 -> white_porcelain_wall
 wall7 -> red_marble_wall
 wall8 -> portable_dwellings_wall
 wall9 -> portable_dwellings_roof_white
+wboard -> bracket_whiteboard
 wgwall -> limed_wall
 wgwall1 -> limed_wall_dado
 wgwall2 -> grille_ceiling_floor_tile
@@ -182,6 +191,7 @@ winnn9 -> blue_window7
 winw1 -> white_window
 winw2 -> white_window_railing
 winw3 -> white_window_small
+wtable -> wooden_desk
 yf -> limed_wall_dado_slab_v1
 yf1 -> limed_wall_dado_slab_corner_v2
 yf10 -> washstand_back_to_left
