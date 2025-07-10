@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "npu:block/sign/save_water_sign"
+  }
+}
