@@ -193,3 +193,4 @@ xbgydx1->npu_logo
 xiaocizhuan2->little_ceramic_tile
 blackboard_anti_japanese_hero->blackboard_anti_japanese_hero
 ttable->ttable
+urinal->urinal
