@@ -35,6 +35,7 @@ chair_auditorium_half_blue->chair_auditorium_half_blue
 chair_auditorium_half_red->chair_auditorium_half_red
 chair_auditorium_red->chair_auditorium_red
 chair_lightblue->chair_lightblue
+chair_with_board->chair_with_board
 chest_door_tall->chest_door_tall
 comparator_off->comparator_off
 concrete_black->concrete_black
