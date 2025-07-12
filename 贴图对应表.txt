@@ -51,6 +51,8 @@ concrete_silver->concrete_silver
 concrete_white->concrete_white
 dalishidizhuan-qian2->marble_tiles_light
 dalishidizhuan5->marble_tiles
+dalishidizhuanhei2->marble_tiles_black2
+desk_foldable->desk_foldable
 desk_wood->desk_wood
 door_acacia_lower->door_acacia_lower
 door_acacia_upper->door_acacia_upper
@@ -146,8 +148,10 @@ levono->lenovo
 medical_mask->medical_mask
 mp->mop_pool
 mutiezhi-heng5->paper6
-mutiezhi-heng7->paper9
+mutiezhi-heng7->paper8
+mutiezhi-shu5->wood_texture1
 mutiezhi-shu6->paper6_v
+mutiezhi-shu7->wood_texture2
 mutiezhiheng5->paper6
 mutiezhishu5->paper6_v
 mutiezhishu6->paper6_v
