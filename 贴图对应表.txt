@@ -44,6 +44,7 @@ concrete_light_blue->concrete_light_blue
 concrete_light_blue->concrete_light_blue
 concrete_orange->concrete_orange
 concrete_powder_blue->concrete_powder_blue
+concrete_powder_brown->concrete_powder_brown
 concrete_silver->concrete_silver
 concrete_white->concrete_white
 dalishidizhuan-qian2->marble_tiles_light
