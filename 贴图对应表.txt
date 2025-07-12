@@ -197,3 +197,5 @@ blackboard_anti_japanese_hero->blackboard_anti_japanese_hero
 ttable->ttable
 urinal->urinal
 blackboard_core_socialist_value->blackboard_core_socialist_value
+heiban->heiban
+digital_calender->digital_calender
