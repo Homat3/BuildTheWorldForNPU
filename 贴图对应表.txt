@@ -56,9 +56,14 @@ dalishidizhuanhei2->dalishidizhuanhei2
 dalishidizhuan-qian2->marble_tiles_light
 dalishidizhuan5->marble_tiles
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 dalishidizhuanhei2->marble_tiles_black2
 desk_foldable->desk_foldable
 desk_wood->desk_wood
+=======
+desk_workshop_wide_double_drawer->desk_workshop_wide_double_drawer
+desk_workshop_wide_single_drawer->desk_workshop_wide_single_drawer
+>>>>>>> Stashed changes
 =======
 desk_workshop_wide_double_drawer->desk_workshop_wide_double_drawer
 desk_workshop_wide_single_drawer->desk_workshop_wide_single_drawer
@@ -164,6 +169,9 @@ mp->mop_pool
 =======
 mp->mp
 mutiezhi3->mutiezhi3
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 mutiezhi-heng5->paper6
 mutiezhi-heng7->paper8
@@ -192,8 +200,12 @@ playground_red->playground_red
 playground_volleyball_net_side->playground_volleyball_net_side
 printer->printer
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 tele->wall_mounted_tv
 touyingyi->touyingyi
+=======
+qianmise->qianmise
+>>>>>>> Stashed changes
 =======
 qianmise->qianmise
 >>>>>>> Stashed changes
@@ -206,7 +218,11 @@ railing_half_corner->railing_half_corner
 railing_half_double->railing_half_double
 roadblock_double->roadblock_double
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 safety_exit_sign->safety_exit_sign
+=======
+sand->sand
+>>>>>>> Stashed changes
 =======
 sand->sand
 >>>>>>> Stashed changes
@@ -229,7 +245,11 @@ sign3->save_water_sign
 sign_drop_garbage->sign_drop_garbage
 sign_no_vehicle->sign_no_vehicle
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 snow->snow
+=======
+spite->spite
+>>>>>>> Stashed changes
 =======
 spite->spite
 >>>>>>> Stashed changes
@@ -247,7 +267,11 @@ stripe2->stripe2
 stripe3->stripe3
 suliaozhuanqiang5->plastic_brick_wall
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 voltage->voltage
+=======
+vita->vita
+>>>>>>> Stashed changes
 =======
 vita->vita
 >>>>>>> Stashed changes

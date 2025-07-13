@@ -115,6 +115,7 @@
   "item.npu.corridor_pillar": "连廊支柱",
   "item.npu.cross_grain_floor_tile": "斜纹地砖",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "item.npu.desk_classroom_blue_flat":"教室排桌-蓝-高度1",
   "item.npu.desk_classroom_blue_low": "教室排桌-蓝-高度2",
   "item.npu.desk_classroom_blue_medium": "教室排桌-蓝-高度3",
@@ -131,6 +132,10 @@
   "item.npu.desk_workshop_narrow": "车间桌子2",
   "item.npu.desk_workshop_wide": "车间桌子5",
   "item.npu.dining_table_orange": "橙色餐桌",
+=======
+  "item.npu.desk_workshop_wide_double_drawer": "车间桌子3",
+  "item.npu.desk_workshop_wide_single_drawer": "车间桌子4",
+>>>>>>> Stashed changes
 =======
   "item.npu.desk_workshop_wide_double_drawer": "车间桌子3",
   "item.npu.desk_workshop_wide_single_drawer": "车间桌子4",
@@ -199,8 +204,11 @@
   "item.npu.marble_floor_light":"大理石地转-浅",
   "item.npu.mesh": "网栅墙",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "item.npu.mop_pool": "拖把池",
 =======
+=======
+>>>>>>> Stashed changes
   "item.npu.metal_big_cabinet1": "金属大柜子1",
   "item.npu.metal_big_cabinet2": "金属大柜子2",
   "item.npu.metal_big_cabinet3": "金属大柜子3",

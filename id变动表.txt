@@ -10,12 +10,15 @@ cementslab -> cement_block_slab
 cemh -> cement_road_half
 cemt -> cement_road_total
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 chair1 -> chair_plastic_black
 chair2 -> chair_plastic_red
 cp -> corridor_pillar
 dt -> dining_table_orange
 deskwood -> desk_wood
 =======
+=======
+>>>>>>> Stashed changes
 dhall->metal_big_cabinet1
 dhall1->metal_big_cabinet1
 dhall2->metal_big_cabinet2
@@ -29,6 +32,9 @@ dhall9->cafeteria_bar_beverage
 dhall10->cafeteria_bar_straight
 dhall11->cafeteria_bar_corner
 dhall12->spicy_pot_freezer
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 fenceo -> fenceo_post & fenceo_side
 fext -> fire_extinguisher_cabinet
