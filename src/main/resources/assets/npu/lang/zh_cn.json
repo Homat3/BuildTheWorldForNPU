@@ -72,6 +72,12 @@
   "item.npu.bottom_half_brick_cement_wall": "水泥墙下半砖",
   "item.npu.brailing": "阳台栏杆",
   "item.npu.brick_pavement": "石砖路面",
+  "item.npu.cafeteria_bar_refrigerator": "食堂吧台-冰箱",
+  "item.npu.cafeteria_bar_card_machine": "食堂吧台-卡机",
+  "item.npu.cafeteria_bar_beverage": "食堂吧台-饮料",
+  "item.npu.cafeteria_bar_straight": "食堂吧台-直",
+  "item.npu.cafeteria_bar_corner": "食堂吧台-转角",
+  "item.npu. spicy_pot_freezer": "香锅冰柜",
   "item.npu.cartons": "杂物纸箱",
   "item.npu.cartons_group": "纸箱组",
   "item.npu.cement_brick_wall": "水泥砖墙",
@@ -108,6 +114,7 @@
   "item.npu.camera_ceil": "监控摄像头（吊顶）",
   "item.npu.corridor_pillar": "连廊支柱",
   "item.npu.cross_grain_floor_tile": "斜纹地砖",
+<<<<<<< Updated upstream
   "item.npu.desk_classroom_blue_flat":"教室排桌-蓝-高度1",
   "item.npu.desk_classroom_blue_low": "教室排桌-蓝-高度2",
   "item.npu.desk_classroom_blue_medium": "教室排桌-蓝-高度3",
@@ -124,6 +131,10 @@
   "item.npu.desk_workshop_narrow": "车间桌子2",
   "item.npu.desk_workshop_wide": "车间桌子5",
   "item.npu.dining_table_orange": "橙色餐桌",
+=======
+  "item.npu.desk_workshop_wide_double_drawer": "车间桌子3",
+  "item.npu.desk_workshop_wide_single_drawer": "车间桌子4",
+>>>>>>> Stashed changes
   "item.npu.drain_brick": "下水道砖",
   "item.npu.elamp": "应急灯",
   "item.npu.electric": "配电箱",
@@ -187,7 +198,18 @@
   "item.npu.limed_wall_slab_corner_v8": "白灰墙竖半砖拐角",
   "item.npu.marble_floor_light":"大理石地转-浅",
   "item.npu.mesh": "网栅墙",
+<<<<<<< Updated upstream
   "item.npu.mop_pool": "拖把池",
+=======
+  "item.npu.metal_big_cabinet1": "金属大柜子1",
+  "item.npu.metal_big_cabinet2": "金属大柜子2",
+  "item.npu.metal_big_cabinet3": "金属大柜子3",
+  "item.npu.metal_trolley1": "金属推车1",
+  "item.npu.metal_trolley2": "金属推车2",
+  "item.npu.metal_trolley3": "金属推车3",
+  "item.npu.metal_table1x1": "金属桌子1x1",
+  "item.npu.mp": "拖把池",
+>>>>>>> Stashed changes
   "item.npu.mudstone_brick": "泥石砖",
   "item.npu.obsidian_block": "黑曜石方块",
   "item.npu.obsidian_frame": "黑曜石框架",
@@ -315,6 +337,7 @@
   "item.npu.sign_yty_yun": "云天苑-云",
   "item.npu.sign_yty_tian": "云天苑-天",
   "item.npu.sign_yty_yuan": "云天苑-苑",
+  "item.npu.spicy_pot_freezer": "香锅冰柜",
   "item.npu.teachingbuilding_east_innerwall_up": "教东教室内墙-上",
   "item.npu.teachingbuilding_east_innerwall_down": "教东教室内墙-下",
   "item.npu.teachingbuilding_east_outwall_up": "教东教室外墙-上",
