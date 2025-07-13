@@ -185,3 +185,4 @@ yf6 -> limed_wall_slab_v7
 yf7 -> limed_wall_slab_v8
 yf8 -> airconout_right
 yf9 -> washstand_back_to_right
+flag_cy -> flag_of_ccyl
