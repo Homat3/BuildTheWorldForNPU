@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/drain_pipe_mid_with_fixing_ring"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/drain_pipe_mid_with_fixing_ring",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/drain_pipe_mid_with_fixing_ring",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/drain_pipe_mid_with_fixing_ring",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
