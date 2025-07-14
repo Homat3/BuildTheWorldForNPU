@@ -48,6 +48,7 @@ concrete_blue->concrete_blue
 concrete_gray->concrete_gray
 concrete_light_blue->concrete_light_blue
 concrete_orange->concrete_orange
+concrete_pink->concrete_pink
 concrete_powder_blue->concrete_powder_blue
 concrete_powder_red->concrete_powder_red
 concrete_silver->concrete_silver
@@ -55,6 +56,7 @@ concrete_white->concrete_white
 concrete_yellow->concrete_yellow
 dalishidizhuan-qian2->marble_tiles_light
 dalishidizhuan5->marble_tiles
+dirt1->dirt1
 dalishidizhuanhei2->marble_tiles_black2
 desk_foldable->desk_foldable
 desk_wood->desk_wood
@@ -146,6 +148,7 @@ gold_block->gold_block
 gray_brick->gray_brick
 gun_body->gun_body
 hardened_clay_stained_black->hardened_clay_stained_black
+hardened_clay_stained_brown->hardened_clay_stained_brown
 hardened_clay_stained_cyan->hardened_clay_stained_cyan
 hardened_clay_stained_yellow->hardened_clay_stained_yellow
 huangsediban->yellow_floor
@@ -176,6 +179,8 @@ nn1->small_stone_pavilion1
 nn2->small_stone_pavilion2
 obsidianblock->obsidian_block
 obsidianframe->obsidian_frame
+penzai1->potted_plant1
+penzai2->potted_plant2
 ordinance_billboard_1->ordinance_billboard_1
 ordinance_billboard_2->ordinance_billboard_2
 planks_birch1->planks_birch1
@@ -247,6 +252,7 @@ wall7->red_marble_wall
 wall_dark_gray_cyan->wall_dark_gray_cyan
 wall_stem_quarter_>wall_stem_quarter
 wall_white->wall_white
+washer -> washing_machine
 wboard->bracket_whiteboard
 window_ceiling->window_ceiling
 windowframe->windowframe
