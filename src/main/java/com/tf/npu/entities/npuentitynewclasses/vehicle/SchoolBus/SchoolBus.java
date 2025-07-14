@@ -29,9 +29,8 @@ import java.util.function.Supplier;
 
 public class SchoolBus extends NpuVehicle implements GeoEntity {
     // 动画文件
-    protected static final RawAnimation FLY_ANIM = RawAnimation.begin().thenLoop("animation.ModelSchoolBus.move");
+    protected static final RawAnimation MOVE_ANIM = RawAnimation.begin().thenLoop("animation.ModelSchoolBus.move");
     // 碰撞箱
-    private static final AABB boundingBox = new AABB(0, 0, 0, 0, 0, 0);
     private final AnimatableInstanceCache geoCache = GeckoLibUtil.createInstanceCache(this);
     // 最大乘客数
     private int maxPassenger = 15;
@@ -42,18 +41,14 @@ public class SchoolBus extends NpuVehicle implements GeoEntity {
     }
 
     public static EntityType.EntityFactory<SchoolBus> schoolBusFactory(Supplier<Item> itemSupplier) {
-        return (type, level) -> {
-            SchoolBus schoolBus = new SchoolBus(type, level, itemSupplier);
-            schoolBus.setBoundingBox(boundingBox);
-            return schoolBus;
-        };
+        return (type, level) -> new SchoolBus(type, level, itemSupplier);
     }
 
     // 动画控制器
     @Override
     public void registerControllers(final AnimatableManager.ControllerRegistrar controllers) {
         controllers.add(new AnimationController<>("Moving", 5,
-                (animTest) -> animTest.isMoving() ? animTest.setAndContinue(FLY_ANIM) : PlayState.STOP)
+                (animTest) -> animTest.isMoving() ? animTest.setAndContinue(MOVE_ANIM) : PlayState.STOP)
         );
     }
 
@@ -75,8 +70,6 @@ public class SchoolBus extends NpuVehicle implements GeoEntity {
     }
 
     // 属性
-
-
     @Override
     public boolean isVehicle() {
         return !getPassengers().isEmpty();
