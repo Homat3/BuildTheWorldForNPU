@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "npu:block/structure/light_dormitory_corridor"
+    }
+  }
+}

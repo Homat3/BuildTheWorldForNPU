@@ -1,0 +1,6 @@
+{
+  "ID": "model_block_tab",
+  "ENUM_NAME": "MODEL_BLOCK_TAB",
+
+  "icon": {"type": "BlockItem", "index": 0}
+}

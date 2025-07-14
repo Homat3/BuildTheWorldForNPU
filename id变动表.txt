@@ -1,3 +1,7 @@
+airconin -> air_conditioner_in
+airconout -> air_conditioner_out
+airconout1 -> air_conditioner_out1
+airconout2 -> air_conditioner_out2
 bedgirll -> bedgirl_left
 bedgirlr -> bedgirl_right
 box -> cartons
@@ -12,8 +16,9 @@ cemt -> cement_road_total
 chair1 -> chair_plastic_black
 chair2 -> chair_plastic_red
 cp -> corridor_pillar
-dt -> dining_table_orange
 deskwood -> desk_wood
+dropper_front_vertical -> dropper_front_vertical
+dt -> dining_table_orange
 fenceo -> fenceo_post & fenceo_side
 fext -> fire_extinguisher_cabinet
 fext1 -> fire_hydrant_patch
@@ -98,12 +103,18 @@ g7 -> pedestrian_road_pattern_brick_red
 g8 -> slate_floor_tiles_staggered_style_1
 g9 -> slate_floor_tiles_staggered_style_2
 gbed -> bedgirl_double
+girlwash -> girl_wash
 ground -> floor_tile
 gtable -> girl_table
+hr1 -> teachingbuilding_east_guardrail
+hr2 -> guardrail_thick
+hr3 -> guardrail_thick_with_base
+hr4 -> guardrail_thin
+hr5 -> guardrail_thin_with_electric_box
 hwater -> water_boiler
-nn -> small_stone_pavilion
 n1 -> ordinance_billboard_1
 n2 -> ordinance_billboard_2
+nn -> small_stone_pavilion
 playground_green2 -> playground_plastic_green
 qh -> quartz_block_slab_v
 sc -> staircase_cabinets
@@ -203,5 +214,5 @@ yf4 -> limed_wall_slab_v5
 yf5 -> limed_wall_slab_corner_v6
 yf6 -> limed_wall_slab_v7
 yf7 -> limed_wall_slab_v8
-yf8 -> airconout_right
+yf8 -> air_conditioner_out_right
 yf9 -> washstand_back_to_right
