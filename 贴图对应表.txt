@@ -54,6 +54,8 @@ dalishidizhuan5->marble_tiles
 dalishidizhuanhei2->marble_tiles_black2
 desk_foldable->desk_foldable
 desk_wood->desk_wood
+diantimen->door_elevator_warning
+diantimen2->door_elevator_led
 door_acacia_lower->door_acacia_lower
 door_acacia_upper->door_acacia_upper
 door_birch_lower->door_birch_lower
@@ -69,6 +71,9 @@ door_spruce_upper->door_spruce_upper
 door_wood_lower->door_wood_lower
 door_wood_upper->door_wood_upper
 double->air_conditioner_frame
+drink1->frame_drink_red_single
+drink2->frame_drink_blue_single
+drink3->frame_drink_red_double
 emerald_block->emerald_block
 enchanting_table_bottom->enchanting_table_bottom
 fence_cyan->fence_cyan
@@ -142,6 +147,8 @@ iron_bars->iron_bars
 iron_block->iron_block
 iron_block1->iron_block1
 iron_trapdoor->iron_trapdoor
+jingshucaizhi->iron_texture1
+jingshucaizhi2->iron_texture2
 keyboard->keyboard
 ice->ice
 levono->lenovo
@@ -152,7 +159,10 @@ mutiezhi-heng7->paper8
 mutiezhi-shu5->wood_texture1
 mutiezhi-shu6->paper6_v
 mutiezhi-shu7->wood_texture2
+mutiezhi5->wood_texture4
+mutiezhi5shen->wood_texture4_dark
 mutiezhiheng5->paper6
+mutiezhishu->wood_texture3
 mutiezhishu5->paper6_v
 mutiezhishu6->paper6_v
 mutiezhishu7->paper8_v
@@ -177,6 +187,7 @@ tele->wall_mounted_tv
 touyingyi->touyingyi
 qingsediban2->blue_floor
 quartz_block_bottom->quartz_block_bottom
+quartz_block_lines->quartz_block_lines
 quartz_block_side->quartz_block_side
 radiator->radiator
 railing_half->railing_half
@@ -186,6 +197,7 @@ roadblock_double->roadblock_double
 safety_exit_sign->safety_exit_sign
 sb2->black_marble
 screen->screen
+sdframe1->door_frame_side_sliding
 shenghuiqingse(1)->wall_dark_gray_cyan
 shenghuiqingse->wall_dark_gray_cyan
 shenghuiqingse1->wall_dark_gray_cyan
