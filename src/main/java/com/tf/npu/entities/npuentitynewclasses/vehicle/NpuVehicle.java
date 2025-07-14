@@ -15,6 +15,7 @@ import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 
 import javax.annotation.Nullable;
+import java.io.IOException;
 import java.util.List;
 import java.util.function.Supplier;
 
@@ -86,10 +87,14 @@ abstract public class NpuVehicle extends VehicleEntity {
     @Override
     public @NotNull InteractionResult interactAt(Player player, @NotNull Vec3 vec3, @NotNull InteractionHand hand) {
         if (!player.isSecondaryUseActive() && this.canAddPassenger(player)) {
-            if (!this.level().isClientSide) {
-                return player.startRiding(this) ? InteractionResult.CONSUME : InteractionResult.PASS;
-            } else {
-                return InteractionResult.SUCCESS;
+            try (var world = this.level()) {
+                if (!world.isClientSide) {
+                    return player.startRiding(this) ? InteractionResult.CONSUME : InteractionResult.PASS;
+                } else {
+                    return InteractionResult.SUCCESS;
+                }
+            } catch (IOException e) {
+                throw new RuntimeException(e);
             }
         } else {
             return InteractionResult.PASS;

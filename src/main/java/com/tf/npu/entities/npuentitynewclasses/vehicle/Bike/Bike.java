@@ -1,19 +1,17 @@
-package com.tf.npu.entities.npuentitynewclasses.vehicle.SchoolBus;
+package com.tf.npu.entities.npuentitynewclasses.vehicle.Bike;
 
 import com.tf.npu.entities.npuentitynewclasses.vehicle.NpuVehicle;
-import net.minecraft.nbt.CompoundTag;
+import com.tf.npu.entities.npuentitynewclasses.vehicle.SchoolBus.SchoolBus;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.MoverType;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.variant.VariantUtils;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
-import net.minecraft.world.phys.AABB;
 import org.jetbrains.annotations.NotNull;
 import software.bernie.geckolib.animatable.GeoEntity;
 import software.bernie.geckolib.animatable.instance.AnimatableInstanceCache;
@@ -27,30 +25,32 @@ import javax.annotation.Nullable;
 import java.util.List;
 import java.util.function.Supplier;
 
-public class SchoolBus extends NpuVehicle implements GeoEntity {
-    // 动画文件
-    protected static final RawAnimation MOVE_ANIM = RawAnimation.begin().thenLoop("animation.ModelSchoolBus.move");
-    // 碰撞箱
+abstract public class Bike extends NpuVehicle implements GeoEntity {
+    // 动画
     private final AnimatableInstanceCache geoCache = GeckoLibUtil.createInstanceCache(this);
-    // 最大乘客数
-    private int maxPassenger = 15;
 
-    // 实体工厂
-    private SchoolBus(EntityType<? extends SchoolBus> type, Level level, Supplier<Item> itemSupplier) {
+    // 最大乘客数
+    private int maxPassenger = 1;
+
+    // 构造函数
+    protected Bike(EntityType<? extends Bike> type, Level level, Supplier<Item> itemSupplier) {
         super(type, level, itemSupplier);
     }
-
-    public static EntityType.EntityFactory<SchoolBus> schoolBusFactory(Supplier<Item> itemSupplier) {
-        return (type, level) -> new SchoolBus(type, level, itemSupplier);
-    }
-
     // 动画控制器
     @Override
     public void registerControllers(final AnimatableManager.ControllerRegistrar controllers) {
-        controllers.add(new AnimationController<>("Moving", 5,
-                (animTest) -> animTest.isMoving() ? animTest.setAndContinue(MOVE_ANIM) : PlayState.STOP)
+        controllers.add(new AnimationController<>("Move", 5,
+                (animTest) -> {
+                    float theta = (this.getYRot() - 90.0F) * (float) (Math.PI / 180.0);
+                    float currentParallelSpeed = (float) (this.getDeltaMovement().z * Mth.cos(theta) - this.getDeltaMovement().x * Mth.sin(theta));
+                    return animTest.isMoving() ? (
+                            currentParallelSpeed < 0.0F ? animTest.setAndContinue(getFrontAnim()) : animTest.setAndContinue(getBackAnim())
+                    ) : PlayState.STOP;
+                })
         );
     }
+    abstract protected RawAnimation getFrontAnim();
+    abstract protected RawAnimation getBackAnim();
 
     // 动画实例
     @Override
@@ -116,21 +116,13 @@ public class SchoolBus extends NpuVehicle implements GeoEntity {
         if (this.isAlive()) {
             LivingEntity passenger = this.getControllingPassenger();
             if (this.isVehicle() && passenger instanceof Player) {
-                float zInput = 0.0F;
-                float xInput = 0.0F;
-                float theta = this.getYRot() * (float) (Math.PI / 180.0);
-                float currentParallelSpeed = (float) (this.getDeltaMovement().z * Mth.cos(theta) - this.getDeltaMovement().x * Mth.sin(theta));
+                float zInput = passenger.zza;
+
+                if (zInput != 0.0F) zInput = zInput > 0.0F ? -1.0F : 1.0F;
+                this.setYRot(passenger.getYRot() - 90.0F);
+                float theta = (this.getYRot() - 90.0F) * (float) (Math.PI / 180.0);
                 float currentVerticalSpeed = (float) (this.getDeltaMovement().z * Mth.sin(theta) + this.getDeltaMovement().x * Mth.cos(theta));
 
-                zInput = passenger.zza;
-                xInput = -0.04F <= currentParallelSpeed && currentParallelSpeed <= 0.04F ? 0.0F : passenger.xxa;
-
-                if (zInput != 0.0F) zInput = zInput > 0.0F ? 1.0F : -1.0F;
-                float temp = 0.0F;
-                if (currentParallelSpeed != 0.0F) temp = currentParallelSpeed > 0.0F ? 1.0F : -1.0F;
-                if (xInput != 0.0F) xInput = xInput > 0.0F ? -temp : temp;
-
-                this.setYRot(this.getYRot() + xInput * 0.8F);
                 this.setDeltaMovement(this.getDeltaMovement().add(
                         -Mth.sin(theta) * zInput * 0.01F - currentVerticalSpeed * 0.5F * Mth.cos(theta),
                         0.0,
@@ -149,9 +141,9 @@ public class SchoolBus extends NpuVehicle implements GeoEntity {
 
     @Override
     public void positionRider(@NotNull Entity entity, @NotNull Entity.MoveFunction moveFunction) {
-        if (entity instanceof LivingEntity passenger) {
-            List<Double> xz = getPosition(getPassengers().indexOf(passenger) % 2 == 0 ? 1 : -1, 6.0 - ((double) (getPassengers().indexOf(passenger) + 1) / 2) * 25 / 16.0);
-            moveFunction.accept(entity, xz.get(0), this.getY() + 1.2, xz.get(1));
+        if (entity instanceof LivingEntity) {
+            List<Double> xz = getPosition(0, 0);
+            moveFunction.accept(entity, xz.get(0), this.getY() + 0.5, xz.get(1));
         }
     }
 
