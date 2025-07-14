@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/door_elevator"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/door_elevator",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/door_elevator",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/door_elevator",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
