@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/white_pipe_3_interface"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/white_pipe_3_interface",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/white_pipe_3_interface",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/white_pipe_3_interface",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

@@ -46,11 +46,13 @@ concrete_gray->concrete_gray
 concrete_light_blue->concrete_light_blue
 concrete_light_blue->concrete_light_blue
 concrete_orange->concrete_orange
+concrete_pink->concrete_pink
 concrete_powder_blue->concrete_powder_blue
 concrete_silver->concrete_silver
 concrete_white->concrete_white
 dalishidizhuan-qian2->marble_tiles_light
 dalishidizhuan5->marble_tiles
+dirt1->dirt1
 door_acacia_lower->door_acacia_lower
 door_acacia_upper->door_acacia_upper
 door_birch_lower->door_birch_lower
@@ -132,6 +134,7 @@ glass_white->glass_white
 gold_block->gold_block
 gray_brick->gray_brick
 hardened_clay_stained_black->hardened_clay_stained_black
+hardened_clay_stained_brown->hardened_clay_stained_brown
 hardened_clay_stained_cyan->hardened_clay_stained_cyan
 hardened_clay_stained_yellow->hardened_clay_stained_yellow
 huangsediban->yellow_floor
@@ -154,6 +157,8 @@ nn1->small_stone_pavilion1
 nn2->small_stone_pavilion2
 obsidianblock->obsidian_block
 obsidianframe->obsidian_frame
+penzai1->potted_plant1
+penzai2->potted_plant2
 planks_birch1->planks_birch1
 planks_oak1->planks_oak1
 playground_badminton_net_side->playground_badminton_net_side
@@ -214,6 +219,7 @@ wall7->red_marble_wall
 wall_dark_gray_cyan->wall_dark_gray_cyan
 wall_stem_quarter_>wall_stem_quarter
 wall_white->wall_white
+washer -> washing_machine
 window_ceiling->window_ceiling
 windowframe->windowframe
 wool_colored_yellow->wool_colored_yellow
