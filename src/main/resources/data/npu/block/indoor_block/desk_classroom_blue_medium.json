@@ -1,7 +1,7 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "desk_classroom_blue_medium",
-  "modelPath": "block/structure/desk_classroom_blue_medium.json",
+  "modelPath": "block/structure/desk_classroom_medium_model.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": true,
