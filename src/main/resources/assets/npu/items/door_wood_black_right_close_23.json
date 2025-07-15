@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/door_wood_black_right_close_23"
+    "model": "npu:block/window/wood/door_wood_black_right_close_23"
   }
 }

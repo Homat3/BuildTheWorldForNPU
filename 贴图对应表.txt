@@ -103,8 +103,8 @@ g13->small_slate_floor_tiles
 g15->blue_marble_brick
 g20->marble_pillar
 g21a->cement_road_a
-g21b->cement_road_b
-g21c->cement_road_c
+g21b->cement_road_a
+g21c->cement_road_a
 g3->marble_pillar
 g30->white_grid_brick
 g31->blue_grid_brick
