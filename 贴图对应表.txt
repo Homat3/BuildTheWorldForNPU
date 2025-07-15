@@ -1,6 +1,7 @@
 ac->access_control
 acadd1->access_control_fix1
 acadd2->access_control_fix2
+airconditioner_vertical->airconditioner_vertical
 airconin->airconin
 anvil_base->anvil_base
 ao1->air_conditioner_frame1
@@ -52,6 +53,7 @@ concrete_white->concrete_white
 dalishidizhuan-qian2->marble_tiles_light
 dalishidizhuan5->marble_tiles
 desk_wood->desk_wood
+diamond_block->diamond_block
 door_acacia_lower->door_acacia_lower
 door_acacia_upper->door_acacia_upper
 door_birch_lower->door_birch_lower
@@ -67,6 +69,9 @@ door_spruce_upper->door_spruce_upper
 door_wood_lower->door_wood_lower
 door_wood_upper->door_wood_upper
 double->air_conditioner_frame
+drink4 -> quadruple_drink_box_red
+drink5 -> beverage_cabinet_red
+drink6 -> beverage_cabinet_yellow
 emerald_block->emerald_block
 enchanting_table_bottom->enchanting_table_bottom
 fence_cyan->fence_cyan
@@ -123,6 +128,13 @@ g7->pedestrian_road_pattern_brick_red
 g8->slate_floor_tiles_staggered1
 g9->slate_floor_tiles_staggered2
 gbr1->paper1
+girltr1->girl_toilet1
+girltr2->girl_toilet2
+girltr3->girl_toilet3
+girltr4->girl_toilet4
+gs1->girlshelf1
+gs2->girlshelf2
+gs3->girlshelf3
 glass->glass
 glass_black->glass_black
 glass_frame->cement_white
@@ -180,6 +192,7 @@ railing_half_corner->railing_half_corner
 railing_half_double->railing_half_double
 roadblock_double->roadblock_double
 safety_exit_sign->safety_exit_sign
+sandstone_smooth->sandstone_smooth
 sb2->black_marble
 screen->screen
 shenghuiqingse(1)->wall_dark_gray_cyan
@@ -212,6 +225,7 @@ stripe1->stripe1
 stripe2->stripe2
 stripe3->stripe3
 suliaozhuanqiang5->plastic_brick_wall
+trash_classification_medical->trash_classification_medical
 voltage->voltage
 wall1->double_material_wall
 wall11->slate_floor_tile_dark

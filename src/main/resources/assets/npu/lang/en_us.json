@@ -312,5 +312,13 @@
   "item.npu.safety_exit_sign": "safety exit sign",
   "item.npu.washroom_sign": "washroom sign",
   "item.npu.toilet_flush_sign": "toilet flush sign",
-  "item.npu.save_water_sign": "save water sign"
+  "item.npu.save_water_sign": "save water sign",
+  "item.npu.quadruple_drink_box_red": "quadruple drink box red",
+  "item.npu.beverage_cabinet_red": "beverage cabinet red",
+  "item.npu.beverage_cabinet_yellow": "beverage cabinet yellow",
+  "item.npu.airconditioner_vertical": "airconditioner vertical",
+  "item.npu.trash_classification_medical": "trash classification medical",
+  "item.npu.girlshelf": "girlshelf",
+  "item.npu.girl_toilet_left": "girl toilet left",
+  "item.npu.girl_toilet_right": "girl toilet right"
 }

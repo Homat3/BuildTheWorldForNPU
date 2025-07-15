@@ -12,6 +12,9 @@ cemt -> cement_road_total
 chair1 -> chair_plastic_black
 chair2 -> chair_plastic_red
 cp -> corridor_pillar
+drink4 -> quadruple_drink_box_red
+drink5 -> beverage_cabinet_red
+drink6 -> beverage_cabinet_yellow
 dt -> dining_table_orange
 deskwood -> desk_wood
 fenceo -> fenceo_post & fenceo_side
@@ -98,6 +101,8 @@ g7 -> pedestrian_road_pattern_brick_red
 g8 -> slate_floor_tiles_staggered_style_1
 g9 -> slate_floor_tiles_staggered_style_2
 gbed -> bedgirl_double
+girltl -> girl_toilet_left
+girltr -> girl_toilet_right
 ground -> floor_tile
 gtable -> girl_table
 hwater -> water_boiler

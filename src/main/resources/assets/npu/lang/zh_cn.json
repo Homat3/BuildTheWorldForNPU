@@ -341,5 +341,13 @@
   "item.npu.safety_exit_sign": "安全出口",
   "item.npu.washroom_sign": "盥洗室",
   "item.npu.toilet_flush_sign": "来也匆匆，去也冲冲",
-  "item.npu.save_water_sign": "请节约用水"
+  "item.npu.save_water_sign": "请节约用水",
+  "item.npu.quadruple_drink_box_red": "四联饮料框-红",
+  "item.npu.beverage_cabinet_red": "饮料柜-红",
+  "item.npu.beverage_cabinet_yellow": "饮料柜-黄",
+  "item.npu.airconditioner_vertical": "立式空调",
+  "item.npu.trash_classification_medical": "医疗废物垃圾桶",
+  "item.npu.girlshelf": "女寝柜子",
+  "item.npu.girl_toilet_left": "女寝卫生间左",
+  "item.npu.girl_toilet_right": "女寝卫生间右"
 }
