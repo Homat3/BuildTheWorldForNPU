@@ -16,7 +16,10 @@ baicizhuan2->ceramic_tile_white
 baicizhuan2->wall_white
 baiqiangcaizhi->wall_white
 baiqiangdaiqiangqun->wall_white_dado
+bath->bathroom_single
 beacon->beacon
+bframe1->yunf_framed_balcony_door_up
+bframe2->yunf_framed_balcony_door
 blue->blue
 blue_brick->blue_brick
 bone_block_side->bone_block_side
@@ -56,12 +59,12 @@ concrete_white->concrete_white
 concrete_yellow->concrete_yellow
 dalishidizhuan-qian2->marble_tiles_light
 dalishidizhuan5->marble_tiles
-dirt1->dirt1
 dalishidizhuanhei2->marble_tiles_black2
 desk_foldable->desk_foldable
 desk_wood->desk_wood
 diantimen->door_elevator_warning
 diantimen2->door_elevator_led
+dirt1->dirt1
 door_acacia_lower->door_acacia_lower
 door_acacia_upper->door_acacia_upper
 door_birch_lower->door_birch_lower
@@ -179,10 +182,10 @@ nn1->small_stone_pavilion1
 nn2->small_stone_pavilion2
 obsidianblock->obsidian_block
 obsidianframe->obsidian_frame
-penzai1->potted_plant1
-penzai2->potted_plant2
 ordinance_billboard_1->ordinance_billboard_1
 ordinance_billboard_2->ordinance_billboard_2
+penzai1->potted_plant1
+penzai2->potted_plant2
 planks_birch1->planks_birch1
 planks_oak1->planks_oak1
 playground_badminton_net_side->playground_badminton_net_side
