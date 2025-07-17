@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/sign/bus_waiting_spot_bottom"
+    },
+    "facing=east": {
+      "model": "npu:block/sign/bus_waiting_spot_bottom",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/sign/bus_waiting_spot_bottom",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/sign/bus_waiting_spot_bottom",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
