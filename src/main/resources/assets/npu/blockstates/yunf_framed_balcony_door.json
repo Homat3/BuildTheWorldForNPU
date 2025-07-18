@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/yunf_framed_balcony_door"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/yunf_framed_balcony_door",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/yunf_framed_balcony_door",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/yunf_framed_balcony_door",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
