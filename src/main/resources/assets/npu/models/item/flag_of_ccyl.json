@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "npu:item/f/flag_of_ccyl"
+  }
+}

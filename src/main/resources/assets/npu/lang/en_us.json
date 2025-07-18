@@ -300,5 +300,16 @@
   "item.npu.school_bus": "Spawn School Bus",
   "item.npu.chair": "Chair",
   "item.npu.toilet": "Toilet",
-  "item.npu.ttable": "Ttable"
+  "item.npu.ttable": "Ttable",
+  "item.npu.urinal": "Urinal",
+  "item.npu.blackboard_core_socialist_values": "Blackboard Core Socialist Values",
+  "item.npu.blackboard_anti_japanese_hero": "Blackboard Anti Japanese Hero",
+  "item.npu.bulletin_board": "Bulletin Board",
+  "item.npu.chair_with_board": "chair_with_board",
+  "item.npu.digital_calendar": "Digital Calendar",
+  "item.npu.dormitory_fan": "Dormitory Fan",
+  "item.npu.fire_cabinet": "Fire Cabinet",
+  "item.npu.flag_of_ccyl": "Flag of CCYL",
+  "item.npu.full_length_mirror": "full_length_mirror",
+  "item.npu.league_badge": "league_badge"
 }

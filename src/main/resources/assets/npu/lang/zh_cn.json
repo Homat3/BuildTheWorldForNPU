@@ -300,5 +300,16 @@
   "item.npu.golden_egg": "金鸡蛋",
   "item.npu.golden_chicken_spawn_egg": "生成金鸡",
   "item.npu.school_bus": "校车（简陋）",
-  "item.npu.ttable": "梯形桌子"
+  "item.npu.ttable": "梯形桌子",
+  "item.npu.urinal": "小便池",
+  "item.npu.blackboard_core_socialist_values": "社会主义核心价值观",
+  "item.npu.blackboard_anti_japanese_hero": "抗日小英雄",
+  "item.npu.bulletin_board": "公告扎板",
+  "item.npu.chair_with_board": "椅子黑板",
+  "item.npu.digital_calendar": "电子万年历",
+  "item.npu.dormitory_fan": "宿舍电风扇",
+  "item.npu.fire_cabinet": "消防柜",
+  "item.npu.flag_of_ccyl": "中国共青团团旗",
+  "item.npu.full_length_mirror": "全身镜",
+  "item.npu.league_badge": "团徽"
 }
