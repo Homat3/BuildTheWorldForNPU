@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "npu:block/road/road_sign_pole"
+    }
+  }
+}

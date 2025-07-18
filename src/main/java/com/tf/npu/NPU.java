@@ -22,7 +22,6 @@ public class NPU {
 
     public NPU(FMLJavaModLoadingContext context) {
         var modBusGroup = context.getModBusGroup();
-
         // Register the Deferred Register to the mod event bus so new things of the mod get registered
         RegisterObjects.register(modBusGroup);
 

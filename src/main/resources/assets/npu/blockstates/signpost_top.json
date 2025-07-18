@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/sign/signpost_top"
+    },
+    "facing=east": {
+      "model": "npu:block/sign/signpost_top",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/sign/signpost_top",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/sign/signpost_top",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/dormitory_entrance_skylight"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/dormitory_entrance_skylight",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/dormitory_entrance_skylight",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/dormitory_entrance_skylight",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
