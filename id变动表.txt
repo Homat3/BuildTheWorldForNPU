@@ -70,6 +70,12 @@ fctable3 -> red_dining_table
 fctable4 -> blue_dining_table_2
 fctable5 -> blue_dining_table_3
 fctable6 -> metal_large_table
+deskwood -> desk_wood
+dropper_front_vertical -> dropper_front_vertical
+dt -> dining_table_orange
+fctable2 -> 与上合并
+fbox -> canteen_plastic_storage_box
+fbox1 -> canteen_plastic_storage_box_bowl
 fenceo -> fenceo_post & fenceo_side
 fext -> fire_extinguisher_cabinet
 fext1 -> fire_hydrant_patch
@@ -106,6 +112,18 @@ fsign5 -> sign_slow_moving
 fsign6 -> sign_slow_moving_2
 fsign7 -> sign_yinhelu_large_right
 fsign8 -> sign_yinhelu_large_left
+flight12 -> long_strip_light
+flight13 -> long_strip_light_half
+fsign -> signpost_bottom
+fsign1 -> signpost_top
+fsign2 -> bus_waiting_spot_bottom
+fsign3 -> bus_waiting_spot_top
+fwindow -> black_window_corner_1
+fwindow1 -> black_window_corner_2
+fwindow2 -> black_window_corner_3
+fwindow3 -> blue_window_corner_1
+fwindow4 -> blue_window_corner_2
+fwindow5 -> blue_window_corner_3
 g1 -> marble_tiles
 g10 -> slate_floor_tiles_style_1
 g11 -> slate_floor_tiles_style_2

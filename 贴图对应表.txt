@@ -44,6 +44,7 @@ chair_auditorium_half_red->chair_auditorium_half_red
 chair_auditorium_red->chair_auditorium_red
 chair_lightblue->chair_lightblue
 chengsecanzhuo->dining_table
+chengsecanzhuo->dining_table_orange2
 chest_door_tall->chest_door_tall
 coal_block->coal_block
 cocoa_stage_1->cocoa_stage_1
@@ -214,6 +215,7 @@ playground_plastic_green->playground_plastic_green
 playground_red->playground_red
 playground_volleyball_net_side->playground_volleyball_net_side
 printer->printer
+qianmise->light_beige
 qingsediban2->blue_floor
 quartz_block_bottom->quartz_block_bottom
 quartz_block_lines->quartz_block_lines
@@ -284,8 +286,11 @@ wstick->paper2
 wtf->curb1
 wtf1->curb2
 wtf2->curb3
+wulengbaici->edgeless_white_porcelain
 xbgydx1->npu_logo
+xiaochedian->bus_spot
 xiaocizhuan2->little_ceramic_tile
 yika2->yika_look
 yikapingmu2->yika_screen
 zhouyizhizhouwu2->zhouyizhizhouwu2
+zhilupai2->signpost2
