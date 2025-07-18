@@ -320,5 +320,12 @@
   "item.npu.trash_classification_medical": "trash classification medical",
   "item.npu.girlshelf": "girlshelf",
   "item.npu.girl_toilet_left": "girl toilet left",
-  "item.npu.girl_toilet_right": "girl toilet right"
+  "item.npu.girl_toilet_right": "girl toilet right",
+  "item.npu.cabinet_workshop1": "workshop cabinet1",
+  "item.npu.cabinet_workshop2": "workshop cabinet2",
+  "item.npu.cabinet_workshop3": "workshop cabinet3",
+  "item.npu.workshop_cabinet_sink1": "workshop cabinet sink1",
+  "item.npu.workshop_cabinet_sink2": "workshop cabinet sink2",
+  "item.npu.shelf_gongxun1": "shelf_training_center1",
+  "item.npu.shelf_gongxun2": "shelf_training_center2"
 }

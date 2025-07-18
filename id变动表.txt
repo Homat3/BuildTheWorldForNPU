@@ -4,6 +4,7 @@ box -> cartons
 box1 -> cartons_group
 bpdown -> balcony_partition_down
 bpup -> balcony_partition_up
+cabinet_workshop -> cabinet_workshop1
 cch -> cyan_terracotta_slab_v
 cement_road_side3 -> cement_road_with_curb_grey
 cementslab -> cement_block_slab
@@ -110,8 +111,11 @@ nn -> small_stone_pavilion
 n1 -> ordinance_billboard_1
 n2 -> ordinance_billboard_2
 playground_green2 -> playground_plastic_green
+pool_cabinet -> workshop_cabinet_sink1
+pool_cabinet2 -> workshop_cabinet_sink1
 qh -> quartz_block_slab_v
 sc -> staircase_cabinets
+shelf_gongxun -> shelf_gongxun1
 sign1 -> washroom_sign
 sign2 -> toilet_flush_sign
 sign3 -> save_water_sign

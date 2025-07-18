@@ -23,6 +23,9 @@ bone_block_top->bone_block_top
 bpup->balcony_partition_up
 box->cartons
 box1->cartons_group
+cabinet_workshop->cabinet_workshop1
+cabinet_workshop2->cabinet_workshop2
+cabinet_workshop3->cabinet_workshop3
 cake_side->cake_side
 cauldron_bottom->cauldron_bottom
 cauldron_inner->cauldron_inner
@@ -180,6 +183,8 @@ playground_light->playground_light
 playground_plastic_green->playground_plastic_green
 playground_red->playground_red
 playground_volleyball_net_side->playground_volleyball_net_side
+pool_cabinet->workshop_cabinet_sink1
+pool_cabinet2->workshop_cabinet_sink2
 printer->printer
 tele->wall_mounted_tv
 touyingyi->touyingyi
@@ -195,6 +200,8 @@ safety_exit_sign->safety_exit_sign
 sandstone_smooth->sandstone_smooth
 sb2->black_marble
 screen->screen
+shelf_gongxun->shelf_gongxun1
+shelf_gongxun2->shelf_gongxun2
 shenghuiqingse(1)->wall_dark_gray_cyan
 shenghuiqingse->wall_dark_gray_cyan
 shenghuiqingse1->wall_dark_gray_cyan

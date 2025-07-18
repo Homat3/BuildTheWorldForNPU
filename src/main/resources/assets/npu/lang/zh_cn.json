@@ -349,5 +349,12 @@
   "item.npu.trash_classification_medical": "医疗废物垃圾桶",
   "item.npu.girlshelf": "女寝柜子",
   "item.npu.girl_toilet_left": "女寝卫生间左",
-  "item.npu.girl_toilet_right": "女寝卫生间右"
+  "item.npu.girl_toilet_right": "女寝卫生间右",
+  "item.npu.cabinet_workshop1": "车间柜子1",
+  "item.npu.cabinet_workshop2": "车间柜子2",
+  "item.npu.cabinet_workshop3": "车间柜子3",
+  "item.npu.workshop_cabinet_sink1": "车间柜子洗手池1",
+  "item.npu.workshop_cabinet_sink2": "车间柜子洗手池2",
+  "item.npu.shelf_gongxun1": "工训架子1",
+  "item.npu.shelf_gongxun2": "工训架子2"
 }
