@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/sign/sign_outdoor_caring_lawn"
+    },
+    "facing=east": {
+      "model": "npu:block/sign/sign_outdoor_caring_lawn",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/sign/sign_outdoor_caring_lawn",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/sign/sign_outdoor_caring_lawn",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

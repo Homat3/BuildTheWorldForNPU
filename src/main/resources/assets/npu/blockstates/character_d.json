@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/sign/character_d"
+    },
+    "facing=east": {
+      "model": "npu:block/sign/character_d",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/sign/character_d",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/sign/character_d",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
