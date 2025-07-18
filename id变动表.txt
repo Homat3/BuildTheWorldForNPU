@@ -53,6 +53,9 @@ elev -> door_elevator
 deskwood -> desk_wood
 dropper_front_vertical -> dropper_front_vertical
 dt -> dining_table_orange
+fctable2 -> 与上合并
+fbox -> canteen_plastic_storage_box
+fbox1 -> canteen_plastic_storage_box_bowl
 fenceo -> fenceo_post & fenceo_side
 fext -> fire_extinguisher_cabinet
 fext1 -> fire_hydrant_patch
@@ -79,6 +82,18 @@ fg72 -> small_ceramic_tiles
 fg73 -> balcony_white_ceramic_tiles_in_yun_f
 fg74 -> blue_ceramic_tile_vertical_quarter_brick
 fg75 -> stone_brick_vertical_quarter_brick
+flight12 -> long_strip_light
+flight13 -> long_strip_light_half
+fsign -> signpost_bottom
+fsign1 -> signpost_top
+fsign2 -> bus_waiting_spot_bottom
+fsign3 -> bus_waiting_spot_top
+fwindow -> black_window_corner_1
+fwindow1 -> black_window_corner_2
+fwindow2 -> black_window_corner_3
+fwindow3 -> blue_window_corner_1
+fwindow4 -> blue_window_corner_2
+fwindow5 -> blue_window_corner_3
 g1 -> marble_tiles
 g10 -> slate_floor_tiles_style_1
 g11 -> slate_floor_tiles_style_2
