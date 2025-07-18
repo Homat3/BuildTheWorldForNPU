@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/center_airconditioner_bias"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/center_airconditioner_bias",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/center_airconditioner_bias",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/center_airconditioner_bias",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

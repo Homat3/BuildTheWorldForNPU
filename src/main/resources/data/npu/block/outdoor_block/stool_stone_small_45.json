@@ -1,0 +1,11 @@
+{
+  "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
+  "ID": "stool_stone_small_45",
+  "modelPath": "block/structure/stool_stone_small_45.json",
+  "loadMethod": "METICULOUS",
+  "Material": "IRON",
+  "noOcclusion": false,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}
