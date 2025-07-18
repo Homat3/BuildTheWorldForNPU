@@ -66,6 +66,10 @@ dw7 -> door_wood_white_right_close_23
 dw8 -> door_wood_white_left_23
 dw9 -> 与上合并
 elev -> door_elevator
+fctable3 -> red_dining_table
+fctable4 -> blue_dining_table_2
+fctable5 -> blue_dining_table_3
+fctable6 -> metal_large_table
 fenceo -> fenceo_post & fenceo_side
 fext -> fire_extinguisher_cabinet
 fext1 -> fire_hydrant_patch
@@ -92,6 +96,16 @@ fg72 -> small_ceramic_tiles
 fg73 -> balcony_white_ceramic_tiles_in_yun_f
 fg74 -> blue_ceramic_tile_vertical_quarter_brick
 fg75 -> stone_brick_vertical_quarter_brick
+froadblocks -> roadblock_2
+frod -> road_sign_pole
+frod1 -> road_sign_pole_off_center
+fshelf -> metal_shelf_1
+fshelf1 -> metal_shelf_2
+fsign4 -> sign_walking_area
+fsign5 -> sign_slow_moving
+fsign6 -> sign_slow_moving_2
+fsign7 -> sign_yinhelu_large_right
+fsign8 -> sign_yinhelu_large_left
 g1 -> marble_tiles
 g10 -> slate_floor_tiles_style_1
 g11 -> slate_floor_tiles_style_2
