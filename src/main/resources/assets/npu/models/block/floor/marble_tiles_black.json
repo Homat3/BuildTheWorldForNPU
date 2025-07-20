@@ -2,7 +2,7 @@
   "credit": "Made with Blockbench",
   "textures": {
     "2": "npu:block/q/quartz_block_bottom",
-    "3": "npu:block/b/black_marble",
+    "3": "npu:block/b/marble_tiles_black",
     "particle": "npu:block/w/white_marble"
   },
   "elements": [

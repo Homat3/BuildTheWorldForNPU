@@ -5,9 +5,9 @@
     128
   ],
   "textures": {
-    "1": "npu:block/d/dining_table",
+    "1": "npu:block/d/dining_table_orange",
     "2": "npu:block/c/concrete_blue",
-    "particle": "npu:block/d/dining_table"
+    "particle": "npu:block/d/dining_table_orange"
   },
   "elements": [
     {

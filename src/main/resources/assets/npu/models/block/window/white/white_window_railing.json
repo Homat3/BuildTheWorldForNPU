@@ -4,7 +4,7 @@
     "0": "npu:block/q/quartz_block_bottom",
     "1": "npu:block/g/glass_white",
     "2": "npu:block/i/iron_block",
-    "3": "npu:block/b/black_marble",
+    "3": "npu:block/b/marble_tiles_black",
     "particle": "npu:block/q/quartz_block_bottom"
   },
   "elements": [
