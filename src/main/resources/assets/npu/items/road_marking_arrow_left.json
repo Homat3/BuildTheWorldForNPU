@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "npu:block/road/road_marking_arrow_left"
+  }
+}

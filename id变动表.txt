@@ -53,6 +53,11 @@ elev -> door_elevator
 deskwood -> desk_wood
 dropper_front_vertical -> dropper_front_vertical
 dt -> dining_table_orange
+fcfloor -> staircase_tiles_classroom_flat
+fcfloor1 -> staircase_tiles_classroom_low
+fcfloor2 -> staircase_tiles_classroom_medium
+fcfloor3 -> staircase_tiles_classroom_high
+fcfloor4 -> staircase_tiles_classroom
 fenceo -> fenceo_post & fenceo_side
 fext -> fire_extinguisher_cabinet
 fext1 -> fire_hydrant_patch
@@ -79,6 +84,16 @@ fg72 -> small_ceramic_tiles
 fg73 -> balcony_white_ceramic_tiles_in_yun_f
 fg74 -> blue_ceramic_tile_vertical_quarter_brick
 fg75 -> stone_brick_vertical_quarter_brick
+fg82 -> double_material_wall_dado_v5
+fg83 -> double_material_wall_dado_slab_vertical_right
+fg84 -> double_material_wall_dado_slab_vertical_left
+fline21 -> road_marking_arrow_right
+fline22 -> road_marking_arrow_straight
+fline23 -> road_marking_arrow_left
+fline24 -> road_marking_arrow_straight_eccentric
+FVent -> central_air_conditioning_vent
+FVent1 -> central_air_conditioning_vent1
+FVent2 -> central_air_conditioning_vent2
 g1 -> marble_tiles
 g10 -> slate_floor_tiles_style_1
 g11 -> slate_floor_tiles_style_2

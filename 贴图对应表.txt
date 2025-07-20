@@ -16,6 +16,7 @@ baicizhuan2->ceramic_tile_white
 baicizhuan2->wall_white
 baiqiangcaizhi->wall_white
 baiqiangdaiqiangqun->wall_white_dado
+daoluhuaxian-bai1 -> road_marking_white
 beacon->beacon
 blue->blue
 blue_brick->blue_brick
@@ -194,6 +195,7 @@ playground_plastic_green->playground_plastic_green
 playground_red->playground_red
 playground_volleyball_net_side->playground_volleyball_net_side
 printer->printer
+qianmise->light_beige
 qingsediban2->blue_floor
 quartz_block_bottom->quartz_block_bottom
 quartz_block_lines->quartz_block_lines
@@ -263,7 +265,9 @@ wstick->paper2
 wtf->curb1
 wtf1->curb2
 wtf2->curb3
+wulengbaici->non_angular_white_porcelain
 xbgydx1->npu_logo
 xiaocizhuan2->little_ceramic_tile
 yika2->yika_look
 yikapingmu2->yika_screen
+zhongyangkongtiaokou->central_air_conditioning_vent
