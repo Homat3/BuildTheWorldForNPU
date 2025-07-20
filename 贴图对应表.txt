@@ -18,6 +18,7 @@ baicizhuan2->ceramic_tile_white
 baicizhuan2->wall_white
 baiqiangcaizhi->wall_white
 baiqiangdaiqiangqun->wall_white_dado
+daoluhuaxian-bai1 -> road_marking_white
 bath->bathroom_single
 beacon->beacon
 bframe1->yunf_framed_balcony_door_up
@@ -379,6 +380,7 @@ wstick->paper2
 wtf->curb1
 wtf1->curb2
 wtf2->curb3
+wulengbaici->non_angular_white_porcelain
 wulengbaici->tile_white
 wulengbaici->edgeless_white_porcelain
 xbgydx1->npu_logo
@@ -387,6 +389,7 @@ xiaocizhuan2->little_ceramic_tile
 yi->sign_indoor_determination
 yika2->yika_look
 yikapingmu2->yika_screen
+zhongyangkongtiaokou->central_air_conditioning_vent
 yong->sign_indoor_bravery
 zhouyizhizhouwu2->zhouyizhizhouwu2
 zhilupai2->signpost2

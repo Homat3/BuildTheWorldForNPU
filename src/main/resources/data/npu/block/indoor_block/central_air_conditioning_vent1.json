@@ -1,0 +1,11 @@
+{
+  "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
+  "ID": "central_air_conditioning_vent1",
+  "modelPath": "block/structure/central_air_conditioning_vent1.json",
+  "loadMethod": "METICULOUS",
+  "Material": "IRON",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}
