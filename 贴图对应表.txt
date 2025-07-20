@@ -1,6 +1,7 @@
 ac->access_control
 acadd1->access_control_fix1
 acadd2->access_control_fix2
+airconditioner_vertical->airconditioner_vertical
 admission_letter_2021->admission_letter_2021
 airconin->airconin
 ao1->air_conditioner_frame1
@@ -13,6 +14,7 @@ baiqiangcaizhi->wall_white
 baiqiangdaiqiangqun->wall_white_dado
 baicizhuan->wall_white
 baicizhuan2->wall_white
+daoluhuaxian-bai1 -> road_marking_white
 bath->bathroom_single
 beacon->beacon
 bframe1->yunf_framed_balcony_door_up
@@ -23,6 +25,9 @@ bone_block_side->bone_block_side
 bone_block_top->bone_block_top
 box->cartons
 box1->cartons_group
+cabinet_workshop->cabinet_workshop1
+cabinet_workshop2->cabinet_workshop2
+cabinet_workshop3->cabinet_workshop3
 bpup->balcony_partition_up
 buxingquyu1->buxingquyu1
 cake_side->cake_side
@@ -87,6 +92,7 @@ dalupai111->dalupai111
 dalupai2222->dalupai2222
 desk_foldable->desk_foldable
 desk_wood->desk_wood
+diamond_block->diamond_block
 diantimen->door_elevator_warning
 diantimen2->door_elevator_led
 donotsmoke->donotsmoke
@@ -106,6 +112,9 @@ door_spruce_upper->door_spruce_upper
 door_wood_lower->door_wood_lower
 door_wood_upper->door_wood_upper
 double->air_conditioner_frame
+drink4 -> quadruple_drink_box_red
+drink5 -> beverage_cabinet_red
+drink6 -> beverage_cabinet_yellow
 drink1->frame_drink_red_single
 drink2->frame_drink_blue_single
 drink3->frame_drink_red_double
@@ -151,6 +160,13 @@ g7->pedestrian_road_pattern_brick_red
 g8->slate_floor_tiles_staggered1
 g9->slate_floor_tiles_staggered2
 gbr1->paper1
+girltr1->girl_toilet1
+girltr2->girl_toilet2
+girltr3->girl_toilet3
+girltr4->girl_toilet4
+gs1->girlshelf1
+gs2->girlshelf2
+gs3->girlshelf3
 gcyy1->motto1
 gcyy10->motto10
 gcyy11->motto11
@@ -248,6 +264,8 @@ playground_light->playground_light
 playground_plastic_green->playground_plastic_green
 playground_red->playground_red
 playground_volleyball_net_side->playground_volleyball_net_side
+pool_cabinet->workshop_cabinet_sink1
+pool_cabinet2->workshop_cabinet_sink2
 printer->printer
 qingsedalishizhuan1->marble_brick_cyan
 qianmise->light_beige
@@ -265,7 +283,10 @@ s51->stair_outdoor_grille
 s61->stair_outdoor_marbled
 safety_exit_sign->safety_exit_sign
 sb2->marble_tiles_black
+sandstone_smooth->sandstone_smooth
 screen->screen
+shelf_gongxun->shelf_gongxun1
+shelf_gongxun2->shelf_gongxun2
 sdframe1->door_frame_side_sliding
 shenghuiqingse(1)->wall_dark_gray_cyan
 shenghuiqingse->wall_dark_gray_cyan
@@ -308,6 +329,7 @@ stripe1->stripe1
 stripe2->stripe2
 stripe3->stripe3
 suliaozhuanqiang5->plastic_brick_wall
+trash_classification_medical->trash_classification_medical
 tele->wall_mounted_tv
 th1->truck_pit
 tool->cleaning_toolbox
@@ -352,6 +374,7 @@ wstick->paper2
 wtf->curb1
 wtf1->curb2
 wtf2->curb3
+wulengbaici->non_angular_white_porcelain
 wulengbaici->tile_white
 wulengbaici->edgeless_white_porcelain
 xbgydx1->npu_logo
@@ -360,6 +383,7 @@ xiaocizhuan2->little_ceramic_tile
 yi->sign_indoor_determination
 yika2->yika_look
 yikapingmu2->yika_screen
+zhongyangkongtiaokou->central_air_conditioning_vent
 yong->sign_indoor_bravery
 zhouyizhizhouwu2->zhouyizhizhouwu2
 zhilupai2->signpost2

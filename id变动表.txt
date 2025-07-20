@@ -15,6 +15,7 @@ box -> cartons
 box1 -> cartons_group
 bpdown -> balcony_partition_down
 bpup -> balcony_partition_up
+cabinet_workshop -> cabinet_workshop1
 c -> character_c
 cch -> cyan_terracotta_slab_v
 cement_half_lightblue -> cement_brick_slab_lightblue
@@ -26,6 +27,9 @@ cemt -> cement_road_yellow
 chair1 -> chair_plastic_black
 chair2 -> chair_plastic_red
 cp -> corridor_pillar
+drink4 -> quadruple_drink_box_red
+drink5 -> beverage_cabinet_red
+drink6 -> beverage_cabinet_yellow
 d -> character_d
 d1 -> access_control_electric_entrance
 d2 -> dormitory_entrance_single_right
@@ -91,6 +95,11 @@ fctable6 -> metal_large_table
 deskwood -> desk_wood
 dropper_front_vertical -> dropper_front_vertical
 dt -> dining_table_orange
+fcfloor -> staircase_tiles_classroom_flat
+fcfloor1 -> staircase_tiles_classroom_low
+fcfloor2 -> staircase_tiles_classroom_medium
+fcfloor3 -> staircase_tiles_classroom_high
+fcfloor4 -> staircase_tiles_classroom
 fctable2 -> 与上合并
 fbox -> canteen_plastic_storage_box
 fbox1 -> canteen_plastic_storage_box_bowl
@@ -121,6 +130,16 @@ fg72 -> small_ceramic_tiles
 fg73 -> balcony_white_ceramic_tiles_in_yun_f
 fg74 -> blue_ceramic_tile_vertical_quarter_brick
 fg75 -> stone_brick_vertical_quarter_brick
+fg82 -> double_material_wall_dado_v5
+fg83 -> double_material_wall_dado_slab_vertical_right
+fg84 -> double_material_wall_dado_slab_vertical_left
+fline21 -> road_marking_arrow_right
+fline22 -> road_marking_arrow_straight
+fline23 -> road_marking_arrow_left
+fline24 -> road_marking_arrow_straight_eccentric
+FVent -> central_air_conditioning_vent
+FVent1 -> central_air_conditioning_vent1
+FVent2 -> central_air_conditioning_vent2
 fg77 -> terracotta_cyan_vertical_16
 fg78 -> terracotta_cyan_vertical_256
 fg79 -> brick_stone_vertical_16
@@ -223,6 +242,8 @@ g7 -> pedestrian_road_pattern_brick_red
 g8 -> slate_floor_tiles_staggered_style_1
 g9 -> slate_floor_tiles_staggered_style_2
 gbed -> bedgirl_double
+girltl -> girl_toilet_left
+girltr -> girl_toilet_right
 girlwash -> girl_wash
 ground -> floor_tile
 gtable -> girl_table
@@ -255,8 +276,11 @@ pipe9 -> white_pipe_straight_with_bracket
 plant -> potted_plant_1
 plant1 -> potted_plant_2
 playground_green2 -> playground_plastic_green
+pool_cabinet -> workshop_cabinet_sink1
+pool_cabinet2 -> workshop_cabinet_sink1
 qh -> quartz_block_slab_v
 sc -> staircase_cabinets
+shelf_gongxun -> shelf_gongxun1
 sdframe -> door_frame_side_sliding
 sign1 -> washroom_sign
 sign2 -> toilet_flush_sign
