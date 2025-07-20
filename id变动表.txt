@@ -15,6 +15,7 @@ box -> cartons
 box1 -> cartons_group
 bpdown -> balcony_partition_down
 bpup -> balcony_partition_up
+cabinet_workshop -> cabinet_workshop1
 c -> character_c
 cch -> cyan_terracotta_slab_v
 cement_half_lightblue -> cement_brick_slab_lightblue
@@ -26,6 +27,9 @@ cemt -> cement_road_yellow
 chair1 -> chair_plastic_black
 chair2 -> chair_plastic_red
 cp -> corridor_pillar
+drink4 -> quadruple_drink_box_red
+drink5 -> beverage_cabinet_red
+drink6 -> beverage_cabinet_yellow
 d -> character_d
 d1 -> access_control_electric_entrance
 d2 -> dormitory_entrance_single_right
@@ -223,6 +227,8 @@ g7 -> pedestrian_road_pattern_brick_red
 g8 -> slate_floor_tiles_staggered_style_1
 g9 -> slate_floor_tiles_staggered_style_2
 gbed -> bedgirl_double
+girltl -> girl_toilet_left
+girltr -> girl_toilet_right
 girlwash -> girl_wash
 ground -> floor_tile
 gtable -> girl_table
@@ -255,8 +261,11 @@ pipe9 -> white_pipe_straight_with_bracket
 plant -> potted_plant_1
 plant1 -> potted_plant_2
 playground_green2 -> playground_plastic_green
+pool_cabinet -> workshop_cabinet_sink1
+pool_cabinet2 -> workshop_cabinet_sink1
 qh -> quartz_block_slab_v
 sc -> staircase_cabinets
+shelf_gongxun -> shelf_gongxun1
 sdframe -> door_frame_side_sliding
 sign1 -> washroom_sign
 sign2 -> toilet_flush_sign
