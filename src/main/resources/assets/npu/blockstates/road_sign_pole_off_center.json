@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/road/road_sign_pole_off_center"
+    },
+    "facing=east": {
+      "model": "npu:block/road/road_sign_pole_off_center",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/road/road_sign_pole_off_center",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/road/road_sign_pole_off_center",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

@@ -1,6 +1,5 @@
 package com.tf.npu.entities.npuentitynewclasses.vehicle.Bike.Bike1;
 
-import com.tf.npu.entities.npuentitynewclasses.vehicle.Bike.Bike;
 import com.tf.npu.util.Reference;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
