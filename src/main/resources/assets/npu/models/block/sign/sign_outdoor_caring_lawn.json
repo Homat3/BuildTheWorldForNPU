@@ -1,0 +1,58 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"1": "npu:block/s/sign_outdoor_caring_lawn",
+		"particle": "npu:block/s/sign_outdoor_caring_lawn"
+	},
+	"elements": [
+		{
+			"from": [2.25, 0, 7.4],
+			"to": [13.75, 16, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15.25, 20, 14.4]},
+			"faces": {
+				"north": {"uv": [0, 0, 11.5, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 11.5, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 11.5, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 11.5, 0], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.42, 0.42, 0.42]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.26, 0.26, 0.26]
+		},
+		"firstperson_righthand": {
+			"scale": [0.35, 0.35, 0.35]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.27, 0.27, 0.27]
+		},
+		"ground": {
+			"scale": [0.47, 0.47, 0.47]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0, 0.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"translation": [0, 12.75, 0],
+			"scale": [1.04, 1.04, 1.04]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [15.25, 20, 15.6],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

@@ -1,5 +1,5 @@
 {
-  "credit": "Made with Blockbench",
+  "render_type": "minecraft:cutout",
   "textures": {
     "0": "npu:block/c/concrete_white",
     "1": "npu:block/c/concrete_red",

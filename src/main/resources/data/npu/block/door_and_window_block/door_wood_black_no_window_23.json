@@ -1,0 +1,12 @@
+{
+  "StructureType": "DOOR_AND_WINDOW",
+  "ID": "door_wood_black_no_window_23",
+  "open_modelPath": "block/window/wood/door_wood_black_no_window_open_23.json",
+  "close_modelPath": "block/window/wood/door_wood_black_no_window_close_23.json",
+  "loadMethod": "METICULOUS",
+  "Material": "IRON",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}

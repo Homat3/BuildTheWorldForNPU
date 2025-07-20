@@ -1,0 +1,11 @@
+{
+  "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
+  "ID": "trash_cans_other",
+  "modelPath": "block/structure/trash_cans_other.json",
+  "loadMethod": "METICULOUS",
+  "Material": "IRON",
+  "noOcclusion": false,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}

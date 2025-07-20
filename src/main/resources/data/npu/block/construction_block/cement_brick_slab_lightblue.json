@@ -1,0 +1,10 @@
+{
+  "StructureType": "NORMAL_HALF_SLAB",
+  "ID": "cement_brick_slab_lightblue",
+  "Material": "IRON",
+  "double_enable": true,
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}
