@@ -6,8 +6,8 @@
   ],
   "textures": {
     "1": "npu:block/i/iron_block",
-    "2": "npu:block/c/wall_white",
-    "particle": "npu:block/c/wall_white"
+    "2": "npu:block/w/wall_white",
+    "particle": "npu:block/w/wall_white"
   },
   "elements": [
     {

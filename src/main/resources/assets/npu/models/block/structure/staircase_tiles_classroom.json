@@ -2,7 +2,7 @@
   "credit": "Made with Blockbench",
   "textures": {
     "0": "npu:block/m/marble_tiles_light",
-    "1": "npu:block/m/marble_tiles_black2",
+    "1": "npu:block/m/marble_tiles_black",
     "particle": "npu:block/m/marble_tiles_light"
   },
   "elements": [

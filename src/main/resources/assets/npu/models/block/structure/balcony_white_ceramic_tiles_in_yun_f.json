@@ -2,8 +2,8 @@
   "credit": "Made with Blockbench",
   "textures": {
     "1": "npu:block/l/little_ceramic_tile",
-    "2": "npu:block/c/wall_white",
-    "particle": "npu:block/c/wall_white"
+    "2": "npu:block/w/wall_white",
+    "particle": "npu:block/w/wall_white"
   },
   "elements": [
     {

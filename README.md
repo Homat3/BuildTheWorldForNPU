@@ -22,11 +22,11 @@ Forge：1.21.7-forge-57.0.2，以后可能会有更新
 
 1.  原代码作者：TeachingFeelings、SUPER2FH
 2.  协作者：翱翔——Soar
-3.  重构代码作者：Infinomat
-4.  其他作者：\
-    AoXiang-Soar, Mario_RainFlower,\
+3. 其他作者：AoXiang-Soar, Mario_RainFlower,\
+4. 重构代码作者：Infinomat
+5. 重构代码协作者：\
     MiLuGu, NW-Jiang, \
-    (##)%@, Fulucky
+    Mountain of Mahjong, Fulucky, (##)%@, vicissitude, Barrrrrrier, 布谷Bugu, Entity_Fish, Ryan萝卜, Ssevn
 
 ### 说明
 
