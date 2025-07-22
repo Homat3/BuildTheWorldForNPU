@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/window/girl_dormitory_door_window"
+    },
+    "facing=east": {
+      "model": "npu:block/window/girl_dormitory_door_window",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/window/girl_dormitory_door_window",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/window/girl_dormitory_door_window",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

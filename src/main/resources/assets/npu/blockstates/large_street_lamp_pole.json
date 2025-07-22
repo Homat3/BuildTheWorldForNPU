@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "npu:block/structure/large_street_lamp_pole"
+    }
+  }
+}

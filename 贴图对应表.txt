@@ -102,6 +102,7 @@ desk_wood->desk_wood
 diamond_block->diamond_block
 diantimen->door_elevator_warning
 diantimen2->door_elevator_led
+dianzhen->dianzhen
 dirt1->dirt1
 donotsmoke->donotsmoke
 door_acacia_lower->door_acacia_lower
@@ -189,11 +190,13 @@ girltr3->girl_toilet3
 girltr4->girl_toilet4
 glass->glass
 glass_black->glass_black
+glass_cyan->glass_cyan
 glass_frame->cement_white
 glass_silver->glass_silver
 glass_wall_half->glass_wall_half
 glass_wall_quarter->glass_wall_quarter
 glass_white->glass_white
+glazed_terracotta_green->glazed_terracotta_green
 glazed_terracotta_yellow->glazed_terracotta_yellow
 glazed_terracotta_orange->glazed_terracotta_orange
 glazed_terracotta_red->glazed_terracotta_red
@@ -280,6 +283,8 @@ penzai1->potted_plant1
 penzai2->potted_plant2
 penzai3->potted_plant3
 photo_frame_sworn->photo_frame_sworn
+pingfeng->pingfeng
+pingfengwei->pingfengwei
 pingmu2->screen2
 planks_birch1->planks_birch1
 planks_oak1->planks_oak1
@@ -343,6 +348,7 @@ sroad1->cement_road_a
 sroad2->cement_road_b
 sroad3->cement_road_c
 ss2->white_marble
+sstone_andesite_smooth->sstone_andesite_smooth
 stair_cement_down_lightblue->stair_cement_down_lightblue
 stair_cement_up_lightblue->stair_cement_up_lightblue
 stair_coment_lightblue->stair_coment_lightblue
@@ -429,6 +435,11 @@ yi->sign_indoor_determination
 yika2->yika_look
 yikapingmu2->yika_screen
 yong->sign_indoor_bravery
+zhifubao->zhifubao
+zhilupai2->signpost2
+zhongyangkongtiaokou->central_air_conditioning_vent
+zhouyizhizhouwu2->zhouyizhizhouwu2
+白瓷砖2->白瓷砖2
 zhilupai2->signpost2
 zhongyangkongtiaokou->central_air_conditioning_vent
 zhouyizhizhouwu2->zhouyizhizhouwu2
