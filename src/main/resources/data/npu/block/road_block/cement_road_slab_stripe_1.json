@@ -1,0 +1,10 @@
+{
+  "StructureType": "HORIZONTAL_DIRECTIONAL_HALF_SLAB",
+  "ID": "cement_road_slab_stripe_1",
+  "Material": "IRON",
+  "double_enable": true,
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}

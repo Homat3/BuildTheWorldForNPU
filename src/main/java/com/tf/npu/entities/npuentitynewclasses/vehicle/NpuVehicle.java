@@ -15,6 +15,7 @@ import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 
 import javax.annotation.Nullable;
+import java.io.IOException;
 import java.util.List;
 import java.util.function.Supplier;
 
@@ -27,7 +28,7 @@ abstract public class NpuVehicle extends VehicleEntity {
     }
 
     public static boolean canVehicleCollide(Entity vehicle, Entity entity) {
-        return (entity.canBeCollidedWith() || entity.isPushable()) && !vehicle.isPassengerOfSameVehicle(entity);
+        return (entity.canBeCollidedWith(vehicle) || entity.isPushable()) && !vehicle.isPassengerOfSameVehicle(entity);
     }
 
     @Nullable
@@ -62,9 +63,7 @@ abstract public class NpuVehicle extends VehicleEntity {
     }
 
     @Override
-    public boolean canBeCollidedWith() {
-        return true;
-    }
+    public boolean canBeCollidedWith(@Nullable Entity entity) { return true;}
 
     @Override
     public boolean isPushable() {
@@ -88,10 +87,14 @@ abstract public class NpuVehicle extends VehicleEntity {
     @Override
     public @NotNull InteractionResult interactAt(Player player, @NotNull Vec3 vec3, @NotNull InteractionHand hand) {
         if (!player.isSecondaryUseActive() && this.canAddPassenger(player)) {
-            if (!this.level().isClientSide) {
-                return player.startRiding(this) ? InteractionResult.CONSUME : InteractionResult.PASS;
-            } else {
-                return InteractionResult.SUCCESS;
+            try (var world = this.level()) {
+                if (!world.isClientSide) {
+                    return player.startRiding(this) ? InteractionResult.CONSUME : InteractionResult.PASS;
+                } else {
+                    return InteractionResult.SUCCESS;
+                }
+            } catch (IOException e) {
+                throw new RuntimeException(e);
             }
         } else {
             return InteractionResult.PASS;

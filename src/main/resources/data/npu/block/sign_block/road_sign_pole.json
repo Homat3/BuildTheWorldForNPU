@@ -1,0 +1,11 @@
+{
+  "StructureType": "NORMAL_STRUCTURE",
+  "ID": "road_sign_pole",
+  "loadMethod": "ROUGH",
+  "Material": "IRON",
+  "noOcclusion": false,
+  "noCollision": true,
+  "noLootTable": false,
+  "noParticlesOnBreak": false,
+  "modelPath": "block/road/road_sign_pole.json"
+}

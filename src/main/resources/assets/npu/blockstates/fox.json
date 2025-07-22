@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/fox"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/fox",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/fox",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/fox",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

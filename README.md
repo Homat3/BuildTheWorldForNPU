@@ -4,13 +4,13 @@
 NPUcraft建筑服专属模组。
 
 ### 适配版本
-Forge：1.21.5-forge-55.0.12，以后可能会有更新
+Forge：1.21.7-forge-57.0.2，以后可能会有更新
 
 ### 运行指南
-**建议使用 IntelliJ IDEA**
+**请使用 IntelliJ IDEA**
 1. 先取消 Gradle 构建
 2. 点击快捷键“Ctrl+Alt+Shift+S” -> “项目结构” -> “项目” -> “SDK” 确保 “项目JDK” 为 jdk21
-3. 点击快捷键“Ctrl+Alt+S” -> “设置”  -> “构建，执行，部署” -> “构建工具” -> "Gradle“ 确保 “使用此工具构建和运行” 和 “使用此工具运行测试” 为 “Gradle”，同时 确保 Gradle JVM 为 jdk21（与项目JDK相同）
+3. (Community 版可以跳过此步骤) 点击快捷键“Ctrl+Alt+S” -> “设置”  -> “构建，执行，部署” -> “构建工具” -> "Gradle“ 确保 “使用此工具构建和运行” 和 “使用此工具运行测试” 为 “Gradle”，同时 确保 Gradle JVM 为 jdk21（与项目JDK相同）
 4. 重启并等待 Gradle 构建
 5. 右边栏找到 “Gradle” -> “BuildTheWorldForNPU”  -> “Tasks” -> “forgegradle runs” -> “runClient” 配置，点击即可运行调试客户端测试模组
 
@@ -21,9 +21,12 @@ Forge：1.21.5-forge-55.0.12，以后可能会有更新
 ### 参与贡献
 
 1.  原代码作者：TeachingFeelings、SUPER2FH
-2.  重构代码作者：Infinomat
-3.  协作者：翱翔——Soar
-4.  其他作者：Mario_RainFlower, MiLuGu, NW-Jiang
+2.  协作者：翱翔——Soar
+3. 其他作者：AoXiang-Soar, Mario_RainFlower,\
+4. 重构代码作者：Infinomat
+5. 重构代码协作者：\
+    MiLuGu, NW-Jiang, \
+    Mountain of Mahjong, Fulucky, (##)%@, vicissitude, Barrrrrrier, 布谷Bugu, Entity_Fish, Ryan萝卜, Ssevn
 
 ### 说明
 

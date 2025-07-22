@@ -1,0 +1,11 @@
+{
+  "StructureType": "NORMAL_STRUCTURE",
+  "ID": "slab_pavement",
+  "modelPath": "block/road/slab_pavement.json",
+  "loadMethod": "ROUGH",
+  "Material": "ROCK",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}

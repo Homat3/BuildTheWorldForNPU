@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/fire_extinguisher_cabinet"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/fire_extinguisher_cabinet",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/fire_extinguisher_cabinet",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/fire_extinguisher_cabinet",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

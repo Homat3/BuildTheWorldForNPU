@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/knight"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/knight",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/knight",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/knight",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

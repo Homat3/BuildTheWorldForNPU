@@ -3,7 +3,7 @@
   "textures": {
     "0": "npu:block/m/marble_tiles",
     "2": "npu:block/s/slate_floor_tiles2",
-    "3": "npu:block/c/cement_road_a",
+    "3": "npu:block/c/cement_road",
     "particle": "npu:block/s/slate_floor_tiles2"
   },
   "elements": [

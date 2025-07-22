@@ -1,0 +1,77 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ModelBike1.front": {
+			"loop": true,
+			"animation_length": 0.75,
+			"bones": {
+				"车轮2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, -360]
+						}
+					}
+				},
+				"车轮3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, -360]
+						}
+					}
+				},
+				"脚踏板": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, -360]
+						}
+					}
+				}
+			}
+		},
+		"animation.ModelBike1.back": {
+			"animation_length": 1.25,
+			"bones": {
+				"车轮2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.25": {
+							"vector": [0, 0, 360]
+						}
+					}
+				},
+				"车轮3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.25": {
+							"vector": [0, 0, 360]
+						}
+					}
+				},
+				"脚踏板": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.25": {
+							"vector": [0, 0, 360]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

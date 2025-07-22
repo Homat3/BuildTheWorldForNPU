@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/window/teachingbuilding_east_guardrail"
+    },
+    "facing=east": {
+      "model": "npu:block/window/teachingbuilding_east_guardrail",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/window/teachingbuilding_east_guardrail",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/window/teachingbuilding_east_guardrail",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

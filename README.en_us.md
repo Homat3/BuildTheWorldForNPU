@@ -10,7 +10,7 @@ Forge: 1.21.5-forge-55.0.12, future updates may be available.
 **IntelliJ IDEA is Recommended**
 1. First, disable Gradle build.
 2. Press "Ctrl+Alt+Shift+S" -> "Project Structure" -> "Project" -> "SDK" to ensure "Project JDK" is set to jdk21.
-3. Press "Ctrl+Alt+S" -> "Settings" -> "Build, Execution, Deployment" -> "Build Tools" -> "Gradle" to ensure "Build and run using" and "Run tests using" are set to "Gradle", and make sure Gradle JVM is set to jdk21 (same as Project JDK).
+3. (Skip this step if you are using IntelliJ IDEA Community Edition) Press "Ctrl+Alt+S" -> "Settings" -> "Build, Execution, Deployment" -> "Build Tools" -> "Gradle" to ensure "Build and run using" and "Run tests using" are set to "Gradle", and make sure Gradle JVM is set to jdk21 (same as Project JDK).
 4. Restart and wait for Gradle to build.
 5. In the right sidebar, find "Gradle" -> "BuildTheWorldForNPU" -> "Tasks" -> "forgegradle runs" -> "runClient", configure and click to run and debug the client test mod.
 
@@ -21,9 +21,12 @@ Forge: 1.21.5-forge-55.0.12, future updates may be available.
 ### Contribution
 
 1. Original code author: TeachingFeelings, SUPER2FH
-2. Refactoring code author: Infinomat
-3. Collaborator: AoXiang-Soar
-4. Other authors: Mario_RainFlower, MiLuGu, NW-Jiang
+2. Collaborator: AoXiang-Soar
+3. Other authors: Mario_RainFlower
+4. Refactoring code author: Infinomat
+5. Refactoring code collaborator: \
+   MiLuGu, NW-Jiang, \
+   Mountain of Mahjong, Fulucky, (##)%@, vicissitude, Barrrrrrier, 布谷Bugu, Entity_Fish, Ryan萝卜, Ssevn
 
 ### Notes
 

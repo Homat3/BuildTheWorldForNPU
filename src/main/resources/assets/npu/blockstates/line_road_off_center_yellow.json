@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/road/line_road_off_center_yellow"
+    },
+    "facing=east": {
+      "model": "npu:block/road/line_road_off_center_yellow",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/road/line_road_off_center_yellow",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/road/line_road_off_center_yellow",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

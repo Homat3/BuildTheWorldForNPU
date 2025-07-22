@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/coffee_machine"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/coffee_machine",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/coffee_machine",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/coffee_machine",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

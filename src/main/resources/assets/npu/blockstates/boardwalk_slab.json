@@ -1,0 +1,68 @@
+{
+  "variants": {
+    "facing=north,type=bottom": {
+      "model": "npu:block/road/boardwalk_slab"
+    },
+    "facing=east,type=bottom": {
+      "model": "npu:block/road/boardwalk_slab",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,type=bottom": {
+      "model": "npu:block/road/boardwalk_slab",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=west,type=bottom": {
+      "model": "npu:block/road/boardwalk_slab",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=north,type=top": {
+      "model": "npu:block/road/boardwalk_slab",
+      "x": 180,
+      "uvlock": false
+    },
+    "facing=east,type=top": {
+      "model": "npu:block/road/boardwalk_slab",
+      "x": 180,
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,type=top": {
+      "model": "npu:block/road/boardwalk_slab",
+      "x": 180,
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=west,type=top": {
+      "model": "npu:block/road/boardwalk_slab",
+      "x": 180,
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=north,type=double": {
+      "model": "npu:block/road/boardwalk",
+      "x": 180,
+      "uvlock": false
+    },
+    "facing=east,type=double": {
+      "model": "npu:block/road/boardwalk",
+      "x": 180,
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,type=double": {
+      "model": "npu:block/road/boardwalk",
+      "x": 180,
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=west,type=double": {
+      "model": "npu:block/road/boardwalk",
+      "x": 180,
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

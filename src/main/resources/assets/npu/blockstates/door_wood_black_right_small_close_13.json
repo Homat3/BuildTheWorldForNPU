@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/window/wood/door_wood_black_right_small_close_13"
+    },
+    "facing=east": {
+      "model": "npu:block/window/wood/door_wood_black_right_small_close_13",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/window/wood/door_wood_black_right_small_close_13",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/window/wood/door_wood_black_right_small_close_13",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

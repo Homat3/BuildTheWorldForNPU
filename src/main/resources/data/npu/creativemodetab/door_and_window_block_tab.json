@@ -1,0 +1,6 @@
+{
+  "ID": "door_and_window_block_tab",
+  "ENUM_NAME": "DOOR_AND_WINDOW_BLOCK_TAB",
+
+  "icon": {"type": "BlockItem", "index": 0}
+}
