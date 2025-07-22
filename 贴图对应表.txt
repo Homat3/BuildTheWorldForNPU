@@ -96,6 +96,7 @@ desk_wood->desk_wood
 diamond_block->diamond_block
 diantimen->door_elevator_warning
 diantimen2->door_elevator_led
+dianzhen->dianzhen
 dirt1->dirt1
 donotsmoke->donotsmoke
 door_acacia_lower->door_acacia_lower
@@ -182,6 +183,7 @@ girltr3->girl_toilet3
 girltr4->girl_toilet4
 glass->glass
 glass_black->glass_black
+glass_cyan->glass_cyan
 glass_frame->cement_white
 glass_silver->glass_silver
 glass_wall_half->glass_wall_half
@@ -390,6 +392,8 @@ yi->sign_indoor_determination
 yika2->yika_look
 yikapingmu2->yika_screen
 yong->sign_indoor_bravery
+zhifubao->zhifubao
 zhilupai2->signpost2
 zhongyangkongtiaokou->central_air_conditioning_vent
 zhouyizhizhouwu2->zhouyizhizhouwu2
+白瓷砖2->白瓷砖2

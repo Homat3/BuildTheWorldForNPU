@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "npu:block/grille_ceiling/large_street_lamp_pole"
+      "model": "npu:block/structure/large_street_lamp_pole"
     }
   }
 }

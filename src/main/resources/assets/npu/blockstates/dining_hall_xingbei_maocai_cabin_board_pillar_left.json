@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/dining_hall_xingbei_maocai_cabin_board_pillar_left"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/dining_hall_xingbei_maocai_cabin_board_pillar_left",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/dining_hall_xingbei_maocai_cabin_board_pillar_left",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/dining_hall_xingbei_maocai_cabin_board_pillar_left",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

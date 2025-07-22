@@ -142,6 +142,7 @@ fhump -> speed_bump
 fhump1 -> speed_bump_edge
 flchair -> chair_long_park_45
 flight1 -> white_grid_top_teachingbuilding_east_light
+flight10 -> flat_ceiling_light_whole
 flight11 -> lamp_floor_small
 flight12 -> long_strip_light
 flight13 -> long_strip_light_half
@@ -150,6 +151,9 @@ flight3 -> large_street_lamp_pole
 flight4 -> large_street_lamp_loudspeaker
 flight5 -> large_street_lamp_cap
 flight6 -> large_street_lamp_base
+flight7 -> large_street_lamp_top
+flight8 -> flat_ceiling_light_3c
+flight9 -> flat_ceiling_light_half
 fline -> line_road_side_yellow
 fline1 -> line_road_middle_yellow
 fline2 -> line_road_middle_white
@@ -161,6 +165,17 @@ fline3 -> line_road_off_center_yellow
 fline4 -> line_road_corner_1_yellow
 fline5 -> line_road_corner_2_yellow
 fline6 -> line_road_corner_3_yellow
+fmp -> mop_pool_rear
+fnorthhall1 -> dining_hall_xingbei_maocai_cabin_board
+fnorthhall2 -> dining_hall_xingbei_maocai_cabin_board_pillar_left
+fnorthhall3 -> dining_hall_counter_bottom
+fnorthhall4 -> all_hole_dining_hall_counter_bottom
+fnorthhall5 -> dining_hall_counter_glass_middle
+fpipe -> ventilation_duct_vertical
+fpipe1 -> ventilation_duct_vertical_corner
+fpipe2 -> ventilation_duct_holder
+fpipe3 -> ventilation_duct_straight
+fpipe4 -> ventilation_duct_corner
 froadblocks -> roadblock_2
 frod -> road_sign_pole
 frod1 -> road_sign_pole_off_center
