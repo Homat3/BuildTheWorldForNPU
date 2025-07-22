@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/toilet/toilet"
+    },
+    "facing=east": {
+      "model": "npu:block/toilet/toilet",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/toilet/toilet",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/toilet/toilet",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
