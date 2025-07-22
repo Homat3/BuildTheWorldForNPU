@@ -4,11 +4,13 @@ acadd2->access_control_fix2
 admission_letter_2021->admission_letter_2021
 airconditioner_vertical->airconditioner_vertical
 airconin->airconin
+amethyst_block->amethyst_block
 anvil_base->anvil_base
 ao1->air_conditioner_frame1
 ao2->air_conditioner_frame2
 atable->atable
 atlas->atlas
+anvil_base->anvil_base
 awall2->cement_wall_light_white
 awall3->cement_wall_white
 baicizhuan->wall_white
@@ -25,6 +27,7 @@ bone_block_side->bone_block_side
 bone_block_top->bone_block_top
 box->cartons
 box1->cartons_group
+brown_glazed_terracotta->brown_glazed_terracotta
 bpup->balcony_partition_up
 buxingquyu1->buxingquyu1
 cabinet_workshop->cabinet_workshop1
@@ -38,6 +41,7 @@ cauldron_top->cauldron_top
 cc3->park_bench
 cem->cement
 cement_lightblue->cement_light_blue
+cement_road_side3->cement_road_with_curb_grey
 chair->chair
 chair_auditorium_blue->chair_auditorium_blue
 chair_auditorium_half_blue->chair_auditorium_half_blue
@@ -47,6 +51,7 @@ chair_lightblue->chair_lightblue
 chengsecanzhuo->dining_table_orange
 chest_door_tall->chest_door_tall
 coal_block->coal_block
+coca->coca
 cocoa_stage_1->cocoa_stage_1
 comparator_off->comparator_off
 con_blue->concrete_simple_blue
@@ -88,6 +93,7 @@ dalishidizhuanhei2->marble_tiles_black
 dalishidizhuanhei22->marble_tiles_black
 dalupai111->dalupai111
 dalupai2222->dalupai2222
+deepslate_diamond_ore->deepslate_diamond_ore
 daoluhuaxian-bai1 -> road_marking_white
 daoluhuaxian-bai1->line_road_white
 daoluhuaxian-huang->line_road_yellow
@@ -123,6 +129,7 @@ drink6 -> beverage_cabinet_yellow
 dropper_front_vertical->dropper_front_vertical
 emerald_block->emerald_block
 enchanting_table_bottom->enchanting_table_bottom
+end_bricks->end_bricks
 fence_cyan->fence_cyan
 fence_warningline->fence_warningline
 fence_warningline_column->fence_warningline_column
@@ -191,6 +198,22 @@ glass_wall_quarter->glass_wall_quarter
 glass_white->glass_white
 glazed_terracotta_green->glazed_terracotta_green
 glazed_terracotta_yellow->glazed_terracotta_yellow
+glazed_terracotta_orange->glazed_terracotta_orange
+glazed_terracotta_red->glazed_terracotta_red
+glazed_terracotta_light_blue->glazed_terracotta_light_blue
+glazed_terracotta_silver->glazed_terracotta_silver
+glazed_terracotta_silver1->glazed_terracotta_silver1
+glazed_terracotta_lime->glazed_terracotta_lime
+glazed_terracotta_blue->glazed_terracotta_blue
+glazed_terracotta_black->glazed_terracotta_black
+glazed_terracotta_brown->glazed_terracotta_brown
+glazed_terracotta_cyan->glazed_terracotta_cyan
+glazed_terracotta_gray->glazed_terracotta_gray
+glazed_terracotta_green->glazed_terracotta_green
+glazed_terracotta_magenta->glazed_terracotta_magenta
+glazed_terracotta_pink->glazed_terracotta_pink
+glazed_terracotta_purple->glazed_terracotta_purple
+glazed_terracotta_white->glazed_terracotta_white
 gold_block->gold_block
 gongyuanchangyi->chair_long_park_45
 gongzuotashi->work_steadfastly
@@ -214,6 +237,7 @@ iron_block1->iron_block1
 iron_trapdoor->iron_trapdoor
 jiangtaixiaohui->school_badge
 jiansudai2->speed_bump_2
+jiansumanxing->slow_down
 jinggai1-3->well_cover_1
 jinggai2->well_cover_2
 jingshucaizhi->iron_texture1
@@ -226,6 +250,8 @@ log_oak->log_oak
 man->man
 man22->man22
 medical_mask->medical_mask
+melon_side->melon_side
+melon_top->melon_top
 mp->mop_pool
 mutiezhi-heng5->paper6
 mutiezhi-heng7->paper8
@@ -337,6 +363,8 @@ stripe1->stripe1
 stripe2->stripe2
 stripe3->stripe3
 suliaozhuanqiang5->plastic_brick_wall
+toilet->toilet
+trash_classification_medical->trash_classification_medical
 tele->wall_mounted_tv
 texture->texture
 th1->truck_pit
@@ -386,8 +414,23 @@ wulengbaici->edgeless_white_porcelain
 wulengbaici->non_angular_white_porcelain
 wulengbaici->tile_white
 xbgydx1->npu_logo
+xiaocizhuan2->little_ceramic_tile
+blackboard_anti_japanese_hero->blackboard_anti_japanese_hero
+ttable->ttable
+urinal->urinal
+blackboard_core_socialist_value->blackboard_core_socialist_value
+heiban->heiban
+digital_calender->digital_calender
+shulker_top_light_blue->shulker_top_light_blue
+endframe_top->endframe_top
+structure_block_save->structure_block_save
+fire_cabinet->fire_cabinet
+flag_cy->flag_of_ccyl
+prot->prot
+league_badge->league_badge
 xiaochedian->bus_spot
 xiaocizhuan2->little_ceramic_tile
+yellow_glazed_terracotta->yellow_glazed_terracotta
 yi->sign_indoor_determination
 yika2->yika_look
 yikapingmu2->yika_screen
@@ -397,3 +440,8 @@ zhilupai2->signpost2
 zhongyangkongtiaokou->central_air_conditioning_vent
 zhouyizhizhouwu2->zhouyizhizhouwu2
 白瓷砖2->白瓷砖2
+zhilupai2->signpost2
+zhongyangkongtiaokou->central_air_conditioning_vent
+zhouyizhizhouwu2->zhouyizhizhouwu2
+小瓷砖2->tile_small_2
+zhilupai2->signpost2
