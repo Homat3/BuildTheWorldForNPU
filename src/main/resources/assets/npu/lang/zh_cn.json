@@ -666,5 +666,20 @@
   "item.npu.yunf_dormitory_door_back_to": "云F宿舍门后偏",
   "item.npu.yunf_dormitory_door_back_to_up": "云F宿舍门后偏补上",
   "item.npu.yunf_framed_balcony_door": "云F框架阳台门",
-  "item.npu.yunf_framed_balcony_door_up": "云F框架阳台门补上"
+  "item.npu.yunf_framed_balcony_door_up": "云F框架阳台门补上",
+  "item.npu.double_material_wall_vertical_5of8_brick": "内外双材墙竖八分之五砖",
+  "item.npu.double_material_wall_vertical_half_right": "内外双材墙竖半砖右",
+  "item.npu.double_material_wall_vertical_half_left": "内外双材墙竖半砖左",
+  "item.npu.grille_ceiling_white": "格栅天花板-白",
+  "item.npu.grille_ceiling_white_edge": "格栅天花板-白-边缘",
+  "item.npu.grille_ceiling_white_corner": "格栅天花板-白-转角",
+  "item.npu.sewer_half_brick": "下水道半砖",
+  "item.npu.supermarket_shelves": "超市货柜",
+  "item.npu.supermarket_shelves_side": "超市货柜侧",
+  "item.npu.supermarket_shelves_wall": "靠墙货柜",
+  "item.npu.single_compartment_sink": "单格洗手台",
+  "item.npu.yunf_framed_sliding_door_backside": "云F框架侧滑门后偏",
+  "item.npu.yunf_framed_sliding_door_backside_up": "云F框架侧滑门后偏补上",
+  "item.npu.yunf_toilet_door_right": "云F卫生间门右",
+  "item.npu.yunf_toilet_door_right_up": "云F卫生间门右补上"
 }

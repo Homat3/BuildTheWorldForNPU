@@ -4,6 +4,8 @@ acadd2->access_control_fix2
 admission_letter_2021->admission_letter_2021
 airconditioner_vertical->airconditioner_vertical
 airconin->airconin
+amethyst_block->amethyst_block
+anvil_base->anvil_base
 ao1->air_conditioner_frame1
 ao2->air_conditioner_frame2
 atable->atable
@@ -25,6 +27,7 @@ bone_block_side->bone_block_side
 bone_block_top->bone_block_top
 box->cartons
 box1->cartons_group
+brown_glazed_terracotta->brown_glazed_terracotta
 bpup->balcony_partition_up
 buxingquyu1->buxingquyu1
 cabinet_workshop->cabinet_workshop1
@@ -48,6 +51,7 @@ chair_lightblue->chair_lightblue
 chengsecanzhuo->dining_table_orange
 chest_door_tall->chest_door_tall
 coal_block->coal_block
+coca->coca
 cocoa_stage_1->cocoa_stage_1
 comparator_off->comparator_off
 con_blue->concrete_simple_blue
@@ -89,6 +93,7 @@ dalishidizhuanhei2->marble_tiles_black
 dalishidizhuanhei22->marble_tiles_black
 dalupai111->dalupai111
 dalupai2222->dalupai2222
+deepslate_diamond_ore->deepslate_diamond_ore
 daoluhuaxian-bai1 -> road_marking_white
 daoluhuaxian-bai1->line_road_white
 daoluhuaxian-huang->line_road_yellow
@@ -190,6 +195,22 @@ glass_wall_half->glass_wall_half
 glass_wall_quarter->glass_wall_quarter
 glass_white->glass_white
 glazed_terracotta_yellow->glazed_terracotta_yellow
+glazed_terracotta_orange->glazed_terracotta_orange
+glazed_terracotta_red->glazed_terracotta_red
+glazed_terracotta_light_blue->glazed_terracotta_light_blue
+glazed_terracotta_silver->glazed_terracotta_silver
+glazed_terracotta_silver1->glazed_terracotta_silver1
+glazed_terracotta_lime->glazed_terracotta_lime
+glazed_terracotta_blue->glazed_terracotta_blue
+glazed_terracotta_black->glazed_terracotta_black
+glazed_terracotta_brown->glazed_terracotta_brown
+glazed_terracotta_cyan->glazed_terracotta_cyan
+glazed_terracotta_gray->glazed_terracotta_gray
+glazed_terracotta_green->glazed_terracotta_green
+glazed_terracotta_magenta->glazed_terracotta_magenta
+glazed_terracotta_pink->glazed_terracotta_pink
+glazed_terracotta_purple->glazed_terracotta_purple
+glazed_terracotta_white->glazed_terracotta_white
 gold_block->gold_block
 gongyuanchangyi->chair_long_park_45
 gongzuotashi->work_steadfastly
@@ -226,6 +247,8 @@ log_oak->log_oak
 man->man
 man22->man22
 medical_mask->medical_mask
+melon_side->melon_side
+melon_top->melon_top
 mp->mop_pool
 mutiezhi-heng5->paper6
 mutiezhi-heng7->paper8
@@ -401,6 +424,7 @@ prot->prot
 league_badge->league_badge
 xiaochedian->bus_spot
 xiaocizhuan2->little_ceramic_tile
+yellow_glazed_terracotta->yellow_glazed_terracotta
 yi->sign_indoor_determination
 yika2->yika_look
 yikapingmu2->yika_screen

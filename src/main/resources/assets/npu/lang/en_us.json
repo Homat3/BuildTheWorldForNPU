@@ -477,5 +477,20 @@
   "item.npu.white_pipe_3_interface": "White Pipe 3-Way Joint",
   "item.npu.white_pipe_corner": "White Pipe Corner",
   "item.npu.white_pipe_straight": "White Pipe Straight",
-  "item.npu.white_pipe_straight_with_bracket": "White Pipe w/Bracket"
+  "item.npu.white_pipe_straight_with_bracket": "White Pipe w/Bracket",
+  "item.npu.double_material_wall_vertical_5of8_brick": "double material wall vertical 5of8 brick",
+  "item.npu.double_material_wall_vertical_half_right": "double material wall vertical half right",
+  "item.npu.double_material_wall_vertical_half_left": "double material wall vertical half left",
+  "item.npu.grille_ceiling_white": "grille ceiling white",
+  "item.npu.grille_ceiling_white_edge": "grille ceiling white edge",
+  "item.npu.grille_ceiling_white_corner": "grille ceiling white corner",
+  "item.npu.sewer_half_brick": "sewer half brick",
+  "item.npu.supermarket_shelves": "supermarket shelves",
+  "item.npu.supermarket_shelves_side": "supermarket shelves side",
+  "item.npu.supermarket_shelves_wall": "supermarket shelves wall mounted",
+  "item.npu.single_compartment_sink": "single_compartment sink",
+  "item.npu.yunf_framed_sliding_door_backside": "yunf framed sliding door backside",
+  "item.npu.yunf_framed_sliding_door_backside_up": "yunf framed sliding door backside up",
+  "item.npu.yunf_toilet_door_right": "yunf toilet door right",
+  "item.npu.yunf_toilet_door_right_up": "yunf toilet door right up"
 }

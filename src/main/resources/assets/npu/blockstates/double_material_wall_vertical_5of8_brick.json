@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/brick/double_material_wall_vertical_5of8_brick"
+    },
+    "facing=east": {
+      "model": "npu:block/brick/double_material_wall_vertical_5of8_brick",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/brick/double_material_wall_vertical_5of8_brick",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/brick/double_material_wall_vertical_5of8_brick",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
