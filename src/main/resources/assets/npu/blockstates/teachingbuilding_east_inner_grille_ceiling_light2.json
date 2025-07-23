@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/grille_ceiling/teachingbuilding_east_inner_grille_ceiling_light2"
+    },
+    "facing=east": {
+      "model": "npu:block/grille_ceiling/teachingbuilding_east_inner_grille_ceiling_light2",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/grille_ceiling/teachingbuilding_east_inner_grille_ceiling_light2",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/grille_ceiling/teachingbuilding_east_inner_grille_ceiling_light2",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
