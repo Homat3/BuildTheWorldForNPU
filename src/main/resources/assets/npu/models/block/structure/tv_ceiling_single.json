@@ -5,10 +5,10 @@
 		"1": "npu:block/c/concrete_gray",
 		"2": "npu:block/c/concrete_silver",
 		"3": "npu:block/c/concrete_white",
-		"4": "npu:block/m/marble_tiles_black2",
+		"4": "npu:block/m/marble_tiles_black",
 		"5": "npu:block/c/concrete_light_blue",
 		"8": "npu:block/s/screen2",
-		"particle": "npu:block/m/marble_tiles_black2"
+		"particle": "npu:block/m/marble_tiles_black"
 	},
 	"elements": [
 		{

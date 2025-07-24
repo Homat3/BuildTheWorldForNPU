@@ -3,7 +3,7 @@
   "textures": {
     "0": "npu:block/s/sign_dining_hall",
     "2": "npu:block/h/hardened_clay_stained_brown",
-    "3": "npu:block/m/marble_tiles_black22",
+    "3": "npu:block/m/marble_tiles_black",
     "particle": "npu:block/h/hardened_clay_stained_brown"
   },
   "elements": [

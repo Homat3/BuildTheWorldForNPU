@@ -21,9 +21,12 @@ Forge: 1.21.5-forge-55.0.12, future updates may be available.
 ### Contribution
 
 1. Original code author: TeachingFeelings, SUPER2FH
-2. Refactoring code author: Infinomat
-3. Collaborator: AoXiang-Soar
-4. Other authors: Mario_RainFlower, MiLuGu, NW-Jiang
+2. Collaborator: AoXiang-Soar
+3. Other authors: Mario_RainFlower
+4. Refactoring code author: Infinomat
+5. Refactoring code collaborator: \
+   MiLuGu, NW-Jiang, \
+   Mountain of Mahjong, Fulucky, (##)%@, vicissitude, Barrrrrrier, 布谷Bugu, Entity_Fish, Ryan萝卜, Ssevn
 
 ### Notes
 
