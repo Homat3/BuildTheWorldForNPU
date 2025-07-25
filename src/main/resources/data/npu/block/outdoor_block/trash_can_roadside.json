@@ -2,7 +2,7 @@
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
   "ID": "trash_can_roadside",
   "modelPath": "block/structure/trash_can_roadside.json",
-  "loadMethod": "METICULOUS",
+  "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": false,
   "noCollision": false,

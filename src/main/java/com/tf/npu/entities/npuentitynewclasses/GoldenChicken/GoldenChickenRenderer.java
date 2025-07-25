@@ -6,10 +6,13 @@ import net.minecraft.client.renderer.entity.ChickenRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.state.ChickenRenderState;
 import net.minecraft.resources.ResourceLocation;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.api.distmarker.OnlyIn;
 import org.jetbrains.annotations.NotNull;
 
 
 //GoldenChicken的Renderer
+
 public class GoldenChickenRenderer extends ChickenRenderer {
     private static final ResourceLocation GOLDEN_CHICKEN_TEXTURES =
             ResourceLocation.fromNamespaceAndPath(Reference.MODID, "textures/entity/g/golden_chicken.png");

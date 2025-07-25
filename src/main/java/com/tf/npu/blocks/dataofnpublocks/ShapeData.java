@@ -19,6 +19,7 @@ public class ShapeData {
 
         ArrayList<List<Double>> shapeList = new ArrayList<>(0);
 
+        if (elements == null) return shapeList;
         for (Element element : elements) {
             element.transform();
             shapeList.add(List.of(element.from[0], element.from[1], element.from[2], element.to[0], element.to[1], element.to[2]));

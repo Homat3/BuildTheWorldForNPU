@@ -370,7 +370,7 @@
             16,
             9
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "up": {
           "uv": [
@@ -379,7 +379,7 @@
             8,
             16
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "down": {
           "uv": [
@@ -388,7 +388,7 @@
             8,
             16
           ],
-          "texture": "#missing"
+          "texture": "#1"
         }
       }
     },
@@ -429,7 +429,7 @@
             16,
             9
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "south": {
           "uv": [
@@ -447,7 +447,7 @@
             16,
             9
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "up": {
           "uv": [
@@ -456,7 +456,7 @@
             8,
             16
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "down": {
           "uv": [
@@ -465,7 +465,7 @@
             8,
             16
           ],
-          "texture": "#missing"
+          "texture": "#1"
         }
       }
     },
@@ -506,7 +506,7 @@
             16,
             9
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "south": {
           "uv": [
@@ -524,7 +524,7 @@
             16,
             9
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "up": {
           "uv": [
@@ -533,7 +533,7 @@
             8,
             16
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "down": {
           "uv": [
@@ -542,7 +542,7 @@
             8,
             16
           ],
-          "texture": "#missing"
+          "texture": "#1"
         }
       }
     },
@@ -601,7 +601,7 @@
             16,
             9
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "up": {
           "uv": [
@@ -610,7 +610,7 @@
             8,
             16
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "down": {
           "uv": [
@@ -619,7 +619,7 @@
             8,
             16
           ],
-          "texture": "#missing"
+          "texture": "#1"
         }
       }
     }

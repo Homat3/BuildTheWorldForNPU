@@ -11,9 +11,9 @@ import com.tf.npu.util.Reference;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SpawnEggItem;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import org.slf4j.Logger;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -21,9 +21,9 @@ import java.util.List;
 import java.util.Map;
 
 public class NpuItems {
-    public static final org.slf4j.Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Reference.MODID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Reference.MODID);
     public static final String dataPath = Reference.PATH.get(Reference.PathType.ITEM);
     public static final List<DataOfNpuCreativeModeTabs> dataList = new FolderDataGetter<>(Reference.PATH.get(Reference.PathType.CREATIVEMODETAB), DataOfNpuCreativeModeTabs.class).getList();
 
@@ -45,9 +45,9 @@ public class NpuItems {
     }
 
     public static class TabType {
-        public final ArrayList<RegistryObject<BlockItem>> blockItemList;
+        public final ArrayList<DeferredItem<BlockItem>> blockItemList;
         public final DataOfNpuCreativeModeTabs data;
-        public final ArrayList<RegistryObject<Item>> itemList;
+        public final ArrayList<DeferredItem<Item>> itemList;
         //新方块物品表
         final NpuBlocks.TabType blockItemTabType;
         //新纯物品表
@@ -67,14 +67,14 @@ public class NpuItems {
         public void registerItems() {
             if (blockItemTabType != null) {
                 for (var BLOCK : blockItemTabType.blockList) {
-                    RegistryObject<BlockItem> BLOCK_ITEM = ITEMS.register(blockItemTabType.IDMap.get(BLOCK), () ->
+                    DeferredItem<BlockItem> BLOCK_ITEM = ITEMS.register(blockItemTabType.IDMap.get(BLOCK), () ->
                             new BlockItem(BLOCK.get(), blockItemTabType.createBlockItemProperties(BLOCK)));
                     blockItemList.add(BLOCK_ITEM);
                     LOGGER.info("Registered blockitem: {}", BLOCK_ITEM.getId());
                 }
             }
             for (DataOfNpuItems data : itemDataList) {
-                RegistryObject<Item> ITEM;
+                DeferredItem<Item> ITEM;
                 if (data.isSpawnEgg)
                     ITEM = ITEMS.register(data.ID, () ->
                             new SpawnEggItem(NpuEntities.MOB_ID_MAP.get(data.creature_ID).get(), data.createItemProperties()));
