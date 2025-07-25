@@ -4,6 +4,7 @@ acadd2->access_control_fix2
 airconditioner_vertical->airconditioner_vertical
 admission_letter_2021->admission_letter_2021
 airconin->airconin
+anvil_base->anvil_base
 ao1->air_conditioner_frame1
 ao2->air_conditioner_frame2
 atable->atable
@@ -47,6 +48,7 @@ chair_auditorium_red->chair_auditorium_red
 chair_lightblue->chair_lightblue
 chengsecanzhuo->dining_table_orange
 chest_door_tall->chest_door_tall
+chuanchuan->chuanchuan
 coal_block->coal_block
 cocoa_stage_1->cocoa_stage_1
 comparator_off->comparator_off
@@ -211,6 +213,8 @@ iron_block1->iron_block1
 iron_trapdoor->iron_trapdoor
 jiangtaixiaohui->school_badge
 jiansudai2->speed_bump_2
+jiaoshimenkoupingmu->jiaoshimenkoupingmu
+jigoupaizi1->jigoupaizi1
 jinggai1-3->well_cover_1
 jinggai2->well_cover_2
 jingshucaizhi->iron_texture1

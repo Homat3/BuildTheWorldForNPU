@@ -82,6 +82,15 @@ elev -> door_elevator
 f -> character_f
 fbrailingl -> fence_balcony_cloud_f_left
 fbrailingr -> fence_balcony_cloud_f_right
+fbtable -> blue_dining_table
+fchopsticks -> canteen_chopstick_sterilizer
+fcart -> skewer_hotpot_cart
+fcamera -> monitoring_pole
+fcamera1 -> monitoring_crossbar
+fcamera2 -> monitoring_flash
+fcamera3 -> monitoring_camera1
+fcamera4 -> monitoring_camera2
+fcamera5 -> monitoring_pole_corner
 fcart1 -> cart_cutlery
 fctable -> tableware_storage
 fctable1 -> table_empty
@@ -92,6 +101,8 @@ fctable3 -> red_dining_table
 fctable4 -> blue_dining_table_2
 fctable5 -> blue_dining_table_3
 fctable6 -> metal_large_table
+fdoornum -> classroom_doorplate
+fdoorscreen -> classroom_entrance_screen
 deskwood -> desk_wood
 dropper_front_vertical -> dropper_front_vertical
 dt -> dining_table_orange
@@ -184,6 +195,10 @@ fwindow2 -> black_window_corner_3
 fwindow3 -> blue_window_corner_1
 fwindow4 -> blue_window_corner_2
 fwindow5 -> blue_window_corner_3
+fstove -> stove
+fstove1 -> stove_pan_pot
+fstove2 -> stove_2_4
+fswitch -> small_electric_brake
 g1 -> marble_tiles
 g10 -> slate_floor_tiles_style_1
 g11 -> slate_floor_tiles_style_2

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/decoration/skewer_hotpot_cart"
+    },
+    "facing=east": {
+      "model": "npu:block/decoration/skewer_hotpot_cart",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/decoration/skewer_hotpot_cart",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/decoration/skewer_hotpot_cart",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

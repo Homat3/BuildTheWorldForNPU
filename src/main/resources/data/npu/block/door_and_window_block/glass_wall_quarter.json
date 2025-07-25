@@ -1,6 +1,7 @@
 {
     "StructureType": "HORIZONTAL_DIRECTIONAL_HALF_SLAB",
     "ID": "glass_wall_quarter",
+    "modelPath": "block/window/lamp_floor_small.json",
     "Material": "IRON",
     "double_enable": false,
     "noOcclusion": true,

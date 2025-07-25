@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/decoration/stove_pan_pot"
+    },
+    "facing=east": {
+      "model": "npu:block/decoration/stove_pan_pot",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/decoration/stove_pan_pot",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/decoration/stove_pan_pot",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
