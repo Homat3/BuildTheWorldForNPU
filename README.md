@@ -4,7 +4,7 @@
 NPUcraft建筑服专属模组。
 
 ### 适配版本
-Forge：1.21.8-NeoForge-21.8.10，以后可能会有更新
+NeoForge：1.21.8-NeoForge-21.8.10，以后可能会有更新
 
 ### 运行指南
 **请使用 IntelliJ IDEA**

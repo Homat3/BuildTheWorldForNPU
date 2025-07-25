@@ -4,7 +4,7 @@
 Exclusive mod for NPUcraft construction server.
 
 ### Compatibility Version
-Forge: 1.21.5-forge-55.0.12, future updates may be available.
+NeoForge：1.21.8-NeoForge-21.8.10, future updates may be available.
 
 ### Running Guide
 **IntelliJ IDEA is Recommended**
