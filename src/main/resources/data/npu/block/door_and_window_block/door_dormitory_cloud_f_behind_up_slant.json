@@ -1,0 +1,11 @@
+{
+  "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
+  "ID": "door_dormitory_cloud_f_behind_up_slant",
+  "modelPath": "block/structure/door_dormitory_cloud_f_behind_up_slant.json",
+  "loadMethod": "METICULOUS",
+  "Material": "IRON",
+  "noOcclusion": false,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}

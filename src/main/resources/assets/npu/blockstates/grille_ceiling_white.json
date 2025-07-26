@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/grille_ceiling/grille_ceiling_white"
+    },
+    "facing=east": {
+      "model": "npu:block/grille_ceiling/grille_ceiling_white",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/grille_ceiling/grille_ceiling_white",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/grille_ceiling/grille_ceiling_white",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

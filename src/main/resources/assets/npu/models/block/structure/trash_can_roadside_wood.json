@@ -6,12 +6,12 @@
     "2": "npu:block/c/concrete_black",
     "3": "npu:block/c/concrete_white",
     "4": "npu:block/c/concrete_gray",
-    "5": "npu:block/tras1",
-    "7": "npu:block/tras2",
-    "8": "npu:block/tras3",
-    "9": "npu:block/tras4",
-    "10": "npu:block/tras5",
-    "11": "npu:block/tras6",
+    "5": "npu:block/t/trash_can_roadside_wood1",
+    "7": "npu:block/t/trash_can_roadside_wood2",
+    "8": "npu:block/t/trash_can_roadside_wood3",
+    "9": "npu:block/t/trash_can_roadside_wood4",
+    "10": "npu:block/t/trash_can_roadside_wood5",
+    "11": "npu:block/t/trash_can_roadside_wood6",
     "particle": "npu:block/c/concrete_gray"
   },
   "elements": [

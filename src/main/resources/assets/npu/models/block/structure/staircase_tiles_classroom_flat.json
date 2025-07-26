@@ -56,7 +56,7 @@
             4,
             0.75
           ],
-          "texture": "#missing"
+          "texture": "#6"
         },
         "west": {
           "uv": [
@@ -115,7 +115,7 @@
             4,
             0.75
           ],
-          "texture": "#missing"
+          "texture": "#6"
         },
         "east": {
           "uv": [

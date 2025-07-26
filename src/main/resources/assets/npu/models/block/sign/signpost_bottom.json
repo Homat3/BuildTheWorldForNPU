@@ -121,7 +121,7 @@
             2,
             16
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "south": {
           "uv": [
@@ -139,7 +139,7 @@
             2,
             16
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "up": {
           "uv": [
@@ -148,7 +148,7 @@
             12,
             2
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "down": {
           "uv": [
@@ -157,7 +157,7 @@
             12,
             2
           ],
-          "texture": "#missing"
+          "texture": "#1"
         }
       }
     },

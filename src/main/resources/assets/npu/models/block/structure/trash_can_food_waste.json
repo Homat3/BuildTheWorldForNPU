@@ -5,8 +5,8 @@
     128
   ],
   "textures": {
-    "0": "npu:block/trash1",
-    "particle": "npu:block/trash1"
+    "0": "npu:block/t/trash_can_food_waste",
+    "particle": "npu:block/t/trash_can_food_waste"
   },
   "elements": [
     {

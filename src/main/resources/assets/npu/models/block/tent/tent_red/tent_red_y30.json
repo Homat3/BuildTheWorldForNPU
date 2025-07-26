@@ -1,7 +1,8 @@
 {
   "textures": {
+    "0": "npu:block/t/tent_red",
     "particle": "npu:block/t/tent_red"
   },
-  "loader": "forge:obj",
-  "model": "npu:models/block/tent/tent_red/tent_red_y30.obj"
+  "model": "npu:models/block/tent/tent_red/tent_red_y30.obj",
+  "loader": "neoforge:obj"
 }

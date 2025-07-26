@@ -4,7 +4,7 @@
 Exclusive mod for NPUcraft construction server.
 
 ### Compatibility Version
-Forge: 1.21.5-forge-55.0.12, future updates may be available.
+NeoForge：1.21.8-NeoForge-21.8.10, future updates may be available.
 
 ### Running Guide
 **IntelliJ IDEA is Recommended**
@@ -12,7 +12,7 @@ Forge: 1.21.5-forge-55.0.12, future updates may be available.
 2. Press "Ctrl+Alt+Shift+S" -> "Project Structure" -> "Project" -> "SDK" to ensure "Project JDK" is set to jdk21.
 3. (Skip this step if you are using IntelliJ IDEA Community Edition) Press "Ctrl+Alt+S" -> "Settings" -> "Build, Execution, Deployment" -> "Build Tools" -> "Gradle" to ensure "Build and run using" and "Run tests using" are set to "Gradle", and make sure Gradle JVM is set to jdk21 (same as Project JDK).
 4. Restart and wait for Gradle to build.
-5. In the right sidebar, find "Gradle" -> "BuildTheWorldForNPU" -> "Tasks" -> "forgegradle runs" -> "runClient", configure and click to run and debug the client test mod.
+5. In the top sidebar, find “BuildTheWorldForNPU:Client” configure, and click to run and debug the client test mod.
 
 ### Usage Instructions
 

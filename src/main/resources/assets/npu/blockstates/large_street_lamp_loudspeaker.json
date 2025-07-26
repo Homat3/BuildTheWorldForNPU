@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/large_street_lamp_loudspeaker"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/large_street_lamp_loudspeaker",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/large_street_lamp_loudspeaker",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/large_street_lamp_loudspeaker",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
