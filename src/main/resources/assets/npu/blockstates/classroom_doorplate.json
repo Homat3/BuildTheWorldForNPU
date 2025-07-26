@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/decoration/classroom_doorplate"
+    },
+    "facing=east": {
+      "model": "npu:block/decoration/classroom_doorplate",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/decoration/classroom_doorplate",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/decoration/classroom_doorplate",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

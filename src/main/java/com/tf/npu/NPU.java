@@ -2,42 +2,53 @@ package com.tf.npu;
 
 import com.mojang.logging.LogUtils;
 import com.tf.npu.creativemodtab.CreativeModeTab;
-import com.tf.npu.entities.NpuEntities;
-import com.tf.npu.entities.npuentitynewclasses.GoldenChicken.GoldenChickenRenderer;
-import com.tf.npu.entities.npuentitynewclasses.vehicle.SchoolBus.SchoolBusRenderer;
 import com.tf.npu.util.Reference;
 import com.tf.npu.util.RegisterObjects;
-import net.minecraftforge.client.event.EntityRenderersEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.config.ModConfig;
+import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
+// The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(Reference.MODID)
 public class NPU {
-    public static final org.slf4j.Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
-    public NPU(FMLJavaModLoadingContext context) {
-        var modBusGroup = context.getModBusGroup();
+    public NPU(IEventBus modEventBus, ModContainer modContainer) {
+        // Register the commonSetup method for modloading
+        modEventBus.addListener(this::commonSetup);
 
-        // Register the Deferred Register to the mod event bus so new things of the mod get registered
-        RegisterObjects.register(modBusGroup);
+        RegisterObjects.register(modEventBus);
 
-        // 将物品注册到创造模式物品栏
-        BuildCreativeModeTabContentsEvent.getBus(modBusGroup).addListener(NPU::addCreative);
-        // 将模组渲染方式注册到模组实体
-        EntityRenderersEvent.RegisterRenderers.getBus(modBusGroup).addListener(NPU::registerRenderers);
+        NeoForge.EVENT_BUS.register(this);
+
+        modEventBus.addListener(this::addCreative);
+
+        // Register our mod's ModConfigSpec so that FML can create and load the config file for us
+        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+    }
+
+    private void commonSetup(FMLCommonSetupEvent event) {
+        // Some common setup code
+        LOGGER.info("HELLO FROM COMMON SETUP");
     }
 
 
-    //将物品注册到创造模式物品栏
-    private static void addCreative(BuildCreativeModeTabContentsEvent event) {
+    // Add the example block item to the building blocks tab
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
         CreativeModeTab.addCreative(event);
     }
-    //将模组渲染方式注册到模组实体
-    //新的实体方块和新的实体都需要自己的 Renderer 并把它们加到这里
-    private static void registerRenderers(EntityRenderersEvent.RegisterRenderers register) {
-        register.registerEntityRenderer(NpuEntities.GOLDEN_CHICKEN.get(), GoldenChickenRenderer::new);
-        register.registerEntityRenderer(NpuEntities.SCHOOL_BUS.get(), SchoolBusRenderer::new);
+
+    // You can use SubscribeEvent and let the Event Bus discover methods to call
+    @SubscribeEvent
+    public void onServerStarting(ServerStartingEvent event) {
+        // Do something when the server starts
+        LOGGER.info("HELLO from server starting");
     }
 }

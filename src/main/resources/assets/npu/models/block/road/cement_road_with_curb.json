@@ -3,8 +3,8 @@
 	"textures": {
 		"2": "npu:block/h/hardened_clay_stained_yellow",
 		"3": "npu:block/s/stripe1",
-		"4": "npu:block/c/cement_road_a",
-		"particle": "npu:block/c/cement_road_a"
+		"4": "npu:block/c/cement_road",
+		"particle": "npu:block/c/cement_road"
 	},
 	"elements": [
 		{

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "npu:block/brick/cement_brick_slab_lightblue"
+    },
+    "type=top": {
+      "model": "npu:block/brick/cement_brick_slab_lightblue",
+      "x": 180,
+      "uvlock": false
+    },
+    "type=double": {
+      "model": "npu:block/brick/cement_brick_lightblue",
+      "uvlock": false
+    }
+  }
+}

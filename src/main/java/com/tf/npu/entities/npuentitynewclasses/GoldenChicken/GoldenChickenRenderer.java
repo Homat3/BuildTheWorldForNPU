@@ -10,6 +10,7 @@ import org.jetbrains.annotations.NotNull;
 
 
 //GoldenChicken的Renderer
+
 public class GoldenChickenRenderer extends ChickenRenderer {
     private static final ResourceLocation GOLDEN_CHICKEN_TEXTURES =
             ResourceLocation.fromNamespaceAndPath(Reference.MODID, "textures/entity/g/golden_chicken.png");

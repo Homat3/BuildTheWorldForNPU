@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "npu:block/s/stripe2",
-		"4": "npu:block/c/cement_road_a",
+		"4": "npu:block/c/cement_road",
 		"5": "npu:block/c/curb1",
-		"particle": "npu:block/c/cement_road_a"
+		"particle": "npu:block/c/cement_road"
 	},
 	"elements": [
 		{

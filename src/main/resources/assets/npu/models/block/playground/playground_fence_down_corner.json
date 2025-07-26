@@ -2,7 +2,7 @@
   "credit": "Made with Blockbench",
   "textures": {
     "0": "npu:block/g/gray_brick",
-    "1": "npu:block/c/cement_road_a",
+    "1": "npu:block/c/cement_road",
     "6": "npu:block/f/fence_cyan",
     "particle": "npu:block/g/gray_brick"
   },

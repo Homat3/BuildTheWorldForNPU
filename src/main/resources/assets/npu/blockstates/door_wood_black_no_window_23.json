@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=north,open=false": {
+      "model": "npu:block/window/wood/door_wood_black_no_window_close_23"
+    },
+    "facing=east,open=false": {
+      "model": "npu:block/window/wood/door_wood_black_no_window_close_23",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,open=false": {
+      "model": "npu:block/window/wood/door_wood_black_no_window_close_23",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,open=false": {
+      "model": "npu:block/window/wood/door_wood_black_no_window_close_23",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=north,open=true": {
+      "model": "npu:block/window/wood/door_wood_black_no_window_open_23"
+    },
+    "facing=east,open=true": {
+      "model": "npu:block/window/wood/door_wood_black_no_window_open_23",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,open=true": {
+      "model": "npu:block/window/wood/door_wood_black_no_window_open_23",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,open=true": {
+      "model": "npu:block/window/wood/door_wood_black_no_window_open_23",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

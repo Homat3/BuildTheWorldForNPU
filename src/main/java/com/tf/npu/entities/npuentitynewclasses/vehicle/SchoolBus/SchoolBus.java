@@ -1,19 +1,16 @@
 package com.tf.npu.entities.npuentitynewclasses.vehicle.SchoolBus;
 
 import com.tf.npu.entities.npuentitynewclasses.vehicle.NpuVehicle;
-import net.minecraft.nbt.CompoundTag;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.MoverType;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.variant.VariantUtils;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
-import net.minecraft.world.phys.AABB;
 import org.jetbrains.annotations.NotNull;
 import software.bernie.geckolib.animatable.GeoEntity;
 import software.bernie.geckolib.animatable.instance.AnimatableInstanceCache;
@@ -29,9 +26,8 @@ import java.util.function.Supplier;
 
 public class SchoolBus extends NpuVehicle implements GeoEntity {
     // 动画文件
-    protected static final RawAnimation FLY_ANIM = RawAnimation.begin().thenLoop("animation.ModelSchoolBus.move");
+    protected static final RawAnimation MOVE_ANIM = RawAnimation.begin().thenLoop("animation.ModelSchoolBus.move");
     // 碰撞箱
-    private static final AABB boundingBox = new AABB(0, 0, 0, 0, 0, 0);
     private final AnimatableInstanceCache geoCache = GeckoLibUtil.createInstanceCache(this);
     // 最大乘客数
     private int maxPassenger = 15;
@@ -42,18 +38,14 @@ public class SchoolBus extends NpuVehicle implements GeoEntity {
     }
 
     public static EntityType.EntityFactory<SchoolBus> schoolBusFactory(Supplier<Item> itemSupplier) {
-        return (type, level) -> {
-            SchoolBus schoolBus = new SchoolBus(type, level, itemSupplier);
-            schoolBus.setBoundingBox(boundingBox);
-            return schoolBus;
-        };
+        return (type, level) -> new SchoolBus(type, level, itemSupplier);
     }
 
     // 动画控制器
     @Override
     public void registerControllers(final AnimatableManager.ControllerRegistrar controllers) {
         controllers.add(new AnimationController<>("Moving", 5,
-                (animTest) -> animTest.isMoving() ? animTest.setAndContinue(FLY_ANIM) : PlayState.STOP)
+                (animTest) -> animTest.isMoving() ? animTest.setAndContinue(MOVE_ANIM) : PlayState.STOP)
         );
     }
 
@@ -75,8 +67,6 @@ public class SchoolBus extends NpuVehicle implements GeoEntity {
     }
 
     // 属性
-
-
     @Override
     public boolean isVehicle() {
         return !getPassengers().isEmpty();

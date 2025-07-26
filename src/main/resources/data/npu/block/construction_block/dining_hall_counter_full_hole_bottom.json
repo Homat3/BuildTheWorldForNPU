@@ -1,0 +1,11 @@
+{
+  "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
+  "ID": "dining_hall_counter_full_hole_bottom",
+  "loadMethod": "ROUGH",
+  "Material": "IRON",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false,
+  "modelPath": "block/structure/dining_hall_counter_full_hole_bottom.json"
+}

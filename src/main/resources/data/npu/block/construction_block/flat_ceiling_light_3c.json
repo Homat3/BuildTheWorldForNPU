@@ -1,0 +1,11 @@
+{
+  "StructureType": "NORMAL_STRUCTURE",
+  "ID": "flat_ceiling_light_3c",
+  "loadMethod": "ROUGH",
+  "Material": "IRON",
+  "noOcclusion": false,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false,
+  "modelPath": "block/structure/flat_ceiling_light_3c.json"
+}

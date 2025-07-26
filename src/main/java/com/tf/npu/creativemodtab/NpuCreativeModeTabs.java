@@ -9,8 +9,10 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import org.slf4j.Logger;
 
 import java.util.List;
 
@@ -18,7 +20,7 @@ import java.util.List;
 //用于注册新物品栏并向其中添加物品
 
 public class NpuCreativeModeTabs {
-    public static final org.slf4j.Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Reference.MODID);
     public static final String dataPath = Reference.PATH.get(Reference.PathType.CREATIVEMODETAB);
@@ -27,9 +29,9 @@ public class NpuCreativeModeTabs {
 
     static {
         for (var data : dataList) {
-            RegistryObject<CreativeModeTab> CREATIVE_MODE_TAB = switch (data.getIconType()){
+            DeferredHolder<CreativeModeTab, CreativeModeTab> CREATIVE_MODE_TAB = switch (data.getIconType()){
                 case "Item":
-                    List<RegistryObject<Item>> itemList = NpuItems.getTabType(data.ENUM_NAME).itemList;
+                    List<DeferredItem<Item>> itemList = NpuItems.getTabType(data.ENUM_NAME).itemList;
                     yield  CREATIVE_MODE_TABS.register(data.ID, () -> CreativeModeTab.builder()
                                     .title(Component.translatable(dataPath + "." + Reference.MODID + "." + data.ID))
                                     .withTabsBefore(CreativeModeTabs.COMBAT)
@@ -45,7 +47,7 @@ public class NpuCreativeModeTabs {
                                     .icon(() -> new ItemStack(itemList.get(data.getIconIndex()).get()))
                                     .build());
                 case "BlockItem":
-                    List<RegistryObject<BlockItem>> blockItemList = NpuItems.getTabType(data.ENUM_NAME).blockItemList;
+                    List<DeferredItem<BlockItem>> blockItemList = NpuItems.getTabType(data.ENUM_NAME).blockItemList;
                     yield  CREATIVE_MODE_TABS.register(data.ID, () -> CreativeModeTab.builder()
                                     .title(Component.translatable(dataPath + "." + Reference.MODID + "." + data.ID))
                                     .withTabsBefore(CreativeModeTabs.COMBAT)

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/fence/guardrail_thin_with_electric_box"
+    },
+    "facing=east": {
+      "model": "npu:block/fence/guardrail_thin_with_electric_box",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/fence/guardrail_thin_with_electric_box",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/fence/guardrail_thin_with_electric_box",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

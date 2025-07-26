@@ -16,9 +16,9 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import org.slf4j.Logger;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -27,9 +27,9 @@ import java.util.Map;
 import java.util.function.ToIntFunction;
 
 public class NpuBlocks {
-    public static final org.slf4j.Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MODID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Reference.MODID);
     public static final String dataPath = Reference.PATH.get(Reference.PathType.BLOCK);
     public static final List<DataOfNpuCreativeModeTabs> dataList = new FolderDataGetter<>(Reference.PATH.get(Reference.PathType.CREATIVEMODETAB), DataOfNpuCreativeModeTabs.class).getList();
 
@@ -135,9 +135,9 @@ public class NpuBlocks {
     //一些常用属性
     public static class TabType {
         //新方块表
-        public final ArrayList<RegistryObject<Block>> blockList;
+        public final ArrayList<DeferredBlock<Block>> blockList;
         //新方块ID映射表
-        public final Map<RegistryObject<Block>, String> IDMap;
+        public final Map<DeferredBlock<Block>, String> IDMap;
         //新方块属性表
         final List<DataOfNpuBlocks> dataList;
 
@@ -147,7 +147,7 @@ public class NpuBlocks {
             this.IDMap = new HashMap<>(0);
         }
 
-        public Item.Properties createBlockItemProperties(RegistryObject<Block> BLOCK) {
+        public Item.Properties createBlockItemProperties(DeferredBlock<Block> BLOCK) {
             Item.Properties properties = new Item.Properties();
             if (BLOCK.getId() != null) {
                 return properties.setId(ResourceKey.create(ResourceKey.createRegistryKey(BLOCK.getId()), BLOCK.getId()));
@@ -157,7 +157,7 @@ public class NpuBlocks {
 
         public void registerBlocks() {
             for (DataOfNpuBlocks data : dataList) {
-                RegistryObject<Block> BLOCK;
+                DeferredBlock<Block> BLOCK;
 
                 BLOCK = switch (StructureType.valueOf(data.StructureType)) {
                     case NORMAL_STRUCTURE -> {

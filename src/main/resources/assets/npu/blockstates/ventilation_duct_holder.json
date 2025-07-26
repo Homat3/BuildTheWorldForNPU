@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/ventilation_duct_holder"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/ventilation_duct_holder",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/ventilation_duct_holder",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/ventilation_duct_holder",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
