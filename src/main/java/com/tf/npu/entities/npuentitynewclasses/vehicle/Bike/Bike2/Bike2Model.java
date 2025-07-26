@@ -2,8 +2,6 @@ package com.tf.npu.entities.npuentitynewclasses.vehicle.Bike.Bike2;
 
 import com.tf.npu.util.Reference;
 import net.minecraft.resources.ResourceLocation;
-import net.neoforged.api.distmarker.Dist;
-import net.neoforged.api.distmarker.OnlyIn;
 import software.bernie.geckolib.model.GeoModel;
 import software.bernie.geckolib.renderer.base.GeoRenderState;
 

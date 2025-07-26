@@ -13,7 +13,7 @@ import org.slf4j.Logger;
 public class ClientEventHandler {
     public static final Logger LOGGER = LogUtils.getLogger();
     @SubscribeEvent
-    public static void registerEntityLayers(EntityRenderersEvent.RegisterRenderers event) {
+    public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
         LOGGER.info("Registering renderers...");
 
         NpuEntities.registerRenderers(event);

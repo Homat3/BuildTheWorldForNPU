@@ -83,7 +83,7 @@ fbox -> canteen_plastic_storage_box
 fbox1 -> canteen_plastic_storage_box_bowl
 fbrailingl -> fence_balcony_cloud_f_left
 fbrailingr -> fence_balcony_cloud_f_right
-fbtable -> blue_dining_table
+fbtable -> blue_dining_table_1
 fchopsticks -> canteen_chopstick_sterilizer
 fcart -> skewer_hotpot_cart
 fcamera -> monitoring_pole
@@ -209,7 +209,7 @@ fpipe8 -> pipe_yellow_corner2
 fpipe9 -> pipe_yellow_corner3
 fpipe10 -> pipe_yellow_corner4
 fradiator -> radiator_behind_right
-froadblocks -> roadblock_2
+froadblocks -> roadblock_double1
 frod -> road_sign_pole
 frod1 -> road_sign_pole_off_center
 fshelf -> metal_shelf_1

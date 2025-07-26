@@ -1,8 +1,8 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
-  "ID": "roadblock_double",
-  "modelPath": "block/fence/fence_warningline/roadblock_double.json",
-  "loadMethod": "METICULOUS",
+  "ID": "small_electric_brake",
+  "modelPath": "block/decoration/small_electric_brake.json",
+  "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": true,
   "noCollision": false,

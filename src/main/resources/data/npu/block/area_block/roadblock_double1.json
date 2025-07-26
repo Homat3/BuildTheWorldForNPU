@@ -1,11 +1,11 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
-  "ID": "roadblock_2",
+  "ID": "roadblock_double1",
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": false,
   "noCollision": true,
   "noLootTable": false,
   "noParticlesOnBreak": false,
-  "modelPath": "block/road/roadblock_2.json"
+  "modelPath": "block/fence/fence_warningline/roadblock_double1.json"
 }

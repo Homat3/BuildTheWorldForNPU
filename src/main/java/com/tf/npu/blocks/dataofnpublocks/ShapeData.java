@@ -9,7 +9,7 @@ public class ShapeData {
 
     public Boolean loaderIsObj() {
         if (loader == null) return false;
-        else return loader.equals("forge:obj");
+        else return loader.equals("neoforge:obj");
     }
 
     public ArrayList<List<Double>> getShapeList() {

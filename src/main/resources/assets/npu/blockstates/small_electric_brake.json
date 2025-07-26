@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/decoration/blue_dining_table"
+      "model": "npu:block/decoration/small_electric_brake"
     },
     "facing=east": {
-      "model": "npu:block/decoration/blue_dining_table",
+      "model": "npu:block/decoration/small_electric_brake",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/decoration/blue_dining_table",
+      "model": "npu:block/decoration/small_electric_brake",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/decoration/blue_dining_table",
+      "model": "npu:block/decoration/small_electric_brake",
       "y": 270,
       "uvlock": false
     }

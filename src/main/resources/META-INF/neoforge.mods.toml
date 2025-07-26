@@ -1,32 +1,32 @@
-license="${mod_license}"
-modLoader="javafml"
-loaderVersion="[5,)"
+license = "${mod_license}"
+modLoader = "javafml"
+loaderVersion = "[5,)"
 
 [[mods]]
-modId="${mod_id}"
-version="${mod_version}"
-displayName="${mod_name}"
-authors="${mod_authors}"
-description='''${mod_description}'''
-logoFile="NPUcraft.png"
+    logoFile = "NPUcraft.png"
+    modId = "${mod_id}"
+    version = "${mod_version}"
+    displayName = "${mod_name}"
+    authors = "${mod_authors}"
+    description = '''${mod_description}'''
 
 [[dependencies."${mod_id}"]]
-modId="neoforge"
-type="required"
-versionRange="[21.7.0-beta,)"
-ordering="NONE"
-side="BOTH"
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[21.7.0-beta,)"
+    ordering = "NONE"
+    side = "BOTH"
 
 [[dependencies."${mod_id}"]]
-modId="minecraft"
-type="required"
-versionRange="${minecraft_version_range}"
-ordering="NONE"
-side="BOTH"
+    modId = "minecraft"
+    type = "required"
+    versionRange = "${minecraft_version_range}"
+    ordering = "NONE"
+    side = "BOTH"
 
 [[dependencies."${mod_id}"]]
-modId="geckolib"
-type="required"
-versionRange="[5.0,)"
-ordering="NONE"
-side="BOTH"
+    modId = "geckolib"
+    type = "required"
+    versionRange = "[5.0,)"
+    ordering = "NONE"
+    side = "BOTH"
