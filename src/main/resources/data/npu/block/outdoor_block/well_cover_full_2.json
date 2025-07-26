@@ -1,0 +1,11 @@
+{
+  "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
+  "ID": "well_cover_full_2",
+  "modelPath": "block/structure/well_cover_full_2.json",
+  "loadMethod": "METICULOUS",
+  "Material": "IRON",
+  "noOcclusion": false,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}

@@ -1,0 +1,11 @@
+{
+  "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
+  "ID": "photo_frame_sworn",
+  "modelPath": "block/structure/photo_frame_sworn.json",
+  "loadMethod": "METICULOUS",
+  "Material": "IRON",
+  "noOcclusion": false,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false
+}

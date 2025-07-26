@@ -1,0 +1,11 @@
+{
+  "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
+  "ID": "dormitory_entrance_frame",
+  "loadMethod": "ROUGH",
+  "Material": "IRON",
+  "noOcclusion": true,
+  "noCollision": true,
+  "noLootTable": false,
+  "noParticlesOnBreak": false,
+  "modelPath": "block/structure/dormitory_entrance_frame.json"
+}

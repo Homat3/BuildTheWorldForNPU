@@ -1,14 +1,11 @@
 package com.tf.npu.entities.npuentitynewclasses.vehicle.Bike.Bike1;
 
-import com.tf.npu.entities.npuentitynewclasses.vehicle.Bike.Bike;
 import com.tf.npu.util.Reference;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
 import software.bernie.geckolib.model.GeoModel;
 import software.bernie.geckolib.renderer.base.GeoRenderState;
 
-@OnlyIn(Dist.CLIENT)
+
 public class Bike1Model extends GeoModel<Bike1> {
     private final ResourceLocation model = ResourceLocation.fromNamespaceAndPath(Reference.MODID, "bike1");
     private final ResourceLocation animations = ResourceLocation.fromNamespaceAndPath(Reference.MODID, "bike1");

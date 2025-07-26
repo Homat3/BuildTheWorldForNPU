@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/decoration/dormitory_fan"
+    },
+    "facing=east": {
+      "model": "npu:block/decoration/dormitory_fan",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/decoration/dormitory_fan",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/decoration/dormitory_fan",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

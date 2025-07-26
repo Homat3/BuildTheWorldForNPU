@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/cart_cutlery"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/cart_cutlery",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/cart_cutlery",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/cart_cutlery",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

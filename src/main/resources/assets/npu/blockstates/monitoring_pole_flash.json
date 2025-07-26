@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/decoration/monitoring_pole_flash"
+    },
+    "facing=east": {
+      "model": "npu:block/decoration/monitoring_pole_flash",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/decoration/monitoring_pole_flash",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/decoration/monitoring_pole_flash",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

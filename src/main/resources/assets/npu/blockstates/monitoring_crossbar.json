@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/decoration/monitoring_crossbar"
+    },
+    "facing=east": {
+      "model": "npu:block/decoration/monitoring_crossbar",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/decoration/monitoring_crossbar",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/decoration/monitoring_crossbar",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

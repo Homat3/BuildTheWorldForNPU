@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/trash_can_food_waste"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/trash_can_food_waste",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/trash_can_food_waste",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/trash_can_food_waste",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
