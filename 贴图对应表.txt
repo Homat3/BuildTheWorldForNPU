@@ -65,6 +65,7 @@ chair_lightblue->chair_lightblue
 chair_long_park_45->gongyuanchangyi
 chengsecanzhuo->dining_table_orange
 chest_door_tall->chest_door_tall
+chuanchuan->chuanchuan
 coal_block->coal_block
 coca->coca
 cocoa_stage_1->cocoa_stage_1
@@ -266,6 +267,8 @@ iron_texture2->jingshucaizhi2
 iron_trapdoor->iron_trapdoor
 jiangtaixiaohui->school_badge
 jiansudai2->speed_bump_2
+jiaoshimenkoupingmu->jiaoshimenkoupingmu
+jigoupaizi1->jigoupaizi1
 jiansumanxing->slow_down
 jinshucaizhi2->jinshucaizhi2
 jinggai1-3->well_cover_1
