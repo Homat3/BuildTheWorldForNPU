@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/cafeteria_bar_refrigerator"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/cafeteria_bar_refrigerator",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/cafeteria_bar_refrigerator",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/cafeteria_bar_refrigerator",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
