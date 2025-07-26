@@ -1,8 +1,7 @@
 a -> character_a
 ac -> access_control_face_recognition
 acadd1 -> access_control_add1
-acadd2 -> access_control_add2
-airconin -> air_conditioner_in
+acadd2 -> access_control_add2airconin -> air_conditioner_in
 airconout -> air_conditioner_out
 airconout1 -> air_conditioner_out1
 airconout2 -> air_conditioner_out2
@@ -18,15 +17,17 @@ box -> cartons
 box1 -> cartons_group
 bpdown -> balcony_partition_down
 bpup -> balcony_partition_up
-c -> character_c
-cabinet_workshop -> cabinet_workshop1
 cch -> cyan_terracotta_slab_v
+c -> character_c
 cement_half_lightblue -> cement_brick_slab_lightblue
 cement_lightblue -> cement_brick_lightblue
+cabinet_workshop -> cabinet_workshop1
 cement_road_side3 -> cement_road_with_curb_grey
 cementslab -> cement_block_slab
 cemh -> cement_road_slab_yellow
 cemt -> cement_road_yellow
+cement_half_lightblue -> cement_brick_slab_lightblue
+cement_lightblue -> cement_brick_lightblue
 chair1 -> chair_plastic_black
 chair2 -> chair_plastic_red
 cp -> corridor_pillar
@@ -59,6 +60,7 @@ door6 -> door_double_glass_indoor
 door7 -> door_wood_huge_close_23
 door8 -> door_wood_huge_close_33
 door9 -> door_iron_huge_23
+door10 -> door_iron_huge_33
 drink -> frame_drink_red_single
 drink1 -> frame_drink_blue_single
 drink3 -> frame_drink_red_double
@@ -77,6 +79,7 @@ dw7 -> door_wood_white_right_close_23
 dw8 -> door_wood_white_left_23
 dw9 -> 与上合并
 e -> character_e
+deskwood -> desk_wood
 elev -> door_elevator
 f -> character_f
 fbox -> canteen_plastic_storage_box
@@ -129,7 +132,7 @@ fg59 -> wooden_grid_top_teachingbuilding_east
 fg60 -> wooden_grid_top_teachingbuilding_east_edge
 fg61 -> blue_floor
 fg62 -> marble_floor_light
-fg63 -> slope_staircase_low_section_inner_corner
+fg63 -> slope_staircase_low_section_innner_corner
 fg64 -> slope_staircase_low_section_outer_corner
 fg65 -> slope_staircase_high_section_inner_corner
 fg66 -> slope_staircase_high_section_outer_corner
@@ -267,6 +270,21 @@ fyftl1 -> toilet_cloud_f_left_up
 fyftr -> toilet_cloud_f_right
 fyftr1 -> toilet_cloud_f_right_up
 g -> character_g
+fline6 -> road_marking_turning3_yellow
+fline7 -> road_marking_edge
+fline8 -> road_marking_middle
+fline9 -> road_marking_middle_white_yellow
+fline10 -> road_marking_sidelined
+fline11 -> road_marking_sidewalk
+fline12 -> road_marking_turning1
+fline13 -> road_marking_turning2
+fline14 -> road_marking_turning3
+fline15 -> road_marking_arrow1
+fline16 -> road_marking_arrow2
+fline17 -> road_marking_arrow_shaft_sidelined
+fline18 -> road_marking_arrow_shaft_middle
+fline19 -> road_marking_arrow_diagonal_right
+fline20 -> road_marking_arrow_diagonal_left
 g1 -> marble_tiles
 g10 -> slate_floor_tiles_style_1
 g11 -> slate_floor_tiles_style_2
@@ -431,7 +449,7 @@ wgwall -> limed_wall
 wgwall1 -> limed_wall_dado
 wgwall2 -> grille_ceiling_floor_tile
 wgwall3 -> double_material_wall
-wgwall4 -> double_material_wall_dado
+wgwall3 -> double_material_wall_dado
 win1 -> window1
 win10 -> window8
 win11 -> window9
@@ -501,7 +519,7 @@ yf3 -> limed_wall_dado_slab_corner_v4
 yf4 -> limed_wall_slab_v5
 yf5 -> limed_wall_slab_corner_v6
 yf6 -> limed_wall_slab_v7
-yf7 -> limed_wall_slab_corner_v8
+yf7 -> limed_wall_slab_v8
 yf8 -> air_conditioner_out_right
 yf9 -> washstand_back_to_right
 flag_cy -> flag_of_ccyl
