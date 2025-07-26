@@ -56,6 +56,8 @@ concrete_white->concrete_white
 concrete_yellow->concrete_yellow
 dalishidizhuan-qian2->marble_tiles_light
 dalishidizhuan5->marble_tiles
+daoluhuaxian-bai1->road_marking_bai
+daoluhuaxian-huang->road_marking_yellow
 dirt1->dirt1
 dalishidizhuanhei2->marble_tiles_black2
 desk_foldable->desk_foldable

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/road/road_marking_arrow_diagonal_left"
+    },
+    "facing=east": {
+      "model": "npu:block/road/road_marking_arrow_diagonal_left",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/road/road_marking_arrow_diagonal_left",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/road/road_marking_arrow_diagonal_left",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
