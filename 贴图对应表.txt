@@ -106,6 +106,8 @@ concrete_yellow->concrete_yellow
 cross_grain_floor_tile->wall14
 dalishidizhuan-qian2->marble_tiles_light
 dalishidizhuan5->marble_tiles
+daoluhuaxian-bai1->road_marking_bai
+daoluhuaxian-huang->road_marking_yellow
 dirt1->dirt1
 daoluhuaxian-bai1->road_marking_bai
 daoluhuaxian-huang->road_marking_yellow
