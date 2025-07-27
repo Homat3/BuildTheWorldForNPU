@@ -4,7 +4,7 @@
   "loadMethod": "METICULOUS",
   "Material": "IRON",
   "noOcclusion": false,
-  "noCollision": true,
+  "noCollision": false,
   "noLootTable": false,
   "noParticlesOnBreak": false,
   "modelPath": "block/road/sign_yinhelu_large_right.json"

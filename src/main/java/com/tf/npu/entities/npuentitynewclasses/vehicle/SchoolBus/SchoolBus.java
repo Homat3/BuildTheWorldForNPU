@@ -95,18 +95,6 @@ public class SchoolBus extends NpuVehicle implements GeoEntity {
         return res;
     }
 
-    // 互动
-    @Override
-    public void push(@NotNull Entity entity) {
-        if (entity instanceof SchoolBus) {
-            if (entity.getBoundingBox().minY < this.getBoundingBox().maxY) {
-                super.push(entity);
-            }
-        } else if (entity.getBoundingBox().minY <= this.getBoundingBox().minY) {
-            super.push(entity);
-        }
-    }
-
     // 移动
     @Override
     public void tick() {

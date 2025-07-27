@@ -3,10 +3,9 @@ package com.tf.npu.entities.npuentitynewclasses.vehicle;
 import net.minecraft.util.Mth;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.EntitySpawnReason;
-import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.*;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.vehicle.Boat;
 import net.minecraft.world.entity.vehicle.VehicleEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -66,11 +65,6 @@ abstract public class NpuVehicle extends VehicleEntity {
     public boolean canBeCollidedWith(@Nullable Entity entity) { return true;}
 
     @Override
-    public boolean isPushable() {
-        return true;
-    }
-
-    @Override
     protected @NotNull Item getDropItem() {
         return dropItem.get();
     }
@@ -111,6 +105,12 @@ abstract public class NpuVehicle extends VehicleEntity {
     @Override
     public abstract void positionRider(@NotNull Entity entity, @NotNull Entity.MoveFunction moveFunction);
 
+    @Override
+    public @NotNull Vec3 getDismountLocationForPassenger(@NotNull LivingEntity passenger) {
+        List<Double> xz = getPosition(3.5F, 0.0F);
+        return new Vec3(xz.get(0), this.getY(), xz.get(1));
+    }
+
     protected List<Double> getPosition(double relative_X, double relative_Z) {
         double x = this.getX() - relative_Z * Mth.sin(getYRot() * Mth.DEG_TO_RAD)
                 + relative_X * Mth.cos(getYRot() * Mth.DEG_TO_RAD);
@@ -118,5 +118,4 @@ abstract public class NpuVehicle extends VehicleEntity {
                 + relative_X * Mth.sin(getYRot() * Mth.DEG_TO_RAD);
         return List.of(x, z);
     }
-
 }

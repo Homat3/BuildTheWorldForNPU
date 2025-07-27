@@ -4,7 +4,7 @@
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": false,
-  "noCollision": true,
+  "noCollision": false,
   "noLootTable": false,
   "noParticlesOnBreak": false,
   "modelPath": "block/window/girl_dormitory_small_door_window.json"

@@ -4,7 +4,7 @@
   "modelPath": "block/structure/photo_frame_sworn.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
-  "noOcclusion": false,
+  "noOcclusion": true,
   "noCollision": false,
   "noLootTable": false,
   "noParticlesOnBreak": false

@@ -4,7 +4,7 @@
   "loadMethod": "ROUGH",
   "Material": "IRON",
   "noOcclusion": false,
-  "noCollision": true,
+  "noCollision": false,
   "noLootTable": false,
   "noParticlesOnBreak": false,
   "modelPath": "block/road/road_sign_pole.json"

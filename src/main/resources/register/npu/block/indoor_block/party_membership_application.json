@@ -4,7 +4,7 @@
   "modelPath": "block/structure/party_membership_application.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
-  "noOcclusion": false,
+  "noOcclusion": true,
   "noCollision": false,
   "noLootTable": false,
   "noParticlesOnBreak": false
