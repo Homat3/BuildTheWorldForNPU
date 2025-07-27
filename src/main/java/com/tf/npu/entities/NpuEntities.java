@@ -99,11 +99,11 @@ public class NpuEntities {
     }
 
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event){
-        event.registerEntityRenderer(NpuEntities.GOLDEN_CHICKEN.get(), GoldenChickenRenderer::new);
-        event.registerEntityRenderer(NpuEntities.SCHOOL_BUS.get(), SchoolBusRenderer::new);
-        event.registerEntityRenderer(NpuEntities.BIKE1.get(), Bike1Renderer::new);
-        event.registerEntityRenderer(NpuEntities.BIKE2.get(), Bike2Renderer::new);
-        event.registerEntityRenderer(NpuEntities.BIKE3.get(), Bike3Renderer::new);
+        event.registerEntityRenderer(GOLDEN_CHICKEN.get(), GoldenChickenRenderer::new);
+        event.registerEntityRenderer(SCHOOL_BUS.get(), SchoolBusRenderer::new);
+        event.registerEntityRenderer(BIKE1.get(), Bike1Renderer::new);
+        event.registerEntityRenderer(BIKE2.get(), Bike2Renderer::new);
+        event.registerEntityRenderer(BIKE3.get(), Bike3Renderer::new);
     }
 
 

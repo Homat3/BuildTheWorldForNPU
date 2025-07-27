@@ -5,7 +5,7 @@
     64
   ],
   "textures": {
-    "3": "npu:block/p/pingfeng",
+    "3": "npu:block/s/screen",
     "particle": "npu:block/c/concrete_brown"
   },
   "elements": [

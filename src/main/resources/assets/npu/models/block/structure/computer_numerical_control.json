@@ -1,0 +1,9 @@
+{
+	"textures": {
+		"0": "npu:block/c/computer_numerical_control",
+		"particle": "npu:block/c/computer_numerical_control"
+	},
+	"model": "npu:models/block/structure/computer_numerical_control.obj",
+	"loader": "neoforge:obj",
+	"flip_v": true
+}

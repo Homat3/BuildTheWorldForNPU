@@ -3,42 +3,42 @@
     "angle=0": {
       "model": "npu:block/tent/tent_red/tent_red"
     },
-    "angle=15":  {
+    "angle=1":  {
       "model": "npu:block/tent/tent_red/tent_red_y15"
     },
-    "angle=30":  {
+    "angle=2":  {
       "model": "npu:block/tent/tent_red/tent_red_y30"
     },
-    "angle=45":  {
+    "angle=3":  {
       "model": "npu:block/tent/tent_red/tent_red_y45"
     },
-    "angle=60":  {
+    "angle=4":  {
       "model": "npu:block/tent/tent_red/tent_red_y60"
     },
-    "angle=75":  {
+    "angle=5":  {
       "model": "npu:block/tent/tent_red/tent_red_y75"
     },
-    "angle=90":  {
+    "angle=6":  {
       "model": "npu:block/tent/tent_red/tent_red",
       "y": 90
     },
-    "angle=105":  {
+    "angle=7":  {
       "model": "npu:block/tent/tent_red/tent_red_y15",
       "y": 90
     },
-    "angle=120":  {
+    "angle=8":  {
       "model": "npu:block/tent/tent_red/tent_red_y30",
       "y": 90
     },
-    "angle=135":  {
+    "angle=9":  {
       "model": "npu:block/tent/tent_red/tent_red_y45",
       "y": 90
     },
-    "angle=150":  {
+    "angle=10":  {
       "model": "npu:block/tent/tent_red/tent_red_y60",
       "y": 90
     },
-    "angle=165":  {
+    "angle=11":  {
       "model": "npu:block/tent/tent_red/tent_red_y75",
       "y": 90
     }

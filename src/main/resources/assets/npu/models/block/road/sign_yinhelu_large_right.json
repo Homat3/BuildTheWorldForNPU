@@ -1,7 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "3": "npu:block/d/dalupai2222",
+    "3": "npu:block/s/sign_give_way",
     "4": "npu:block/i/iron_block",
     "particle": "npu:block/i/iron_block"
   },

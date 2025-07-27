@@ -2,18 +2,18 @@
   "credit": "Made with Blockbench",
   "textures": {
     "1": "npu:block/c/coca",
-    "2": "npu:block/m/mutiezhi3",
+    "2": "npu:block/p/paper9",
     "3": "npu:block/v/vita",
     "4": "npu:block/s/spite",
-    "5": "npu:block/b/baicizhuan2",
+    "5": "npu:block/w/wall_white",
     "6": "npu:block/h/hardened_clay_stained_white",
     "7": "npu:block/h/hardened_clay_stained_orange",
     "8": "npu:block/c/concrete_powder_red",
     "9": "npu:block/h/hardened_clay_stained_black",
-    "10": "npu:block/d/dalishidizhuanhei2",
+    "10": "npu:block/m/marble_tiles_black",
     "11": "npu:block/g/glass",
     "12": "npu:block/c/concrete_orange",
-    "particle": "npu:block/m/mutiezhi3"
+    "particle": "npu:block/p/paper9"
   },
   "elements": [
     {

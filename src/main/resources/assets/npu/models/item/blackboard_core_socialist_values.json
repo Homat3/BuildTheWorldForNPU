@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "npu:item/b/blackboard_core_socialist_values"
-  }
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "npu:item/b/blackboard_core_socialist_values"
+	}
 }

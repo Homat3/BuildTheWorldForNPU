@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/sign/blackboard_anti_japanese_hero"
+    },
+    "facing=east": {
+      "model": "npu:block/sign/blackboard_anti_japanese_hero",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/sign/blackboard_anti_japanese_hero",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/sign/blackboard_anti_japanese_hero",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

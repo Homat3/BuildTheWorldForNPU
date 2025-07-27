@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "2": "npu:block/j/jigoupaizi1",
-    "particle": "npu:block/j/jigoupaizi1"
+    "2": "npu:block/s/school_logo_sign",
+    "particle": "npu:block/s/school_logo_sign"
   },
   "elements": [
     {

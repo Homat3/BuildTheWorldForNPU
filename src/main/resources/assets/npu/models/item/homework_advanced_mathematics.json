@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "npu:item/h/homework_advanced_mathematics"
+  }
+}

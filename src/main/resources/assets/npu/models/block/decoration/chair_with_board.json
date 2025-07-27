@@ -7,7 +7,7 @@
   "textures": {
     "1": "npu:block/p/paper6",
     "2": "npu:block/i/iron_block",
-    "3": "npu:block/h/heiban",
+    "3": "npu:block/b/black_board",
     "particle": "npu:block/p/paper6"
   },
   "elements": [

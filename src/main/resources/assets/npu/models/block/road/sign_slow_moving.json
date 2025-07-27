@@ -1,9 +1,9 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "npu:block/j/jinshucaizhi2",
+    "1": "npu:block/m/metal",
     "2": "npu:block/i/iron_block",
-    "3": "npu:block/m/man",
+    "3": "npu:block/s/sign_slow1",
     "particle": "npu:block/i/iron_block"
   },
   "elements": [

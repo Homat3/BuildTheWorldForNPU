@@ -7,7 +7,7 @@
 		"3": "npu:block/c/concrete_white",
 		"4": "npu:block/m/marble_tiles_black",
 		"5": "npu:block/c/concrete_light_blue",
-		"8": "npu:block/s/screen2",
+		"8": "npu:block/t/tv_screen2",
 		"particle": "npu:block/m/marble_tiles_black"
 	},
 	"elements": [

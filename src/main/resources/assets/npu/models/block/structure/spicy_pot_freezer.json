@@ -1,12 +1,12 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "npu:block/g/qianmise",
+    "0": "npu:block/c/concrete_white",
     "2": "npu:block/a/anvil_base",
-    "3": "npu:block/b/baicizhuan2",
+    "3": "npu:block/w/wall_white",
     "4": "npu:block/i/iron_block",
     "5": "npu:block/h/hardened_clay_stained_silver",
-    "6": "npu:block/j/jingshucaizhi2",
+    "6": "npu:block/m/metal",
     "7": "npu:block/c/concrete_powder_red",
     "8": "npu:block/e/end_stone",
     "9": "npu:block/c/clay",
@@ -15,7 +15,7 @@
     "12": "npu:block/c/concrete_powder_lime",
     "13": "npu:block/c/concrete_powder_green",
     "14": "npu:block/g/glazed_terracotta_green",
-    "particle": "npu:block/g/qianmise"
+    "particle": "npu:block/c/concrete_white"
   },
   "elements": [
     {

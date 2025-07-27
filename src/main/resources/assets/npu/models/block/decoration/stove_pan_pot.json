@@ -1,7 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "npu:block/j/jinshucaizhi2",
+    "0": "npu:block/m/metal",
     "1": "npu:block/a/anvil_base",
     "2": "npu:block/c/concrete_white",
     "3": "npu:block/c/concrete_blue",
@@ -9,7 +9,7 @@
     "5": "npu:block/c/concrete_gray",
     "6": "npu:block/h/hardened_clay",
     "7": "npu:block/c/concrete_silver",
-    "particle": "npu:block/j/jinshucaizhi2"
+    "particle": "npu:block/m/metal"
   },
   "elements": [
     {

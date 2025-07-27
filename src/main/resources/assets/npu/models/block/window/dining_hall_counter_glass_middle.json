@@ -4,7 +4,7 @@
     "0": "npu:block/g/glass_cyan",
     "2": "npu:block/i/iron_block",
     "3": "npu:block/c/concrete_black",
-    "4": "npu:block/z/zhifubao",
+    "4": "npu:block/s/sign_pay_qrcode",
     "particle": "npu:block/g/glass_cyan"
   },
   "elements": [

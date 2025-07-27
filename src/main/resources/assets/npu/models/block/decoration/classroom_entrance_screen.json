@@ -5,8 +5,8 @@
     32
   ],
   "textures": {
-    "0": "npu:block/j/jiaoshimenkoupingmu",
-    "particle": "npu:block/j/jiaoshimenkoupingmu"
+    "0": "npu:block/c/classroom_outer_screen",
+    "particle": "npu:block/c/classroom_outer_screen"
   },
   "elements": [
     {

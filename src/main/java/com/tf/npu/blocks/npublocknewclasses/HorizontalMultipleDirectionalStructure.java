@@ -36,7 +36,7 @@ public class HorizontalMultipleDirectionalStructure extends Block {
                     Codec.INT.fieldOf("angle").forGetter(p -> p.angle)
             ).apply(instance, HorizontalMultipleDirectionalStructure::new)
     );
-    public static final IntegerProperty ANGEL = IntegerProperty.create("angle", 0, 165);
+    public static final IntegerProperty ANGEL = IntegerProperty.create("angle", 0, 11);
     public NpuBlocks.LoadMethod loadMethod;
     protected VoxelShape shape;
     protected int angle;
@@ -100,7 +100,7 @@ public class HorizontalMultipleDirectionalStructure extends Block {
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         return defaultBlockState().setValue(ANGEL, switch (context.getHorizontalDirection().getOpposite()) {
-            case WEST, EAST -> 90;
+            case WEST, EAST -> 6;
             default -> 0;
         });
     }
@@ -119,7 +119,7 @@ public class HorizontalMultipleDirectionalStructure extends Block {
     @Override
     protected @NotNull InteractionResult useWithoutItem(@NotNull BlockState state, @NotNull Level level, @NotNull BlockPos pos,
                                                         @NotNull Player player, @NotNull BlockHitResult res) {
-        state = state.setValue(ANGEL, (state.getValue(ANGEL) + 15) % 180);
+        state = state.setValue(ANGEL, (state.getValue(ANGEL) + 1) % 12);
         level.setBlock(pos, state, 10);
         level.gameEvent(player, GameEvent.BLOCK_CHANGE, pos);
         return InteractionResult.SUCCESS;
@@ -128,7 +128,7 @@ public class HorizontalMultipleDirectionalStructure extends Block {
     // 辅助函数
     // 旋转坐标变化
     public VoxelShape getShapeByAngle(VoxelShape shape, int angle) {
-        if (angle < 90) return shape;
+        if (angle < 6) return shape;
         else return Shapes.box(shape.bounds().minZ, shape.bounds().minY, 1 - shape.bounds().maxX,
                 shape.bounds().maxZ, shape.bounds().maxY, 1 - shape.bounds().minX);
     }
@@ -139,7 +139,7 @@ public class HorizontalMultipleDirectionalStructure extends Block {
         }
     }
     private void loadShape() {
-        ArrayList<VoxelShape> shapeList = switch (angle / 15) {
+        ArrayList<VoxelShape> shapeList = switch (angle) {
             case 1 -> angleShapeList15;
             case 2 -> angleShapeList30;
             case 3 -> angleShapeList45;

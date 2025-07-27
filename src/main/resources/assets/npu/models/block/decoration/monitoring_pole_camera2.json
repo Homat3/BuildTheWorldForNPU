@@ -3,7 +3,7 @@
   "textures": {
     "1": "npu:block/c/concrete_white",
     "2": "npu:block/q/quartz_block_bottom",
-    "3": "npu:block/d/dalishidizhuanhei2",
+    "3": "npu:block/m/marble_tiles_black",
     "particle": "npu:block/q/quartz_block_bottom"
   },
   "elements": [

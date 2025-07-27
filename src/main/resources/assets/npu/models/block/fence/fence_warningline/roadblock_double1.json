@@ -1,7 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "npu:block/z/zhouyizhizhouwu2",
+    "1": "npu:block/s/sign_car_free_timed",
     "2": "npu:block/c/concrete_gray",
     "4": "npu:block/c/concrete_powder_yellow",
     "5": "npu:block/a/anvil_base",
