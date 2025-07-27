@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/structure/metal_trashcan_dining_hall"
+    },
+    "facing=east": {
+      "model": "npu:block/structure/metal_trashcan_dining_hall",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/structure/metal_trashcan_dining_hall",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/structure/metal_trashcan_dining_hall",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

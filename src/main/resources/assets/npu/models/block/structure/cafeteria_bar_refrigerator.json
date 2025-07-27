@@ -1,5 +1,6 @@
 {
   "credit": "Made with Blockbench",
+  "render_type": "minecraft:cutout",
   "textures": {
     "1": "npu:block/c/coca",
     "2": "npu:block/p/paper9",

@@ -1,0 +1,6 @@
+{
+  "ID": "dining_hall_block_tab",
+  "ENUM_NAME": "DINING_HALL_BLOCK_TAB",
+
+  "icon": {"type": "BlockItem", "index": 0}
+}

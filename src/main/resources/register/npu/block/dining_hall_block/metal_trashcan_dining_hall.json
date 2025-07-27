@@ -1,10 +1,10 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
-  "ID": "dining_table_orange",
-  "modelPath": "block/structure/dining_table_orange_model.json",
+  "ID": "metal_trashcan_dining_hall",
+  "modelPath": "block/structure/metal_trashcan_dining_hall.json",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
-  "noOcclusion": true,
+  "noOcclusion": false,
   "noCollision": false,
   "noLootTable": false,
   "noParticlesOnBreak": false

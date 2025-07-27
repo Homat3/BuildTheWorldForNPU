@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/red_dining_table"
+    "model": "npu:block/table/red_dining_table"
   }
 }

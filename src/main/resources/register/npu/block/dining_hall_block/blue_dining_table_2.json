@@ -7,5 +7,5 @@
   "noCollision": false,
   "noLootTable": false,
   "noParticlesOnBreak": false,
-  "modelPath": "block/structure/blue_dining_table_2_model.json"
+  "modelPath": "block/table/blue_dining_table_2_model.json"
 }

@@ -1,11 +1,11 @@
 {
   "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
-  "ID": "dining_hall_seasonging_table",
+  "ID": "blue_dining_table_3",
   "loadMethod": "METICULOUS",
   "Material": "IRON",
-  "noOcclusion": false,
+  "noOcclusion": true,
   "noCollision": false,
   "noLootTable": false,
   "noParticlesOnBreak": false,
-  "modelPath": "block/structure/dining_hall_seasonging_table.json"
+  "modelPath": "block/table/blue_dining_table_3_model.json"
 }
