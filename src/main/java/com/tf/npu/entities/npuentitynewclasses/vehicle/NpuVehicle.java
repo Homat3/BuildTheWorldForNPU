@@ -1,33 +1,47 @@
 package com.tf.npu.entities.npuentitynewclasses.vehicle;
 
+import net.minecraft.network.syncher.EntityDataAccessor;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.util.Mth;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.entity.*;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntitySpawnReason;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.vehicle.Boat;
 import net.minecraft.world.entity.vehicle.VehicleEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.storage.ValueInput;
+import net.minecraft.world.level.storage.ValueOutput;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 
 import javax.annotation.Nullable;
-import java.io.IOException;
 import java.util.List;
 import java.util.function.Supplier;
 
 abstract public class NpuVehicle extends VehicleEntity {
+    // 掉落物
     private final Supplier<Item> dropItem;
 
+    // 数据保存
+    @Override
+    protected void readAdditionalSaveData(@NotNull ValueInput input) {
+    }
+
+    @Override
+    protected void addAdditionalSaveData(@NotNull ValueOutput output) {
+    }
+
+    // 生成
     public NpuVehicle(EntityType<? extends NpuVehicle> entityType, Level level, Supplier<Item> itemSupplier) {
         super(entityType, level);
         this.dropItem = itemSupplier;
-    }
-
-    public static boolean canVehicleCollide(Entity vehicle, Entity entity) {
-        return (entity.canBeCollidedWith(vehicle) || entity.isPushable()) && !vehicle.isPassengerOfSameVehicle(entity);
     }
 
     @Nullable
@@ -50,10 +64,30 @@ abstract public class NpuVehicle extends VehicleEntity {
     }
 
     public void setInitialPos(double x, double y, double z) {
-        this.setPos(x, y + 1.0D, z);
+        this.setPos(x, y, z);
         this.xo = x;
-        this.yo = y + 1.0D;
+        this.yo = y;
         this.zo = z;
+    }
+
+    // 相关物品
+    @Override
+    protected @NotNull Item getDropItem() {
+        return dropItem.get();
+    }
+
+    @Override
+    public boolean isPickable() {
+        return true;
+    }
+
+    public ItemStack getPickResult() {
+        return new ItemStack(dropItem.get());
+    }
+
+    // 碰撞
+    public static boolean canVehicleCollide(Entity entity1, Entity entity2) {
+        return (entity2.canBeCollidedWith(entity1) || entity2.isPushable()) && !entity1.isPassengerOfSameVehicle(entity2);
     }
 
     @Override
@@ -62,36 +96,27 @@ abstract public class NpuVehicle extends VehicleEntity {
     }
 
     @Override
-    public boolean canBeCollidedWith(@Nullable Entity entity) { return true;}
-
-    @Override
-    protected @NotNull Item getDropItem() {
-        return dropItem.get();
+    public boolean canBeCollidedWith(@Nullable Entity entity) {
+        return true;
     }
 
     @Override
-    public boolean isPickable() {
-        return !this.isRemoved();
+    public boolean isPushable() {
+        return true;
     }
 
-    public ItemStack getPickResult() {
-        return new ItemStack(dropItem.get());
-    }
-
+    // 乘坐
     @Override
-    public @NotNull InteractionResult interactAt(Player player, @NotNull Vec3 vec3, @NotNull InteractionHand hand) {
-        if (!player.isSecondaryUseActive() && this.canAddPassenger(player)) {
-            try (var world = this.level()) {
-                if (!world.isClientSide) {
-                    return player.startRiding(this) ? InteractionResult.CONSUME : InteractionResult.PASS;
-                } else {
-                    return InteractionResult.SUCCESS;
-                }
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
+    public @NotNull InteractionResult interact(@NotNull Player player, @NotNull InteractionHand hand) {
+        InteractionResult interactionresult = super.interact(player, hand);
+        if (interactionresult != InteractionResult.PASS) {
+            return interactionresult;
         } else {
-            return InteractionResult.PASS;
+            if (player.isSecondaryUseActive() || !this.level().isClientSide && !player.startRiding(this))
+                return InteractionResult.PASS;
+            else {
+                return InteractionResult.SUCCESS;
+            }
         }
     }
 
@@ -111,7 +136,20 @@ abstract public class NpuVehicle extends VehicleEntity {
         return new Vec3(xz.get(0), this.getY(), xz.get(1));
     }
 
-    protected List<Double> getPosition(double relative_X, double relative_Z) {
+    @Override
+    @Nullable
+    public LivingEntity getControllingPassenger() {
+        Entity var2 = this.getFirstPassenger();
+        LivingEntity res;
+        if (var2 instanceof LivingEntity entity) {
+            res = entity;
+        } else {
+            res = null;
+        }
+        return res;
+    }
+
+    protected final List<Double> getPosition(double relative_X, double relative_Z) {
         double x = this.getX() - relative_Z * Mth.sin(getYRot() * Mth.DEG_TO_RAD)
                 + relative_X * Mth.cos(getYRot() * Mth.DEG_TO_RAD);
         double z = this.getZ() + relative_Z * Mth.cos(getYRot() * Mth.DEG_TO_RAD)

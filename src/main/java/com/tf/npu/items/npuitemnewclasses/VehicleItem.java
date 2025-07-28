@@ -2,19 +2,27 @@ package com.tf.npu.items.npuitemnewclasses;
 
 import com.tf.npu.entities.npuentitynewclasses.vehicle.NpuVehicle;
 import net.minecraft.core.BlockPos;
-import net.minecraft.server.level.ServerLevel;
+import net.minecraft.stats.Stats;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntitySelector;
 import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.vehicle.AbstractMinecart;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.vehicle.AbstractBoat;
+import net.minecraft.world.item.BoatItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.gameevent.GameEvent;
+import net.minecraft.world.phys.AABB;
+import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.List;
 
 public class VehicleItem extends Item {
     private final EntityType<? extends NpuVehicle> type;
@@ -27,33 +35,56 @@ public class VehicleItem extends Item {
     @Override
     public @NotNull InteractionResult useOn(UseOnContext context) {
         Level level = context.getLevel();
-        BlockPos blockpos = context.getClickedPos();
-
+        Player player = context.getPlayer();
         ItemStack itemstack = context.getItemInHand();
+        if (player == null) return InteractionResult.FAIL;
 
-        Vec3 vec3 = new Vec3(blockpos.getX() + 0.5, blockpos.getY() + 0.0625, blockpos.getZ() + 0.5);
-        NpuVehicle vehicle = NpuVehicle.createNpuVehicle(
-                level, vec3.x, vec3.y, vec3.z, this.type, EntitySpawnReason.DISPENSER, itemstack, context.getPlayer());
-        if (vehicle == null) {
-            return InteractionResult.FAIL;
+        HitResult hitresult = getPlayerPOVHitResult(level, player, ClipContext.Fluid.ANY);
+
+        if (hitresult.getType() == HitResult.Type.MISS) {
+            return InteractionResult.PASS;
         }
+        else {
+            Vec3 vec3 = player.getViewVector(1.0F);
+            List<Entity> list = level.getEntities(
+                    player, player.getBoundingBox().expandTowards(vec3.scale(5.0)).inflate(1.0), EntitySelector.CAN_BE_PICKED
+            );
+            if (!list.isEmpty()) {
+                Vec3 vec31 = player.getEyePosition();
 
-        if (AbstractMinecart.useExperimentalMovement(level)) {
-            for (Entity entity : level.getEntities(null, vehicle.getBoundingBox())) {
-                if (entity instanceof AbstractMinecart) {
-                    return InteractionResult.FAIL;
+                for (Entity entity : list) {
+                    AABB aabb = entity.getBoundingBox().inflate(entity.getPickRadius());
+                    if (aabb.contains(vec31)) {
+                        return InteractionResult.PASS;
+                    }
                 }
             }
-        }
 
-        if (level instanceof ServerLevel serverlevel) {
-            serverlevel.addFreshEntity(vehicle);
-            serverlevel.gameEvent(
-                    GameEvent.ENTITY_PLACE, blockpos, GameEvent.Context.of(context.getPlayer(), serverlevel.getBlockState(blockpos.below()))
-            );
-        }
+            if (hitresult.getType() == HitResult.Type.BLOCK) {
+                NpuVehicle vehicle = NpuVehicle.createNpuVehicle(level,
+                        hitresult.getLocation().x, hitresult.getLocation().y, hitresult.getLocation().z,
+                        this.type, EntitySpawnReason.SPAWN_ITEM_USE, itemstack, player);
+                if (vehicle == null) {
+                    return InteractionResult.FAIL;
+                } else {
+                    vehicle.setYRot(player.getYRot());
+                    if (!level.noCollision(vehicle, vehicle.getBoundingBox())) {
+                        return InteractionResult.FAIL;
+                    } else {
+                        if (!level.isClientSide) {
+                            level.addFreshEntity(vehicle);
+                            level.gameEvent(player, GameEvent.ENTITY_PLACE, hitresult.getLocation());
+                            itemstack.consume(1, player);
+                        }
 
-        itemstack.shrink(1);
-        return InteractionResult.SUCCESS;
+                        player.awardStat(Stats.ITEM_USED.get(this));
+                        return InteractionResult.SUCCESS;
+                    }
+                }
+            }
+            else {
+                return InteractionResult.PASS;
+            }
+        }
     }
 }

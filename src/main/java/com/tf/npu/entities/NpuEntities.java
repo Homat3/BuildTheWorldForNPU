@@ -21,7 +21,6 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.item.Items;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
-import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.HashMap;
@@ -29,7 +28,7 @@ import java.util.Map;
 import java.util.function.Supplier;
 
 public class NpuEntities {
-    public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(Registries.ENTITY_TYPE, Reference.MODID);
+    public static final DeferredRegister.Entities ENTITY_TYPES = DeferredRegister.createEntities(Reference.MODID);
     public static final Map<String, Supplier<? extends EntityType<? extends Mob>>> MOB_ID_MAP = new HashMap<>(0);
     public static final Map<String, Supplier<? extends EntityType<? extends NpuVehicle>>> VEHICLE_ID_MAP = new HashMap<>(0);
 
@@ -47,48 +46,43 @@ public class NpuEntities {
                             .sized(Width, Height)                                                           //设置大小
                             .build(ResourceKey.create(ResourceKey.createRegistryKey(EXAMPLE_LOCATION), EXAMPLE_LOCATION)));
      */
-    private static final ResourceLocation GOLDEN_CHICKEN_LOCATION = ResourceLocation.fromNamespaceAndPath(Reference.MODID, GOLDEN_CHICKEN_ID);
-    public static final DeferredHolder<EntityType<?>, EntityType<GoldenChicken>> GOLDEN_CHICKEN =
+    private static final Supplier<EntityType<GoldenChicken>> GOLDEN_CHICKEN =
             ENTITY_TYPES.register(GOLDEN_CHICKEN_ID, () ->
                     EntityType.Builder.of(GoldenChicken::new, MobCategory.CREATURE)
                             .sized(1.0F, 1.0F)
-                            .build(ResourceKey.create(ResourceKey.createRegistryKey(GOLDEN_CHICKEN_LOCATION), GOLDEN_CHICKEN_LOCATION)));
+                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MODID, GOLDEN_CHICKEN_ID))));
 
-    private static final ResourceLocation SCHOOL_BUS_LOCATION = ResourceLocation.fromNamespaceAndPath(Reference.MODID, SCHOOL_BUS_ID);
-    public static final DeferredHolder<EntityType<?>, EntityType<SchoolBus>> SCHOOL_BUS =
+    public static final Supplier<EntityType<SchoolBus>> SCHOOL_BUS =
             ENTITY_TYPES.register(SCHOOL_BUS_ID, () ->
                     EntityType.Builder.of(SchoolBus.schoolBusFactory(() -> Items.IRON_NUGGET), MobCategory.MISC)
                             .sized(6.0F, 5.0F)
                             .fireImmune()
                             .canSpawnFarFromPlayer()
-                            .build(ResourceKey.create(ResourceKey.createRegistryKey(SCHOOL_BUS_LOCATION), SCHOOL_BUS_LOCATION)));
+                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MODID, SCHOOL_BUS_ID))));
 
-    private static final ResourceLocation BIKE1_LOCATION = ResourceLocation.fromNamespaceAndPath(Reference.MODID, BIKE1_ID);
-    public static final DeferredHolder<EntityType<?>, EntityType<Bike1>> BIKE1 =
+    public static final Supplier<EntityType<Bike1>> BIKE1 =
             ENTITY_TYPES.register(BIKE1_ID, () ->
                     EntityType.Builder.of(Bike1.bike1Factory(() -> Items.IRON_NUGGET), MobCategory.MISC)
                             .sized(1.0F, 1.2F)
                             .fireImmune()
                             .canSpawnFarFromPlayer()
-                            .build(ResourceKey.create(ResourceKey.createRegistryKey(BIKE1_LOCATION), BIKE1_LOCATION)));
+                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MODID, BIKE1_ID))));
 
-    private static final ResourceLocation BIKE2_LOCATION = ResourceLocation.fromNamespaceAndPath(Reference.MODID, BIKE2_ID);
-    public static final DeferredHolder<EntityType<?>, EntityType<Bike2>> BIKE2 =
+    public static final Supplier<EntityType<Bike2>> BIKE2 =
             ENTITY_TYPES.register(BIKE2_ID, () ->
                     EntityType.Builder.of(Bike2.bike2Factory(() -> Items.IRON_NUGGET), MobCategory.MISC)
                             .sized(1.0F, 1.2F)
                             .fireImmune()
                             .canSpawnFarFromPlayer()
-                            .build(ResourceKey.create(ResourceKey.createRegistryKey(BIKE2_LOCATION), BIKE2_LOCATION)));
+                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MODID, BIKE2_ID))));
 
-    private static final ResourceLocation BIKE3_LOCATION = ResourceLocation.fromNamespaceAndPath(Reference.MODID, BIKE3_ID);
-    public static final DeferredHolder<EntityType<?>, EntityType<Bike3>> BIKE3 =
+    public static final Supplier<EntityType<Bike3>> BIKE3 =
             ENTITY_TYPES.register(BIKE3_ID, () ->
                     EntityType.Builder.of(Bike3.bike3Factory(() -> Items.IRON_NUGGET), MobCategory.MISC)
                             .sized(1.0F, 1.2F)
                             .fireImmune()
                             .canSpawnFarFromPlayer()
-                            .build(ResourceKey.create(ResourceKey.createRegistryKey(BIKE3_LOCATION), BIKE3_LOCATION)));
+                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MODID, BIKE3_ID))));
 
     static {
         MOB_ID_MAP.put(GOLDEN_CHICKEN_ID, GOLDEN_CHICKEN);
