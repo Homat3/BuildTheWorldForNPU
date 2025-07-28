@@ -21421,7 +21421,7 @@
   },
   "groups": [
     {
-      "name": "group",
+
       "origin": [
         8,
         8,
@@ -21431,7 +21431,7 @@
         0,
         1,
         {
-          "name": "group",
+
           "origin": [
             4,
             12,
@@ -21439,7 +21439,7 @@
           ],
           "children": [
             {
-              "name": "group",
+
               "origin": [
                 4,
                 12,
@@ -21450,7 +21450,7 @@
           ]
         },
         {
-          "name": "group",
+
           "origin": [
             4,
             12,
@@ -21458,7 +21458,7 @@
           ],
           "children": [
             {
-              "name": "group",
+
               "origin": [
                 4,
                 12,
@@ -21469,7 +21469,7 @@
           ]
         },
         {
-          "name": "group",
+
           "origin": [
             4,
             12,
@@ -21477,7 +21477,7 @@
           ],
           "children": [
             {
-              "name": "group",
+
               "origin": [
                 4,
                 12,
@@ -21488,7 +21488,7 @@
           ]
         },
         {
-          "name": "group",
+
           "origin": [
             4,
             12,
@@ -21496,7 +21496,7 @@
           ],
           "children": [
             {
-              "name": "group",
+
               "origin": [
                 4,
                 12,
@@ -21520,7 +21520,7 @@
         13,
         14,
         {
-          "name": "group",
+
           "origin": [
             4,
             26,
@@ -21529,7 +21529,7 @@
           "children": []
         },
         {
-          "name": "group",
+
           "origin": [
             4,
             26,
@@ -21538,7 +21538,7 @@
           "children": []
         },
         {
-          "name": "group",
+
           "origin": [
             4,
             26,
@@ -21547,7 +21547,7 @@
           "children": []
         },
         {
-          "name": "group",
+
           "origin": [
             4,
             26,
@@ -21559,7 +21559,7 @@
         16,
         17,
         {
-          "name": "group",
+
           "origin": [
             8,
             15,
@@ -21568,7 +21568,7 @@
           "children": []
         },
         {
-          "name": "group",
+
           "origin": [
             8,
             15,
@@ -21577,7 +21577,7 @@
           "children": []
         },
         {
-          "name": "group",
+
           "origin": [
             8,
             15,
@@ -21586,7 +21586,7 @@
           "children": []
         },
         {
-          "name": "group",
+
           "origin": [
             8,
             15,
@@ -21594,7 +21594,7 @@
           ],
           "children": [
             {
-              "name": "chair1",
+
               "origin": [
                 15.5,
                 30.5,
@@ -21724,7 +21724,7 @@
               ]
             },
             {
-              "name": "chair1",
+
               "origin": [
                 15.5,
                 30.5,

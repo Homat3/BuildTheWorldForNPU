@@ -141,7 +141,7 @@
 	},
 	"groups": [
 		{
-			"name": "group",
+
 			"origin": [7, 12, 15.5],
 			"color": 0,
 			"children": [0, 1, 2, 3, 4, 5, 6, 7]

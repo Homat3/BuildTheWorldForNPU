@@ -5728,7 +5728,7 @@
   },
   "groups": [
     {
-      "name": "group",
+
       "origin": [
         9,
         7,
@@ -5736,7 +5736,7 @@
       ],
       "children": [
         {
-          "name": "frame",
+
           "origin": [
             9,
             7,
@@ -5784,7 +5784,7 @@
           ]
         },
         {
-          "name": "chest",
+
           "origin": [
             36,
             32,
@@ -5792,7 +5792,7 @@
           ],
           "children": [
             {
-              "name": "base",
+
               "origin": [
                 36,
                 32,

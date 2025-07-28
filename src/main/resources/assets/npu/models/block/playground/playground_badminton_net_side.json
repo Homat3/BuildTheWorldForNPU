@@ -234,19 +234,19 @@
   },
   "groups": [
     {
-      "name": "边框",
+
       "origin": [0, 0, 0],
       "color": 0,
       "children": [0, 1, 2]
     },
     {
-      "name": "竖",
+
       "origin": [0, 0, 0],
       "color": 0,
       "children": [3, 4, 5]
     },
     {
-      "name": "横",
+
       "origin": [0, 0, 0],
       "color": 0,
       "children": [6, 7, 8, 9, 10, 11]

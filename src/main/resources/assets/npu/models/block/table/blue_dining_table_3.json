@@ -4605,7 +4605,7 @@
   },
   "groups": [
     {
-      "name": "group",
+
       "origin": [
         8,
         8,
@@ -4613,7 +4613,7 @@
       ],
       "children": [
         {
-          "name": "group",
+
           "origin": [
             -14,
             18.6,

@@ -6,7 +6,7 @@
 	},
 	"elements": [
 		{
-			"name": "top bar",
+
 			"from": [7.25, 15, 3.4],
 			"to": [8.75, 16, 7.25],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, -6, 8]},
@@ -20,7 +20,7 @@
 			}
 		},
 		{
-			"name": "lower bar",
+
 			"from": [7.25, -13, 3.4],
 			"to": [8.75, -12, 7.25],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, -34, 8]},
@@ -34,7 +34,7 @@
 			}
 		},
 		{
-			"name": "top bar",
+
 			"from": [7.25, 15, 0],
 			"to": [8.75, 16, 1.9],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, -6, 3.75]},
@@ -48,7 +48,7 @@
 			}
 		},
 		{
-			"name": "lower bar",
+
 			"from": [7.25, -13, 0],
 			"to": [8.75, -12, 1.9],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, -34, 3.75]},
@@ -62,7 +62,7 @@
 			}
 		},
 		{
-			"name": "Center post",
+
 			"from": [7.25, -16, 1.9],
 			"to": [8.75, 28, 3.4],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, -1, 2.65]},
@@ -78,7 +78,7 @@
 	],
 	"groups": [
 		{
-			"name": "group",
+
 			"origin": [8, -6, 8],
 			"color": 0,
 			"children": [0, 1, 2, 3, 4]

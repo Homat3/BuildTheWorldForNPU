@@ -2808,7 +2808,7 @@
   },
   "groups": [
     {
-      "name": "group",
+
       "origin": [
         5,
         25.7,
@@ -2816,7 +2816,7 @@
       ],
       "children": [
         {
-          "name": "group",
+
           "origin": [
             8,
             8,
@@ -2825,7 +2825,7 @@
           "children": []
         },
         {
-          "name": "group",
+
           "origin": [
             8,
             8,
@@ -2834,7 +2834,7 @@
           "children": []
         },
         {
-          "name": "group",
+
           "origin": [
             8,
             8,

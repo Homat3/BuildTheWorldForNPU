@@ -2860,7 +2860,7 @@
   },
   "groups": [
     {
-      "name": "group",
+
       "origin": [
         8,
         8,
@@ -2868,7 +2868,7 @@
       ],
       "children": [
         {
-          "name": "logo",
+
           "origin": [
             20,
             12,
@@ -2894,7 +2894,7 @@
           ]
         },
         {
-          "name": "group",
+
           "origin": [
             9,
             9,
