@@ -37,6 +37,7 @@
         "grille_ceiling_white",
         "grille_ceiling_white_corner",
         "grille_ceiling_white_edge",
+        "iron_edged_wall",
         "limed_wall_dado_slab_v1",
         "limed_wall_dado_slab_v3",
         "limed_wall_slab_v5",
@@ -56,6 +57,9 @@
       "template": "normal_rough_rock",
       "items": [
         "blue_grid_brick",
+        "gray_marble_1",
+        "gray_marble_2",
+        "gray_marble_3",
         "limed_wall",
         "limed_wall_dado",
         "white_grid_brick",
