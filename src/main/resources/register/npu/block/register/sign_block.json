@@ -2,6 +2,15 @@
   "id": "sign_block",
   "group": [
     {
+      "template": "horizontal_rough_iron_collision",
+      "items": [
+        "bathroom_curtain_men",
+        "bathroom_curtain_women",
+        "bathroom_curtain_men_right",
+        "bathroom_curtain_women_right"
+      ]
+    },
+    {
       "template": "horizontal_meticulous_iron",
       "items": [
         "ordinance_billboard_1",
