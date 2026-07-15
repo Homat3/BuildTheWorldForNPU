@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/h/h/he_zun_base_zun"
+    },
+    "facing=east": {
+      "model": "npu:block/h/he_zun_base_zun",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/h/he_zun_base_zun",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/h/he_zun_base_zun",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

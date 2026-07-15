@@ -12,7 +12,8 @@
     {
       "template": "normal_rough_iron",
       "items": [
-        "small_stone_pavilion"
+        "small_stone_pavilion",
+        "he_zun"
       ]
     },
     {
@@ -20,6 +21,19 @@
       "items": [
         "fox",
         "knight"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron",
+      "items": [
+        "he_zun_base"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron_cutout",
+      "items": [
+        "he_zun_base_he",
+        "he_zun_base_zun"
       ]
     }
   ]
