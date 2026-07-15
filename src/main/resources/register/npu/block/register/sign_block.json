@@ -30,7 +30,8 @@
     {
       "template": "horizontal_meticulous_iron_occlusion_cutout",
       "items": [
-        "sign_outdoor_caring_lawn"
+        "sign_outdoor_caring_lawn",
+        "sign_keep_quiet"
       ]
     },
     {

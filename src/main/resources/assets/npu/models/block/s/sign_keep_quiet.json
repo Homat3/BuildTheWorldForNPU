@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "npu:block/k/keep_quiet_sign",
+		"particle": "npu:block/k/keep_quiet_sign"
+	},
+	"elements": [
+		{
+			"from": [3, 3, 15.9],
+			"to": [13, 13, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 13.9]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [2, 0, 2, 16], "texture": "#0"},
+				"up": {"uv": [0, 2, 16, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"translation": [-2.25, 4.25, 0],
+			"scale": [0.53, 0.53, 0.53]
+		},
+		"gui": {
+			"scale": [1.57, 1.57, 1.57]
+		},
+		"fixed": {
+			"translation": [0, 0, -12.25]
+		}
+	}
+}
