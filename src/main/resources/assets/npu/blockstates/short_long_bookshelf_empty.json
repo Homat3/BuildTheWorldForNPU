@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/s/short_long_bookshelf_empty"
+    },
+    "facing=east": {
+      "model": "npu:block/s/short_long_bookshelf_empty",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/s/short_long_bookshelf_empty",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/s/short_long_bookshelf_empty",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

@@ -180,7 +180,14 @@
         "wall_mounted_tv",
         "washing_machine",
         "workshop_cabinet_sink1",
-        "workshop_cabinet_sink2"
+        "workshop_cabinet_sink2",
+        "short_bookshelf_dark_1",
+        "short_bookshelf_dark_2",
+        "short_bookshelf_light_1",
+        "short_bookshelf_light_2",
+        "short_long_bookshelf_1",
+        "short_long_bookshelf_2",
+        "short_long_bookshelf_empty"
       ]
     },
     {
