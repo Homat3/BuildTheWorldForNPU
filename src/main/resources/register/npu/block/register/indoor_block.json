@@ -205,7 +205,10 @@
         "bedboy_right_table_ladder",
         "bedboy_right_table_ladder_laptop",
         "bedgirl_left",
-        "bedgirl_right"
+        "bedgirl_right",
+        "library_wooden_chair",
+        "library_wooden_desk",
+        "library_wooden_desk_with_chair"
       ]
     },
     {

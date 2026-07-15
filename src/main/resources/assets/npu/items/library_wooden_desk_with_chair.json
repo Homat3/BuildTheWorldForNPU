@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:item/l/library_wooden_desk_with_chair"
+    "model": "npu:block/l/library_wooden_desk_with_chair"
   }
 }
