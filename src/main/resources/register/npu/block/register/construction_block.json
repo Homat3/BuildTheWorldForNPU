@@ -63,7 +63,10 @@
         "limed_wall",
         "limed_wall_dado",
         "white_grid_brick",
-        "yellow_floor"
+        "yellow_floor",
+        "marble_floor_tiles_beige_grey_patterned",
+        "marble_floor_tiles_beige_grey_patterned_dark",
+        "marble_floor_tiles_beige_grey_patterned_frame"
       ]
     },
     {
