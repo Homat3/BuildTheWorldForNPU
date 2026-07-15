@@ -2,9 +2,9 @@
   "credit": "Made with Blockbench",
   "textures": {
     "1": "npu:block/c/concrete_gray",
-    "2": "npu:block/p/paper9",
+    "2": "npu:block/p/paper3",
     "3": "npu:block/g/girltr2",
-    "particle": "npu:block/p/paper9"
+    "particle": "npu:block/p/paper3"
   },
   "elements": [
     {

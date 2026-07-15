@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/l/library_wooden_chair"
+    },
+    "facing=east": {
+      "model": "npu:block/l/library_wooden_chair",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/l/library_wooden_chair",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/l/library_wooden_chair",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
